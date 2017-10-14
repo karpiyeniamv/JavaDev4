@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="etalon2017:war">
+    <output-path>$PROJECT_DIR$/etalon2017-master/target</output-path>
+    <root id="archive" name="etalon2017-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="etalon2017:war exploded" />
+    </root>
+  </artifact>
+</component>

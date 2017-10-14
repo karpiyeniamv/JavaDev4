@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/etalon2017-master/backend/backend.iml" filepath="$PROJECT_DIR$/etalon2017-master/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/etalon2017-master/etalon2017.iml" filepath="$PROJECT_DIR$/etalon2017-master/etalon2017.iml" />
+      <module fileurl="file://$PROJECT_DIR$/etalon2017-master/frontend/frontend.iml" filepath="$PROJECT_DIR$/etalon2017-master/frontend/frontend.iml" />
+    </modules>
+  </component>
+</project>
