@@ -16,35 +16,58 @@
 <div class="container">
     <jsp:include page="/jsp/blocks/title.jsp">
         <jsp:param name="heading" value="Welcome on login page" />
-    </jsp:include>
+    </jsp:include></div>
 
-    <div class="row">
-        <div class="col">
-        </div>
-        <div class="col login-border">
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input">
-                        Remember me
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="button" class="btn btn-secondary">Register</button>
-            </form>
+<div class="container">
+    <div id="loginbox" style="margin-top:50px;margin-left: 25%;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <div class="card card.text-white.bg-info" >
+            <div class="card-header">
+                <div class="card-title">Sign In</div>
+            </div>
 
+            <div style="padding-top:30px" class="panel-body" >
+
+                <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                <form id="loginform" class="form-horizontal" role="form">
+
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"></span>
+                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Email">
+                    </div>
+
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"></span>
+                        <input id="login-password" type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+
+
+
+                    <div class="input-group">
+                        <div class="checkbox">
+                            <label>
+                                <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div style="margin-top:10px" class="form-group">
+                        <!-- Button -->
+
+                        <div class="col-sm-12 controls">
+                            <a id="btn-fblogin" href="#" class="btn btn-primary">Login</a>
+                        </div>
+                    </div>
+
+                </form>
+
+
+
+            </div>
         </div>
-        <div class="col">  </div>
     </div>
-</div>
+    </div>
+
 </body>
 </html>
