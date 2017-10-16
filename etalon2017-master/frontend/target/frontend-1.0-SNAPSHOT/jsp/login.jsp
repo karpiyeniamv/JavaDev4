@@ -24,7 +24,6 @@
             <div class="card-header">
                 <div class="card-title">Sign In</div>
             </div>
-
             <div style="padding-top:30px" class="panel-body" >
 
                 <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
@@ -40,9 +39,6 @@
                         <span class="input-group-addon"></span>
                         <input id="login-password" type="password" class="form-control" name="password" placeholder="Password">
                     </div>
-
-
-
                     <div class="input-group">
                         <div class="checkbox">
                             <label>
@@ -50,7 +46,6 @@
                             </label>
                         </div>
                     </div>
-
 
                     <div style="margin-top:10px" class="form-group">
                         <!-- Button -->

@@ -10,7 +10,7 @@
     <div class="col">
     </div>
     <div class="col">
-        <h5 class="main-name">${param.heading}</h5>
+        <h5 class="main-name" align="center">${param.heading}</h5>
     </div>
     <div class="col"></div>
 </div>
