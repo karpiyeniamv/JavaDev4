@@ -31,12 +31,12 @@
                 <form id="loginform" class="form-horizontal" role="form">
 
                     <div style="margin-bottom: 25px" class="input-group">
-                        <span class="input-group-addon"></span>
+                        <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
                         <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Email">
                     </div>
 
                     <div style="margin-bottom: 25px" class="input-group">
-                        <span class="input-group-addon"></span>
+                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
                         <input id="login-password" type="password" class="form-control" name="password" placeholder="Password">
                     </div>
                     <div class="input-group">
@@ -51,7 +51,7 @@
                         <!-- Button -->
 
                         <div class="col-sm-12 controls">
-                            <a id="btn-fblogin" href="#" class="btn btn-primary">Login</a>
+                            <a id="btn-fblogin" href="#" class="btn btn-primary" onclick= "window.location='systemStudentPanelView.jsp'">Login</a>
                         </div>
                     </div>
                 </form>
