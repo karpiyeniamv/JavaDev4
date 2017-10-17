@@ -23,7 +23,7 @@
 <br>
 
 <div align="center">
-    <button type="button" class="btn btn-primary" >Show all requests</button>
+    <button type="button" class="btn btn-primary" onclick= "window.location='requestsView.jsp'" >Show all requests</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addRequestModal">Add request</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
@@ -73,6 +73,9 @@
     }
     var btn = document.createElement('button');
     btn.setAttribute('class', 'btn btn-primary');
+    btn.onclick= function() {
+        window.location='studentsView.jsp';
+    };
     btn.innerHTML='Show';
     tr.appendChild(btn);
     tbody.appendChild(tr);

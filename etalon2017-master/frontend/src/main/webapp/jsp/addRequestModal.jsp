@@ -40,7 +40,7 @@
                     <div class="form-group">
                         <div style="display: inline-block">
                             <label for="quantity">quantity</label>
-                            <input type="text" class="form-control" id="quantity" >
+                            <input type="number" class="form-control" id="quantity" >
                         </div>
                         <div style="display: inline-block">
                             <label for="faculties">available faculties</label>

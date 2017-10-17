@@ -16,6 +16,7 @@
 <link href="${pageContext.request.contextPath}/resources/css/libs/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="${pageContext.request.contextPath}/resources/css/general.css" rel="stylesheet" type="text/css" media="all"/>
 <script src="${pageContext.request.contextPath}/resources/mockStudents.js"></script>
+<script src="${pageContext.request.contextPath}/resources/mockRequests.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <body>
 </body>
