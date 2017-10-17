@@ -27,23 +27,26 @@
     &nbsp;&nbsp;&nbsp;&nbsp;
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addRequestModal">Add request</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary">Create student</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createStudentModal">Create student</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary">Assign students </button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assignStudentsModal">Assign students </button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary">Create specialty</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createSpecialtyModal">Create specialty</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary">Create faculty</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createFacultyModal">Create faculty</button>
 </div>
 
 <jsp:include page="/jsp/addRequestModal.jsp"/>
+<jsp:include page="/jsp/createStudentModal.jsp"/>
+<jsp:include page="/jsp/assignStudentsModal.jsp"/>
+<jsp:include page="/jsp/createSpecialtyModal.jsp"/>
+<jsp:include page="/jsp/createFacultyModal.jsp"/>
 
 <br>
 <br>
 <br>
 
-<table class="table">
-    <thead class="thead-inverse" id="table-lizing-traktor">
+<table class="table" id="table-lizing-traktor">
 
     <script>
     var countStudents = students.length;
@@ -77,12 +80,11 @@
     table.appendChild(tbody);
     document.getElementById('table-lizing-traktor').appendChild(table);
     </script>
-    </thead>
 </table>
 <div align="center">
 <button type="button" class="btn btn-primary">Delete </button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-<button type="button" class="btn btn-primary">Assign </button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assignStudentsModal">Assign </button>
     &nbsp;&nbsp;&nbsp;&nbsp;
 <button type="button" class="btn btn-primary">Release </button>
 </div>

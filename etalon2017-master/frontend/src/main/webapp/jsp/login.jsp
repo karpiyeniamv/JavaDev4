@@ -54,10 +54,7 @@
                             <a id="btn-fblogin" href="#" class="btn btn-primary">Login</a>
                         </div>
                     </div>
-
                 </form>
-
-
 
             </div>
         </div>

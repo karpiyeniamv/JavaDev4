@@ -24,48 +24,42 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="email">Company name</label>
-                        <input type="email" class="form-control" id="email">
+                        <label for="companyName">Company name</label>
+                        <input type="text" class="form-control" id="companyName">
                     </div>
                     <div class="form-group" >
                         <div style="display: inline-block">
-                            <label for="pwd">date from</label>
-                            <input type="password" class="form-control" id="pwd" >
+                            <label for="dateFrom">date from</label>
+                            <input type="date" class="form-control" id="dateFrom" >
                         </div>
                         <div style="display: inline-block">
-                            <label for="pwd">date to</label>
-                            <input type="password" class="form-control" id="pwd1" >
+                            <label for="dateTo">date to</label>
+                            <input type="date" class="form-control" id="dateTo" >
                         </div>
                     </div>
                     <div class="form-group">
                         <div style="display: inline-block">
-                            <label for="pwd">quantity</label>
-                            <input type="password" class="form-control" id="pwd2" >
+                            <label for="quantity">quantity</label>
+                            <input type="text" class="form-control" id="quantity" >
                         </div>
                         <div style="display: inline-block">
-                            <label for="pwd">available faculties</label>
-                            <input type="password" class="form-control" id="pwd3" >
+                            <label for="faculties">available faculties</label>
+                            <input type="text" class="form-control" id="faculties" >
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email">available specialities</label>
-                        <input type="email" class="form-control" id="email1">
+                        <label for="specialities">available specialities</label>
+                        <input type="text" class="form-control" id="specialities">
                     </div>
                     <div class="form-group">
-                        <label for="email">minimum average score</label>
-                        <input type="email" class="form-control" id="email2">
+                        <label for="score">minimum average score</label>
+                        <input type="text" class="form-control" id="score">
                     </div>
-
-
-                    <div class="checkbox">
-                        <label><input type="checkbox"> Remember me</label>
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
                 </form>
             </div>
 
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Create</button>
+            <div class="modal-footer" align="left">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Create</button>
             </div>
         </div>
     </div>
