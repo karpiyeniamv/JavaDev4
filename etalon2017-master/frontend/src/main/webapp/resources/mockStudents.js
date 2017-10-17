@@ -1,4 +1,4 @@
-var index=2;
+var index = 2;
 var students = [
     {
 
@@ -9,7 +9,7 @@ var students = [
         group: '9',
         isBudget: 'true',
         averageScore: '9',
-        status: 'free',
+        status: 'On Practice',
         nameOfCompany: 'SSA',
         practicePeriod: '10.2017'
     }, {
@@ -21,20 +21,20 @@ var students = [
         group: '1',
         isBudget: 'false',
         averageScore: '8',
-        status: 'busy',
+        status: 'On Practice',
         nameOfCompany: 'BK',
         practicePeriod: '10.2017'
     },
     {
 
         firstName: 'Michael',
-        lastName: 'Ivanov',
+        lastName: 'Petrov',
         faculty: 'Lang',
         specialty: 'French',
         group: '2',
         isBudget: 'true',
         averageScore: '6',
-        status: 'free',
+        status: 'Waiting',
         nameOfCompany: 'MU',
         practicePeriod: '11.2017'
     },
@@ -47,10 +47,10 @@ var students = [
         group: '10',
         isBudget: 'true',
         averageScore: '7',
-        status: 'free',
+        status: 'Available',
         nameOfCompany: 'MU',
-        practicePeriod: '12.2017'
+        practicePeriod: ''
     }
 
 
-    ];
+];

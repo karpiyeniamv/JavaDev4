@@ -17,7 +17,7 @@
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title"  align="center">Create student</h4>
+                <h4 class="modal-title" align="center">Create student</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
 
@@ -43,19 +43,19 @@
                     </div>
                 </form>
                 <form>
-                    <div class="form-group" >
+                    <div class="form-group">
                         <label for="group">Group</label>
                         <input type="text" class="form-control" id="group">
                     </div>
-                    <div class="form-group" >
+                    <div class="form-group">
                         <label for="isBudget">Is budget?</label>
                         <input type="text" class="form-control" id="isBudget">
                     </div>
-                    <div class="form-group" >
+                    <div class="form-group">
                         <label for="score">Average score</label>
                         <input type="number" step="0.1" class="form-control" id="score">
                     </div>
-                    <div class="form-group" >
+                    <div class="form-group">
                         <label for="demands">Available demands</label>
                         <input type="text" class="form-control" id="demands">
                     </div>
