@@ -17,8 +17,10 @@
 <link href="${pageContext.request.contextPath}/resources/css/general.css" rel="stylesheet" type="text/css" media="all"/>
 <script src="${pageContext.request.contextPath}/resources/mockStudents.js"></script>
 <script src="${pageContext.request.contextPath}/resources/mockRequests.js"></script>
+<script src="${pageContext.request.contextPath}/resources/general.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
 
 <body>
 </body>

@@ -18,7 +18,6 @@
         <jsp:param name="heading" value="Welcome on System student panel"/>
     </jsp:include>
 </div>
-
 <br>
 <br>
 
@@ -55,45 +54,9 @@
 <br>
 
 <table class="table" id="table-lizing-traktor">
-
-    <script>
-        var countStudents = students.length;
-
-        var table = document.createElement('table');
-        table.setAttribute('class', 'table table-striped table-bordered');
-        var thead = document.createElement('thead');
-        thead.style.fontWeight = 'bold';
-        var tr = document.createElement('tr');
-        tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td><td>#</td><td>First Name</td><td>Last Name</td><td>Faculty</td><td>Specialty</td><td>Group</td><td>Is budget</td><td>Average score</td><td>Status</td><td>Name of Company</td><td>Practice period</td><td>Show info</td>';
-        thead.appendChild(tr);
-        table.appendChild(thead);
-
-        var tbody = document.createElement('tbody');
-        var items = ['firstName', 'lastName', 'faculty', 'specialty', 'group', 'isBudget', 'averageScore', 'status', 'nameOfCompany', 'practicePeriod'];
-        for (var i = 0; i < countStudents; i++) {
-            var tr = document.createElement('tr');
-            tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td>';
-            var td = document.createElement('td');
-            td.innerHTML = i + 1;
-            tr.appendChild(td);
-            for (var j = 0; j < 10; j++) {
-                var td = document.createElement('td');
-                var item = students[i][items[j]];
-                td.innerHTML = item;
-                tr.appendChild(td);
-            }
-            var btn = document.createElement('button');
-            btn.setAttribute('class', 'btn btn-primary');
-            btn.onclick = function () {
-                window.location = 'studentsView.jsp';
-            };
-            btn.innerHTML = 'Show';
-            tr.appendChild(btn);
-            tbody.appendChild(tr);
-        }
-        table.appendChild(tbody);
-        document.getElementById('table-lizing-traktor').appendChild(table);
-    </script>
+<script>
+    systemStudentPanelView();
+</script>
 </table>
 <div align="center">
     <button type="button" class="btn btn-primary">Delete</button>
