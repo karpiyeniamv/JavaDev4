@@ -34,6 +34,32 @@ function systemStudentPanelView() {
     document.getElementById('table-lizing-traktor').appendChild(table);
 }
 
+function tbodyTable() {
+    var countStudents = students.length;
+    var tbody = document.createElement('tbody');
+    var items = ['firstName', 'lastName', 'faculty', 'specialty', 'group', 'isBudget', 'averageScore', 'status', 'nameOfCompany', 'practicePeriod'];
+    for (var i = 0; i < countStudents; i++) {
+        var tr = document.createElement('tr');
+        tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td>';
+        for (var j = 0; j < 10; j++) {
+            var td = document.createElement('td');
+            var item = students[i][items[j]];
+            td.innerHTML = item;
+            tr.appendChild(td);
+        }
+        var btn = document.createElement('button');
+        btn.setAttribute('class', 'btn btn-primary');
+        btn.onclick = function () {
+            window.location = 'studentsView.jsp';
+        };
+        btn.innerHTML = 'Show';
+        tr.appendChild(btn);
+        tbody.appendChild(tr);
+    }
+
+    document.getElementById('table-lizing-traktor').appendChild(tbody);
+}
+
 
 function requestsView () {
     var countDemands = demands.length;
