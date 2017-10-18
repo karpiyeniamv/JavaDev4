@@ -1,22 +1,20 @@
 function systemStudentPanelView() {
     var countStudents = students.length;
-    var table = document.createElement('table');
-    table.setAttribute('class', 'table table-striped table-bordered');
+    var table=document.createElement('table');
+    table.id='myTable';
     var thead = document.createElement('thead');
     thead.style.fontWeight = 'bold';
     var tr = document.createElement('tr');
-    tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td><td>#</td><td>First Name</td><td>Last Name</td><td>Faculty</td><td>Specialty</td><td>Group</td><td>Is budget</td><td>Average score</td><td>Status</td><td>Name of Company</td><td>Practice period</td><td>Show info</td>';
+    tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td><td>First Name</td><td>Last Name</td><td>Faculty</td><td>Specialty</td><td>Group</td><td>Is budget</td><td>Average score</td><td>Status</td><td>Name of Company</td><td>Practice period</td><td>Show info</td>';
     thead.appendChild(tr);
     table.appendChild(thead);
 
     var tbody = document.createElement('tbody');
+    table.appendChild(tbody);
     var items = ['firstName', 'lastName', 'faculty', 'specialty', 'group', 'isBudget', 'averageScore', 'status', 'nameOfCompany', 'practicePeriod'];
     for (var i = 0; i < countStudents; i++) {
         var tr = document.createElement('tr');
         tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td>';
-        var td = document.createElement('td');
-        td.innerHTML = i + 1;
-        tr.appendChild(td);
         for (var j = 0; j < 10; j++) {
             var td = document.createElement('td');
             var item = students[i][items[j]];
@@ -32,9 +30,10 @@ function systemStudentPanelView() {
         tr.appendChild(btn);
         tbody.appendChild(tr);
     }
-    table.appendChild(tbody);
+
     document.getElementById('table-lizing-traktor').appendChild(table);
 }
+
 
 function requestsView () {
     var countDemands = demands.length;

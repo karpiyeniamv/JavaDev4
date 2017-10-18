@@ -20,7 +20,6 @@
                 <h4 class="modal-title" align="center">Release student</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
-
             <div class="modal-body">
                 <form>
                     <div class="form-group" style="display: inline-block">
@@ -39,7 +38,6 @@
                     </div>
                 </form>
             </div>
-
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Release</button>
             </div>
