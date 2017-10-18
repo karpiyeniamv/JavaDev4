@@ -29,5 +29,12 @@
     </script>
 </table>
 
+<jsp:include page="/jsp/assignStudentsModal.jsp"/>
+<jsp:include page="/jsp/releaseStudentModal.jsp"/>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assignStudentsModal">Assign</button>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#releaseStudentModal" >Release</button>
+
 </body>
 </html>
