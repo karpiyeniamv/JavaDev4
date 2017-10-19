@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Title</title>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
 </head>
 <body>
 <!-- Modal -->

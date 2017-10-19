@@ -110,6 +110,8 @@
         <jsp:param name="heading" value="Welcome on System student panel"/>
     </jsp:include>
 </div>
+<br>
+<br>
 
 <div align="center">
     <button type="button" class="btn btn-primary" onclick="window.location='requestsView.jsp'">Show all requests
