@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc85f002-ae3b-464c-a4b5-7ba98df5ffc4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/addRequestModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/addRequestModal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createStudentModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createStudentModal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/releaseStudentModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/releaseStudentModal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/etalon2017-master/backend/target/" />
@@ -45,8 +38,8 @@
       <file leaf-file-name="assignStudentsModal.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="27" column="67" lean-forward="false" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -744,7 +737,7 @@
       <workItem from="1507533546124" duration="3796000" />
       <workItem from="1508011165809" duration="716000" />
       <workItem from="1508136233308" duration="27155000" />
-      <workItem from="1508389120437" duration="2523000" />
+      <workItem from="1508389120437" duration="3047000" />
     </task>
     <task id="LOCAL-00001" summary="new signIn form">
       <created>1508149013128</created>
@@ -816,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508362929808</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change bootstrap files">
+      <created>1508391685687</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508391685687</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90488000" />
+    <option name="totallyTimeSpent" value="91012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -908,7 +908,8 @@
     <MESSAGE value="add button to studentView, create releaseStudentModal" />
     <MESSAGE value="try to add tablesorter" />
     <MESSAGE value="repair tablesorter in systemStudentPanelView" />
-    <option name="LAST_COMMIT_MESSAGE" value="repair tablesorter in systemStudentPanelView" />
+    <MESSAGE value="change bootstrap files" />
+    <option name="LAST_COMMIT_MESSAGE" value="change bootstrap files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1162,8 +1163,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="27" column="67" lean-forward="false" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
           <folding />
         </state>
       </provider>
