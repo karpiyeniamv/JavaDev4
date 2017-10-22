@@ -7,11 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 
-<script src="${pageContext.request.contextPath}/resources/js/libs/popper.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/libs/popper.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-latest.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/prettify.js"></script>
 

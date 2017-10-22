@@ -9,6 +9,9 @@
 <html>
 <head>
     <title>Student panel</title>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
 </head>
 <body>
 <jsp:include page="/jsp/blocks/header.jsp"/>

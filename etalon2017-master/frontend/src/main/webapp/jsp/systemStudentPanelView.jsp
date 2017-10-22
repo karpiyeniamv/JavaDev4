@@ -9,6 +9,8 @@
 <html>
 <head>
     <title>System student panel</title>
+
+    <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
     <style>
@@ -110,8 +112,6 @@
         <jsp:param name="heading" value="Welcome on System student panel"/>
     </jsp:include>
 </div>
-<br>
-<br>
 
 <div align="center">
     <button type="button" class="btn btn-primary" onclick="window.location='requestsView.jsp'">Show all requests
@@ -183,7 +183,7 @@
     </tr>
     </tfoot>
     <script>
-    tbodyTable()
+    tbodyTableStudents()
 </script>
 </table>
 

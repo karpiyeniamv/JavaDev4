@@ -13,7 +13,7 @@
 <body>
 <!-- Modal -->
 
-<div class="modal fade" id="assignStudentsModal" role="dialog" >
+<div class="modal fade" id="assignStudentsModal" role="dialog"  >
     <div class="modal-dialog">
         <!-- Modal content-->
         <div class="modal-content">

@@ -34,7 +34,7 @@ function systemStudentPanelView() {
     document.getElementById('table-lizing-traktor').appendChild(table);
 }
 
-function tbodyTable() {
+function tbodyTableStudents() {
     var countStudents = students.length;
     var tbody = document.createElement('tbody');
     var items = ['firstName', 'lastName', 'faculty', 'specialty', 'group', 'isBudget', 'averageScore', 'status', 'nameOfCompany', 'practicePeriod'];
@@ -63,13 +63,12 @@ function tbodyTable() {
 
 function requestsView () {
     var countDemands = demands.length;
-
     var table = document.createElement('table');
     table.setAttribute('class', 'table table-striped table-bordered');
     var thead = document.createElement('thead');
     thead.style.fontWeight = 'bold';
     var tr = document.createElement('tr');
-    tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td><td>#</td><td>Company name</td><td>Date from</td><td>Date to</td><td>Status</td><td>Faculty</td><td>Specialty</td><td>min average score</td><td>total quantity</td><td>available quantity</td>';
+    tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td><td>Company name</td><td>Date from</td><td>Date to</td><td>Status</td><td>Faculty</td><td>Specialty</td><td>min average score</td><td>total quantity</td><td>available quantity</td>';
     thead.appendChild(tr);
     table.appendChild(thead);
 
@@ -78,9 +77,6 @@ function requestsView () {
     for (var i = 0; i < countDemands; i++) {
         var tr = document.createElement('tr');
         tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td>';
-        var td = document.createElement('td');
-        td.innerHTML = i + 1;
-        tr.appendChild(td);
         for (var j = 0; j < 9; j++) {
             var td = document.createElement('td');
             var item = demands[i][items[j]];
@@ -91,6 +87,25 @@ function requestsView () {
     }
     table.appendChild(tbody);
     document.getElementById('table-lizing-traktor').appendChild(table);
+
+}
+
+function tbodeTableRequests () {
+    var countDemands = demands.length;
+    var tbody = document.createElement('tbody');
+    var items = ['companyName', 'dateFrom', 'dateTo', 'status', 'faculty', 'speciality', 'score', 'totalQuantity', 'availableQuantity'];
+    for (var i = 0; i < countDemands; i++) {
+        var tr = document.createElement('tr');
+        tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td>';
+        for (var j = 0; j < 9; j++) {
+            var td = document.createElement('td');
+            var item = demands[i][items[j]];
+            td.innerHTML = item;
+            tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+    }
+    document.getElementById('table-lizing-traktor').appendChild(tbody);
 
 }
 
