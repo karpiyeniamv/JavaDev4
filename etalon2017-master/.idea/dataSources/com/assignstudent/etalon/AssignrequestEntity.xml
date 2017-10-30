@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.assignstudent.etalon.AssignrequestEntity">
+        <table name="assignrequest" schema="assignstudent" catalog=""/>
+        <attributes>
+            <basic name="requestId">
+                <column name="requestId" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

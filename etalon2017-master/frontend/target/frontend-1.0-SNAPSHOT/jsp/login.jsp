@@ -9,6 +9,8 @@
 <html>
 <head>
     <title>Login page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 <body>
 <jsp:include page="/jsp/blocks/header.jsp"/>
@@ -34,7 +36,7 @@
 
                     <div style="margin-bottom: 25px" class="input-group">
                         <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                        <input id="login-username" type="text" class="form-control" name="username" value=""
+                        <input  id="login-username" type="text" class="form-control" name="username" value=""
                                placeholder="Email">
                     </div>
 
