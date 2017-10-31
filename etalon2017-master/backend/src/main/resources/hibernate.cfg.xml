@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/assignstudent</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="com.assignstudent.etalon.entities.AssignrequestEntity"/>
+    <mapping class="com.assignstudent.etalon.entities.CompanyEntity"/>
+    <mapping class="com.assignstudent.etalon.entities.FacultyEntity"/>
+    <mapping class="com.assignstudent.etalon.entities.RequestEntity"/>
+    <mapping class="com.assignstudent.etalon.entities.SpecialtyEntity"/>
+    <mapping class="com.assignstudent.etalon.entities.StudentEntity"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
