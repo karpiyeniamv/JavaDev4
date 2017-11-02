@@ -117,7 +117,7 @@ public class StudentEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "studentBySudentId")
+    @OneToMany(mappedBy = "studentByStudentId")
     public Collection<AssignrequestEntity> getAssignrequestsById() {
         return assignrequestsById;
     }

@@ -5,10 +5,21 @@ import javax.persistence.*;
 @Entity
 @Table(name = "assignrequest", schema = "assignstudent", catalog = "")
 public class AssignrequestEntity {
+    private int id;
     private int requestId;
-    private int sudentId;
+    private int studentId;
     private RequestEntity requestByRequestId;
-    private StudentEntity studentBySudentId;
+    private StudentEntity studentByStudentId;
+
+    @Id
+    @Column(name = "id", nullable = false)
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @Basic
     @Column(name = "requestId", nullable = false)
@@ -21,13 +32,13 @@ public class AssignrequestEntity {
     }
 
     @Basic
-    @Column(name = "sudentId", nullable = false)
-    public int getSudentId() {
-        return sudentId;
+    @Column(name = "studentId", nullable = false)
+    public int getStudentId() {
+        return studentId;
     }
 
-    public void setSudentId(int sudentId) {
-        this.sudentId = sudentId;
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
     }
 
     @Override
@@ -37,16 +48,18 @@ public class AssignrequestEntity {
 
         AssignrequestEntity that = (AssignrequestEntity) o;
 
+        if (id != that.id) return false;
         if (requestId != that.requestId) return false;
-        if (sudentId != that.sudentId) return false;
+        if (studentId != that.studentId) return false;
 
         return true;
     }
 
     @Override
     public int hashCode() {
-        int result = requestId;
-        result = 31 * result + sudentId;
+        int result = id;
+        result = 31 * result + requestId;
+        result = 31 * result + studentId;
         return result;
     }
 
@@ -61,12 +74,12 @@ public class AssignrequestEntity {
     }
 
     @ManyToOne
-    @JoinColumn(name = "sudentId", referencedColumnName = "id", nullable = false)
-    public StudentEntity getStudentBySudentId() {
-        return studentBySudentId;
+    @JoinColumn(name = "studentId", referencedColumnName = "id", nullable = false)
+    public StudentEntity getStudentByStudentId() {
+        return studentByStudentId;
     }
 
-    public void setStudentBySudentId(StudentEntity studentBySudentId) {
-        this.studentBySudentId = studentBySudentId;
+    public void setStudentByStudentId(StudentEntity studentByStudentId) {
+        this.studentByStudentId = studentByStudentId;
     }
 }
