@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="conversionService"
+          class="com.assignstudent.etalon.converters.CustomConvertersRegister">
+
+        <property name="converters">
+
+            <set>
+                <bean class="com.assignstudent.etalon.converters.AssignrequestEntityToAssignrequestViewModelConverter"/>
+                <bean class="com.assignstudent.etalon.converters.FacultyEntityToFacultyViewModelConverter"/>
+                <bean class="com.assignstudent.etalon.converters.CompanyEntityToCompanyViewModelConverter"/>
+                <bean class="com.assignstudent.etalon.converters.RequestEntityToRequestViewModelConverter"/>
+                <bean class="com.assignstudent.etalon.converters.SpecialtyEntityToSpecialtyViewModelConverter"/>
+                <bean class="com.assignstudent.etalon.converters.StudentEntityToStudentViewModelConverter"/>
+            </set>
+
+        </property>
+
+    </bean>
+
+</beans>
