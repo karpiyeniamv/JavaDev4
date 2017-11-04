@@ -23,6 +23,9 @@
  */
 package com.assignstudent.etalon.controllers;
 
+
+import com.assignstudent.etalon.services.StudentService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -34,11 +37,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class TestController {
+    @Autowired
+    StudentService studentService;
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String goToLoginPage() {
         return "login";
     }
+
+//    @RequestMapping(value = "/users", method = RequestMethod.GET)
+//    @ResponseBody
+//    public List<User> getUsers() {
+//        return UserService.getUsers();
+//    }
+//    @RequestMapping(value = "/students/{id}", method = RequestMethod.GET)
+//    public StudentViewModel getStudent(@PathVariable int id) {
+//        return studentService.findStudent(id);
+//    }
 }
 /*
  WITHOUT LIMITING THE FOREGOING, COPYING, REPRODUCTION, REDISTRIBUTION,
