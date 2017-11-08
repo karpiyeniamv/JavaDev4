@@ -19,10 +19,10 @@ import java.util.ListIterator;
 @Controller
 public class RequestController {
 
-//    @Autowired
+//
 //    RequestService requestService;
 //
-//    @Autowired
+//
 //    RequestEntityToRequestViewModelConverter requestEntityToRequestViewModelConverter;
 //
 //    @RequestMapping(value = "/requestsView", method = RequestMethod.POST)
