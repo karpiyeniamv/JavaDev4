@@ -3,7 +3,7 @@ package com.assignstudent.etalon.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "assignrequest", schema = "assignstudent", catalog = "")
+@Table(name = "assignrequest", schema = "assignstudent")
 public class AssignrequestEntity {
     private int id;
     private int requestId;

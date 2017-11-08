@@ -5,7 +5,7 @@ import java.sql.Date;
 import java.util.Collection;
 
 @Entity
-@Table(name = "request", schema = "assignstudent", catalog = "")
+@Table(name = "request", schema = "assignstudent")
 public class RequestEntity {
     private int id;
     private int companyId;
