@@ -19,20 +19,20 @@ import java.util.ListIterator;
 @Controller
 public class RequestController {
 
-    @Autowired
-    RequestService requestService;
-
-    @Autowired
-    RequestEntityToRequestViewModelConverter requestEntityToRequestViewModelConverter;
-
-    @RequestMapping(value = "/requestsView", method = RequestMethod.POST)
-    @ResponseBody
-    public List<RequestViewModel> getRequests() {
-        List<RequestViewModel> requestViewModelList = new ArrayList<>();
-        for (RequestEntity item :requestService.getRequests())
-        {
-            requestViewModelList.add(requestEntityToRequestViewModelConverter.convert(item));
-        }
-        return requestViewModelList;
-    }
+//    @Autowired
+//    RequestService requestService;
+//
+//    @Autowired
+//    RequestEntityToRequestViewModelConverter requestEntityToRequestViewModelConverter;
+//
+//    @RequestMapping(value = "/requestsView", method = RequestMethod.POST)
+//    @ResponseBody
+//    public List<RequestViewModel> getRequests() {
+//        List<RequestViewModel> requestViewModelList = new ArrayList<>();
+//        for (RequestEntity item :requestService.getRequests())
+//        {
+//            requestViewModelList.add(requestEntityToRequestViewModelConverter.convert(item));
+//        }
+//        return requestViewModelList;
+//    }
 }

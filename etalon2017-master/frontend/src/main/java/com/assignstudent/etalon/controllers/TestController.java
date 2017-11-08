@@ -37,13 +37,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class TestController {
-    @Autowired
-    StudentService studentService;
-
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
-    public String goToLoginPage() {
-        return "login";
-    }
+//    @Autowired
+//    StudentService studentService;
+//
+//    @RequestMapping(value = "/login", method = RequestMethod.GET)
+//    public String goToLoginPage() {
+//        return "login";
+//    }
 
 //    @RequestMapping(value = "/users", method = RequestMethod.GET)
 //    @ResponseBody
