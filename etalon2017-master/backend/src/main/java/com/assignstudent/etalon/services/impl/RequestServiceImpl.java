@@ -12,9 +12,9 @@ import java.util.List;
 public class RequestServiceImpl implements RequestService {
 
     @Autowired
-    RequestRepository requestRepository;
+    //RequestRepository requestRepository;
     @Override
     public List<RequestEntity> getRequests() {
-        return (List<RequestEntity>) requestRepository.findAll();
+        return null; //(List<RequestEntity>) requestRepository.findAll();
     }
 }

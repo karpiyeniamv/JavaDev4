@@ -5,15 +5,16 @@
   Time: 15:29
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" %>z
 
-<script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
+
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/popper.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-latest.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/prettify.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
 
 <script src="${pageContext.request.contextPath}/resources/js/docs.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>

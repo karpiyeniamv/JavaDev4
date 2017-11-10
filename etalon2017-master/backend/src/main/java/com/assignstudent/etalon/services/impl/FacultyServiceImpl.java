@@ -15,11 +15,8 @@ import java.util.List;
 @Service
 public class FacultyServiceImpl implements FacultyService {
 
-    @Autowired
-    private FacultyRepository facultyRepository;
-
     @Override
     public List<FacultyEntity> getAllFaculties() {
-        return (List<FacultyEntity>) facultyRepository.findAll();
+        return null;
     }
 }

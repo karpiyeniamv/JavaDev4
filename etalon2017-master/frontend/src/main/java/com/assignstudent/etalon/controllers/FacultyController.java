@@ -22,19 +22,19 @@ import java.util.List;
 @Controller
 public class FacultyController {
 
-    @Autowired
-    private FacultyService facultyService;
-
-    @Autowired
-    private ConversionService conversionService;
-
-    private final TypeDescriptor facultyEntityTypeDescriptor = TypeDescriptor.collection(List.class, TypeDescriptor.valueOf(FacultyEntity.class));
-    private final TypeDescriptor facultyViewModelTypeDescriptor = TypeDescriptor.collection(List.class, TypeDescriptor.valueOf(FacultyViewModel.class));
-    @RequestMapping(value = "/faculties", method = RequestMethod.GET)
-    @ResponseBody
-    public List<SpecialtyViewModel> getAllFaculties() {
-        List<FacultyEntity> allFaculties = facultyService.getAllFaculties();
-        return (List<SpecialtyViewModel>) conversionService.convert(allFaculties, facultyEntityTypeDescriptor, facultyViewModelTypeDescriptor);
-    }
+//    @Autowired
+//    private FacultyService facultyService;
+//
+//    @Autowired
+//    private ConversionService conversionService;
+//
+//    private final TypeDescriptor facultyEntityTypeDescriptor = TypeDescriptor.collection(List.class, TypeDescriptor.valueOf(FacultyEntity.class));
+//    private final TypeDescriptor facultyViewModelTypeDescriptor = TypeDescriptor.collection(List.class, TypeDescriptor.valueOf(FacultyViewModel.class));
+//    @RequestMapping(value = "/faculties", method = RequestMethod.GET)
+//    @ResponseBody
+//    public List<SpecialtyViewModel> getAllFaculties() {
+//        List<FacultyEntity> allFaculties = facultyService.getAllFaculties();
+//        return (List<SpecialtyViewModel>) conversionService.convert(allFaculties, facultyEntityTypeDescriptor, facultyViewModelTypeDescriptor);
+//    }
 }
 
