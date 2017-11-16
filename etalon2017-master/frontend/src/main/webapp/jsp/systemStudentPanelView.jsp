@@ -9,7 +9,6 @@
 <html>
 <head>
     <title>System student panel</title>
-
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
@@ -23,7 +22,7 @@
     </style>
     <script id="js" type="text/javascript">
         var $ = jQuery;
-        $(document).ready(function () {
+        $(document).ready(function ($) {
 
             $("table").tablesorter({
                 theme: "bootstrap",
@@ -83,7 +82,7 @@
         $(document).ready(function () {
 
             // filter button demo code
-            $('button.filter').click(function () {
+            $('button.filter').click(function ($) {
                 var col = $(this).data('column'),
                     txt = $(this).data('filter');
                 $('table').find('.tablesorter-filter').val('').eq(col).val(txt);
