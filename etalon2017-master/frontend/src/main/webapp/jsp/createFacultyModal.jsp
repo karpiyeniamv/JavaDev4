@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <%--
   Created by IntelliJ IDEA.
   User: KarpiyeniaM
@@ -9,6 +10,21 @@
 <html>
 <head>
     <title>Title</title>
+<%--suppress BadExpressionStatementJS --%>
+    <script type="text/javascript">
+//        fetch("/faculties")
+//            .then(function (response) {
+//        return response.json();
+//        })
+//        .then(faculties => {
+//            faculties.forEach(faculty => {
+//            const el = document.createElement('li');
+//        el.innerText = faculty.facultyName;
+//
+//        document.querySelector('#faculties').append(el);
+//        });
+//        });
+    </script>
 </head>
 <body>
 <!-- Modal -->
@@ -36,7 +52,9 @@
         </div>
     </div>
 </div>
-</div>
+
+<h1>Welcome to Spring, ${name}</h1>
+<c:out value="${model.name}"/>
 
 </body>
 </html>

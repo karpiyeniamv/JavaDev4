@@ -5,31 +5,45 @@ import com.assignstudent.etalon.beans.SpecialtyViewModel;
 import com.assignstudent.etalon.beans.StudentViewModel;
 import com.assignstudent.etalon.converters.FacultyEntityToFacultyViewModelConverter;
 import com.assignstudent.etalon.entities.FacultyEntity;
+import com.assignstudent.etalon.repository.FacultyRepository;
 import com.assignstudent.etalon.services.FacultyService;
 import com.assignstudent.etalon.services.impl.FacultyServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.TypeDescriptor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class FacultyController {
 
-//    @Autowired
-//    private FacultyService facultyService;
-//
-//    @Autowired
-//    private ConversionService conversionService;
-//
-//    private final TypeDescriptor facultyEntityTypeDescriptor = TypeDescriptor.collection(List.class, TypeDescriptor.valueOf(FacultyEntity.class));
-//    private final TypeDescriptor facultyViewModelTypeDescriptor = TypeDescriptor.collection(List.class, TypeDescriptor.valueOf(FacultyViewModel.class));
+
+
+    private FacultyRepository facultyRepository;
+
+//    public FacultyController (FacultyRepository facultyRepository){
+//        this.facultyRepository=facultyRepository;
+//    }
+
+    @GetMapping(path="/faculties")
+    public @ResponseBody Iterable<FacultyEntity> getVisits() {
+        return facultyRepository.findAll();
+    }
+
+    @GetMapping("/")
+    public ModelAndView index() {
+        Map<String, String> model = new HashMap<>();
+        model.put("name", "Maryia");
+        return new ModelAndView("createFacultyModal", model);
+    }
 //    @RequestMapping(value = "/faculties", method = RequestMethod.GET)
 //    @ResponseBody
 //    public List<SpecialtyViewModel> getAllFaculties() {

@@ -42,25 +42,42 @@
                             <%--</c:forEach>--%>
                         <%--</select>--%>
                     <%--</div>--%>
-                    <h2>Random Person Generator</h2>
-                    <input type="submit" id="randomFaculty" value="Get Random Faculty" /><br/><br/>
-                    <div id="facultyResponse"> </div>
-
-
-                    <div>
-                        <h3>Printing data using model and view</h3>
-                        <div class="jsDataUsingModelAndView">
-                            <c:if test="${not empty faculties}">
-                                <c:forEach items="${faculties}" var="faculty">
-                                    ${student.studentId} | ${student.username} | ${student.email}  <br>
-                                </c:forEach>
-                            </c:if>
-                        </div>
                     </div>
                 </form>
             </div>
 
-            <div class="modal-footer" align="left">
+        <!-- Request One -->
+        <form action="/createSpecialtyModal" method="get">
+            <input type="submit" value="createSpecialtyModal">
+            <c:if test="${not empty faculties}">
+                <c:forEach items="${faculties}" var="faculty">
+                    ${faculty.facultyName} | ${faculty.id} <br>
+                </c:forEach>
+            </c:if>
+        </form>
+
+        <!-- Request Two -->
+        <form action="/two" method="post">
+            <input type="submit" value="Two">
+        </form>
+
+        <!-- Request Three -->
+        <form action="/three" method="get">
+            <input type="submit" value="Three">
+        </form>
+
+        <!-- Request Four -->
+        <form action="/four" method="post">
+            <input type="submit" value="Four">
+        </form>
+
+        <!-- Request Five -->
+        <form action="/five" method="post" >
+            <input type="submit" value="Five">
+        </form>
+
+
+        <div class="modal-footer" align="left">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Create</button>
             </div>
         </div>
