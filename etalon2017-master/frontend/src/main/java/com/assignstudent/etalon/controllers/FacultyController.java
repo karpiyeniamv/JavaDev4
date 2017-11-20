@@ -29,23 +29,23 @@ public class FacultyController {
 
     private FacultyRepository facultyRepository;
 
+    @RequestMapping(value = "/page", method = RequestMethod.GET)
+    public String printWelcome(){
+        return "hello";
+    }
+
 //    public FacultyController (FacultyRepository facultyRepository){
 //        this.facultyRepository=facultyRepository;
 //    }
 
-    @GetMapping(path="/faculties")
-    public @ResponseBody Iterable<FacultyEntity> getVisits() {
-        return facultyRepository.findAll();
-    }
+//    @GetMapping(path="/faculties")
+//    public @ResponseBody Iterable<FacultyEntity> getVisits() {
+//        return facultyRepository.findAll();
+//    }
 
-    @GetMapping("/")
-    public ModelAndView index() {
-        Map<String, String> model = new HashMap<>();
-        model.put("name", "Maryia");
-        return new ModelAndView("createFacultyModal", model);
-    }
+//  w
 //    @RequestMapping(value = "/faculties", method = RequestMethod.GET)
-//    @ResponseBody
+//
 //    public List<SpecialtyViewModel> getAllFaculties() {
 //        List<FacultyEntity> allFaculties = facultyService.getAllFaculties();
 //        return (List<SpecialtyViewModel>) conversionService.convert(allFaculties, facultyEntityTypeDescriptor, facultyViewModelTypeDescriptor);
