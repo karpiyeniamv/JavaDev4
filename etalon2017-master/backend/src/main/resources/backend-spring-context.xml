@@ -34,6 +34,9 @@
         <property name="password" value="12345"/>
     </bean>
 
+    <bean id="facultyDao" class="com.assignstudent.etalon.dao.daoImpl.FacultyDaoImpl"/>
+    <bean id="facultyService" class="com.assignstudent.etalon.services.impl.FacultyServiceImpl"/>
+
 
     <!--Activates various annotations to be detected in bean classes: Spring's @Required and @Autowired and so on-->
     <context:annotation-config/>
@@ -41,7 +44,6 @@
     <!--Scanning components in base-package (look for annotations) -->
     <context:component-scan base-package="com.assignstudent.etalon.entities"/>
     <context:component-scan base-package="com.assignstudent.etalon.services"/>
-    <context:component-scan base-package="com.assignstudent.etalon.repository"/>
 
     <!-- Need for Repository abstraction -->
     <jpa:repositories base-package="com.assignstudent.etalon.repository" entity-manager-factory-ref="entityManagerFactory"

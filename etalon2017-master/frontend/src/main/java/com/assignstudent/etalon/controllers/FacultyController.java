@@ -23,15 +23,33 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
+@RequestMapping ("/faculty")
 public class FacultyController {
 
+
+    @Autowired
+    FacultyService facultyService;
 
 
     private FacultyRepository facultyRepository;
 
     @RequestMapping(value = "/page", method = RequestMethod.GET)
-    public String printWelcome(){
-        return "hello";
+    public ModelAndView printWelcome(){
+        ModelAndView facultyViewModel=new ModelAndView();
+        FacultyEntity facultyEntity=new FacultyEntity();
+        facultyEntity.setFacultyName("BIO");
+        facultyViewModel.addObject("faculty", facultyEntity);
+        facultyViewModel.setViewName("page");
+        return facultyViewModel;
+    }
+
+    @RequestMapping(value = "/listFaculties", method = RequestMethod.GET)
+    public ModelAndView printAllFaculties(){
+        ModelAndView facultyViewModel=new ModelAndView();
+       List<FacultyEntity> facultyEntityList=facultyService.getAllFaculties();
+       facultyViewModel.addObject("list", facultyEntityList);
+       facultyViewModel.setViewName("listFaculties");
+        return facultyViewModel;
     }
 
 //    public FacultyController (FacultyRepository facultyRepository){

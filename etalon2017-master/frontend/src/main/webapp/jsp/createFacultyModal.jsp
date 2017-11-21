@@ -9,17 +9,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript" ></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#test").click(function(){
-                    alert("Work!")
-                    $.get("/pages", function (data) {
-                        alert(data)
-                    })
-                });
-            });
-    </script>
     <title>Title</title>
 <%--suppress BadExpressionStatementJS --%>
     <script type="text/javascript">
@@ -64,9 +53,6 @@
     </div>
 </div>
 
-<h1>Welcome to Spring, ${name}</h1>
-<c:out value="${model.name}"/>
-<button id="test">Load</button>
 
 </body>
 </html>
