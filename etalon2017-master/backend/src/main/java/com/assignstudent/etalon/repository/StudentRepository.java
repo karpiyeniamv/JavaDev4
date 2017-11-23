@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 import com.assignstudent.etalon.entities.StudentEntity;
 import org.springframework.stereotype.Repository;
 
-@Repository
+
 public interface StudentRepository extends  CrudRepository <StudentEntity, Integer>{
 }

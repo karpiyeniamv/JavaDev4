@@ -11,8 +11,7 @@ import java.util.List;
 @Service
 public class RequestServiceImpl implements RequestService {
 
-    @Autowired
-    //RequestRepository requestRepository;
+
     @Override
     public List<RequestEntity> getRequests() {
         return null; //(List<RequestEntity>) requestRepository.findAll();

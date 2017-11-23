@@ -9,6 +9,7 @@
         http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
 
+
     <!--@Transaction annotation support -->
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
@@ -32,6 +33,10 @@
         <property name="username" value="root"/>
         <property name="password" value="12345"/>
     </bean>
+
+    <bean id="facultyDao" class="com.assignstudent.etalon.dao.daoImpl.FacultyDaoImpl"/>
+    <bean id="facultyService" class="com.assignstudent.etalon.services.impl.FacultyServiceImpl"/>
+
 
     <!--Activates various annotations to be detected in bean classes: Spring's @Required and @Autowired and so on-->
     <context:annotation-config/>

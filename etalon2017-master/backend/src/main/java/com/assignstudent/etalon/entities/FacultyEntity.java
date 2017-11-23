@@ -12,6 +12,17 @@ public class FacultyEntity {
     private Collection<SpecialtyEntity> specialtiesById;
     private Collection<StudentEntity> studentsById;
 
+    public FacultyEntity() {
+        id=0;
+        facultyName="empty";
+    }
+
+    public FacultyEntity(int i, String s) {
+        id=i;
+        facultyName=s;
+    }
+
+
     @Id
     @Column(name = "id", nullable = false)
     public int getId() {

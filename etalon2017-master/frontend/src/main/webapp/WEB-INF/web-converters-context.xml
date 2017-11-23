@@ -6,7 +6,6 @@
           class="com.assignstudent.etalon.converters.CustomConvertersRegister">
 
         <property name="converters">
-
             <set>
                 <bean class="com.assignstudent.etalon.converters.AssignrequestEntityToAssignrequestViewModelConverter"/>
                 <bean class="com.assignstudent.etalon.converters.FacultyEntityToFacultyViewModelConverter"/>
