@@ -6,5 +6,6 @@ import java.util.List;
 
 
 public interface FacultyService {
-    List <FacultyEntity> getAllFaculties ();
+    List<FacultyEntity> getAllFaculties ();
+    FacultyEntity createFaculty( FacultyEntity facultyEntity);
 }

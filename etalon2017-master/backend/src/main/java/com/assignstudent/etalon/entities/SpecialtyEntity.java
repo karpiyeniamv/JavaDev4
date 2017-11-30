@@ -1,20 +1,17 @@
 package com.assignstudent.etalon.entities;
 
 import javax.persistence.*;
-import java.util.Collection;
 
 @Entity
-@Table(name = "specialty", schema = "assignstudent")
+@Table(name = "specialty", schema = "assignstudent", catalog = "")
 public class SpecialtyEntity {
     private int id;
     private String specialtyName;
     private int facultyId;
-    private Collection<RequestEntity> requestsById;
-    private FacultyEntity facultyByFacultyId;
-    private Collection<StudentEntity> studentsById;
+    private FacultyEntity faculty;
 
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -24,7 +21,7 @@ public class SpecialtyEntity {
     }
 
     @Basic
-    @Column(name = "specialtyName", nullable = false, length = 45)
+    @Column(name = "specialtyName")
     public String getSpecialtyName() {
         return specialtyName;
     }
@@ -34,7 +31,7 @@ public class SpecialtyEntity {
     }
 
     @Basic
-    @Column(name = "facultyId", nullable = false)
+    @Column(name = "facultyId")
     public int getFacultyId() {
         return facultyId;
     }
@@ -66,31 +63,13 @@ public class SpecialtyEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "specialtyBySpecialtyId")
-    public Collection<RequestEntity> getRequestsById() {
-        return requestsById;
-    }
-
-    public void setRequestsById(Collection<RequestEntity> requestsById) {
-        this.requestsById = requestsById;
-    }
-
     @ManyToOne
     @JoinColumn(name = "facultyId", referencedColumnName = "id", nullable = false)
-    public FacultyEntity getFacultyByFacultyId() {
-        return facultyByFacultyId;
+    public FacultyEntity getFaculty() {
+        return faculty;
     }
 
-    public void setFacultyByFacultyId(FacultyEntity facultyByFacultyId) {
-        this.facultyByFacultyId = facultyByFacultyId;
-    }
-
-    @OneToMany(mappedBy = "specialtyBySpecialtyId")
-    public Collection<StudentEntity> getStudentsById() {
-        return studentsById;
-    }
-
-    public void setStudentsById(Collection<StudentEntity> studentsById) {
-        this.studentsById = studentsById;
+    public void setFaculty(FacultyEntity faculty) {
+        this.faculty = faculty;
     }
 }

@@ -1,8 +1,8 @@
 package com.assignstudent.etalon.converters;
 
-import org.springframework.core.convert.converter.Converter;
-import com.assignstudent.etalon.entities.CompanyEntity;
 import com.assignstudent.etalon.beans.CompanyViewModel;
+import com.assignstudent.etalon.entities.CompanyEntity;
+import org.springframework.core.convert.converter.Converter;
 
 public class CompanyEntityToCompanyViewModelConverter implements Converter<CompanyEntity, CompanyViewModel>{
 

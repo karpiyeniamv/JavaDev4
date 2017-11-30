@@ -34,7 +34,17 @@
                         <label for="nameOfSpecialty">Name of specialty</label>
                         <input type="text" class="form-control" id="nameOfSpecialty">
                     </div>
-                    <%--<div class="form-group">--%>
+
+                    <form action="/faculty/createSpecialtyModal" method="get">
+                    <%--<input type="submit" value="createSpecialtyModal">--%>
+                    <c:if test="${not empty faculties}">
+                        <c:forEach items="${faculties}" var="faculty">
+                            ${faculty.facultyName} | ${faculty.id} <br>
+                        </c:forEach>
+                    </c:if>
+                    </form>
+
+                <%--<div class="form-group">--%>
                         <%--<label for="facultyViewModelList">Available faculties</label>--%>
                         <%--<select id="facultyViewModelList">--%>
                             <%--<c:forEach items="${facultyViewModelList}" var="facultyViewModel">--%>
@@ -42,39 +52,30 @@
                             <%--</c:forEach>--%>
                         <%--</select>--%>
                     <%--</div>--%>
-                    </div>
                 </form>
             </div>
 
         <!-- Request One -->
-        <form action="/createSpecialtyModal" method="get">
-            <input type="submit" value="createSpecialtyModal">
-            <c:if test="${not empty faculties}">
-                <c:forEach items="${faculties}" var="faculty">
-                    ${faculty.facultyName} | ${faculty.id} <br>
-                </c:forEach>
-            </c:if>
-        </form>
 
         <!-- Request Two -->
-        <form action="/two" method="post">
-            <input type="submit" value="Two">
-        </form>
+        <%--<form action="/two" method="post">--%>
+            <%--<input type="submit" value="Two">--%>
+        <%--</form>--%>
 
-        <!-- Request Three -->
-        <form action="/three" method="get">
-            <input type="submit" value="Three">
-        </form>
+        <%--<!-- Request Three -->--%>
+        <%--<form action="/three" method="get">--%>
+            <%--<input type="submit" value="Three">--%>
+        <%--</form>--%>
 
-        <!-- Request Four -->
-        <form action="/four" method="post">
-            <input type="submit" value="Four">
-        </form>
+        <%--<!-- Request Four -->--%>
+        <%--<form action="/four" method="post">--%>
+            <%--<input type="submit" value="Four">--%>
+        <%--</form>--%>
 
-        <!-- Request Five -->
-        <form action="/five" method="post" >
-            <input type="submit" value="Five">
-        </form>
+        <%--<!-- Request Five -->--%>
+        <%--<form action="/five" method="post" >--%>
+            <%--<input type="submit" value="Five">--%>
+        <%--</form>--%>
 
 
         <div class="modal-footer" align="left">

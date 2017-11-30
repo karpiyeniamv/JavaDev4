@@ -27,7 +27,6 @@ package com.assignstudent.etalon.controllers;
 import com.assignstudent.etalon.beans.FacultyViewModel;
 import com.assignstudent.etalon.entities.FacultyEntity;
 import com.assignstudent.etalon.services.FacultyService;
-import com.assignstudent.etalon.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.TypeDescriptor;

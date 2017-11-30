@@ -7,59 +7,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc85f002-ae3b-464c-a4b5-7ba98df5ffc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_hibernate_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/classes/com/netcracker/etalon/controllers/TestController.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/AssignrequestDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/CompanyDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/FacultyDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/GenericDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/RequestDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/SpecialtyDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/StudentDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/AssignrequestDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/CompanyDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/FacultyDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/GenericDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/RequestDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/SpecialtyDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/StudentDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentServiceImpl.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/AssignrequestRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/AssignrequestRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/CompanyRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/CompanyRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/FacultyRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/FacultyRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/RequestRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/RequestRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/SpecialtyRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/SpecialtyRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/StudentRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/frontend_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/frontend_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/backend.iml" afterPath="$PROJECT_DIR$/etalon2017-master/backend/backend.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/StudentRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/StudentRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/frontend.iml" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/frontend.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/pom.xml" afterPath="$PROJECT_DIR$/etalon2017-master/backend/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/CompanyEntity.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/CompanyEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/FacultyService.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/FacultyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/FacultyServiceImpl.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/FacultyServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/backend-spring-context.xml" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/backend-spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/RequestController.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/RequestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/TestController.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/TestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/AssignrequestEntityToAssignrequestViewModelConverter.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/AssignrequestEntityToAssignrequestViewModelConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/CompanyEntityToCompanyViewModelConverter.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/CompanyEntityToCompanyViewModelConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/FacultyEntityToFacultyViewModelConverter.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/FacultyEntityToFacultyViewModelConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/RequestEntityToRequestViewModelConverter.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/RequestEntityToRequestViewModelConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/SpecialtyEntityToSpecialtyViewModelConverter.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/SpecialtyEntityToSpecialtyViewModelConverter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/StudentEntityToStudentViewModelConverter.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/StudentEntityToStudentViewModelConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/pom.xml" afterPath="$PROJECT_DIR$/etalon2017-master/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-spring-context.xml" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/web-spring-context.xml" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/web-spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/jsp/blocks/header.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/jsp/blocks/header.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/etalon2017-master/backend/target/" />
@@ -93,36 +94,105 @@
         <item name="assignstudent@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="assignstudent" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="assignstudent@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="assignstudent" type="e3449647:DbNodeDescriptor" />
+        <item name="faculty" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/TestController.java">
+      <file leaf-file-name="FacultyServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/FacultyServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="171">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1511430649686" expanded="true" signature="505:651" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AopUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentEntityToStudentViewModelConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/StudentEntityToStudentViewModelConverter.java">
+      <file leaf-file-name="FacultyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web-spring-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-spring-context.xml">
+      <file leaf-file-name="createSpecialtyModal.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="156">
+              <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssignrequestEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpecialtyEntity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#1699#1700#0" expanded="true" />
+                <element signature="e#1729#1730#0" expanded="true" />
+                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacultyEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,64 +201,8 @@
       <file leaf-file-name="RequestEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssignrequestEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/StudentRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -197,9 +211,22 @@
       <file leaf-file-name="StudentEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding>
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,10 +239,17 @@
         <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>facul</find>
+      <find>createSpecialtyModal</find>
+      <find>faculty</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -228,28 +262,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanel.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/arrayStudents.js" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentView.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/js/libs/mockDemands.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/mockDemands.js" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/demandsView.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/title.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/systemStudentPanelView.js" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/mockStudents.js" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/test.html" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/miu.html" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/addRequestModal.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createStudentModal.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/releaseStudentModal.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/general.js" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/mockRequests.js" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp" />
@@ -259,8 +277,42 @@
         <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class" />
         <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/FacultyRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/index.jsp" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/stereotype/Service.class" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/Main.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-spring-context.xml" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/CompanyDaoImpl.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/FacultyDaoImpl.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/FacultyDao.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/RequestService.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/FacultyRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/CompanyRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/AssignrequestRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/RequestRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/SpecialtyEntityToSpecialtyViewModelConverter.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/FacultyEntityToFacultyViewModelConverter.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/RequestEntityToRequestViewModelConverter.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/StudentEntityToStudentViewModelConverter.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/CompanyEntityToCompanyViewModelConverter.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/AssignrequestEntityToAssignrequestViewModelConverter.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/TestController.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/FacultyService.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/SpecialtyRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/FacultyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/backend-spring-context.xml" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/support/AopUtils.class" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java" />
       </list>
     </option>
   </component>
@@ -273,8 +325,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -286,15 +338,38 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="etalon2017" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="etalon2017" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="16" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -333,8 +408,8 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,6 +450,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignstudent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetcrackerJavaDev4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="etalon2017-master" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignstudent" type="462c0819:PsiDirectoryNode" />
               <item name="etalon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,6 +469,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignstudent" type="462c0819:PsiDirectoryNode" />
               <item name="etalon" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -394,8 +480,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignstudent" type="462c0819:PsiDirectoryNode" />
               <item name="etalon" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetcrackerJavaDev4" type="b2602c69:ProjectViewProjectNode" />
@@ -404,8 +491,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignstudent" type="462c0819:PsiDirectoryNode" />
               <item name="etalon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetcrackerJavaDev4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="etalon2017-master" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignstudent" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetcrackerJavaDev4" type="b2602c69:ProjectViewProjectNode" />
@@ -495,6 +594,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetcrackerJavaDev4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="etalon2017-master" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetcrackerJavaDev4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="etalon2017-master" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -507,23 +624,17 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../etalon2017-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.splitter.proportion" value="0.36399218" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="8604b29a-fb0b-4bea-b4fa-1d4032fe7721" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources" />
-      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\icons" />
-      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\js\libs" />
-      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\css\libs" />
-      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MyFolder\Netcracker\project\etalon2017-master\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\css" />
       <recent name="C:\MyFolder\Netcracker\project\etalon2017-master\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\js\libs" />
@@ -531,6 +642,169 @@
       <recent name="C:\MyFolder\Netcracker\project\etalon2017-master\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\css\libs" />
       <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.assignstudent.etalon.entities" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources" />
+      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\icons" />
+      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\js\libs" />
+      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\css\libs" />
+      <recent name="C:\Users\KarpienyaM\NC\NetcrackerJavaDev4\etalon2017-master\frontend\src\main\webapp\resources\css" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/.idea/dataSources.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/backend.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/AssignrequestRepository.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/CompanyRepository.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/FacultyRepository.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/RequestRepository.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/SpecialtyRepository.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/StudentRepository.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/FacultyService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/FacultyServiceImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/backend-spring-context.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/frontend.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/TestController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-converters-context.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-spring-context.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/login.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT.war</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/WEB-INF/web-spring-context.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/jsp/blocks/header.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT/jsp/login.jsp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/.idea/uiDesigner.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/AssignrequestDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/CompanyDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/FacultyDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/GenericDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/RequestDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/SpecialtyDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/StudentDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/AssignrequestDaoImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/CompanyDaoImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/FacultyDaoImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/GenericDaoImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/RequestDaoImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/SpecialtyDaoImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/StudentDaoImpl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/BaseController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/HelloController.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -544,7 +818,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.login.jsp">
+  <component name="RunManager" selected="Tomcat Server.systemStudentPanelView.jsp">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -710,6 +984,78 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="createFacultyModal.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/createFacultyModal.jsp" />
+      <deployment>
+        <artifact name="frontend:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="createFacultyModal_jsp_NetcrackerJavaDev4" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54609" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="frontend:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="createSpecialtyModal.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/createSpecialtyModal.jsp" />
       <deployment>
@@ -728,6 +1074,39 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54606" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -767,6 +1146,39 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54607" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -788,56 +1200,17 @@
         </option>
       </method>
     </configuration>
-    <configuration name="requestsView.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/requestsView.jsp" />
-      <deployment>
-        <artifact name="frontend:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="requestsView_jsp_NetcrackerJavaDev4" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="frontend:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="systemStudentPanelView.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="systemStudentPanelView.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/systemStudentPanelView.jsp" />
       <deployment>
-        <artifact name="frontend:war">
+        <artifact name="frontend:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="systemStudentPanelView_jsp_(1)_NetcrackerJavaDev4" />
+        <option name="BASE_DIRECTORY_NAME" value="systemStudentPanelView_jsp_(2)_NetcrackerJavaDev4_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -845,6 +1218,39 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54608" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -862,12 +1268,13 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="frontend:war" />
+          <artifact name="frontend:war exploded" />
         </option>
       </method>
     </configuration>
     <configuration name="systemStudentPanelView.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/systemStudentPanelView.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="frontend:war">
           <settings>
@@ -880,10 +1287,43 @@
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Manager" enabled="true" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="true" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54516" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -908,18 +1348,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.systemStudentPanelView.jsp" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.systemStudentPanelView.jsp (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.createSpecialtyModal.jsp" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.requestsView.jsp" />
-      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.createSpecialtyModal.jsp" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.systemStudentPanelView.jsp (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.createFacultyModal.jsp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.requestsView.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.systemStudentPanelView.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.createSpecialtyModal.jsp" />
-        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.systemStudentPanelView.jsp (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.systemStudentPanelView.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.createFacultyModal.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.createSpecialtyModal.jsp" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.systemStudentPanelView.jsp (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -938,7 +1378,10 @@
       <workItem from="1508136233308" duration="27155000" />
       <workItem from="1508389120437" duration="9529000" />
       <workItem from="1509769763378" duration="8820000" />
-      <workItem from="1510399331495" duration="27000" />
+      <workItem from="1510399331495" duration="3417000" />
+      <workItem from="1510410901607" duration="4414000" />
+      <workItem from="1511243353357" duration="710000" />
+      <workItem from="1511417783128" duration="12016000" />
     </task>
     <task id="LOCAL-00001" summary="new signIn form">
       <created>1508149013128</created>
@@ -1035,7 +1478,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106341000" />
+    <option name="totallyTimeSpent" value="126871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1043,35 +1486,35 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23042506" sideWeight="0.29951102" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.036308624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.098522164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.545156" sideWeight="0.4844479" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54679805" sideWeight="0.700489" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36677632" sideWeight="0.700489" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32526475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207262" sideWeight="0.38418078" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3207262" sideWeight="0.6158192" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2655068" sideWeight="0.37089202" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55829227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20065789" sideWeight="0.4844479" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1080,31 +1523,32 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23042506" sideWeight="0.29951102" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32750398" sideWeight="0.4844479" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20065789" sideWeight="0.4844479" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23042506" sideWeight="0.700489" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36677632" sideWeight="0.700489" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24694377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32526475" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1130,7 +1574,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="add all tablesorter" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1138,350 +1592,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/miu.html" />
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/css/jq.css">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/general.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/title.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/addRequestModal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createStudentModal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/releaseStudentModal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="3383">
+          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="165" column="4" lean-forward="false" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="106" lean-forward="false" selection-start-line="35" selection-start-column="100" selection-end-line="36" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="110" lean-forward="false" selection-start-line="12" selection-start-column="110" selection-end-line="12" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/mockRequests.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/mockStudents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6528">
-          <caret line="384" column="5" lean-forward="false" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="185" column="24" lean-forward="false" selection-start-line="185" selection-start-column="24" selection-end-line="185" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/general.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/assignstudent_dump.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/pom.xml">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/CompanyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/target/classes/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/target/classes/app.properties.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/target/classes/backend-spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/RequestEntityToRequestViewModelConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="85">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/pom.xml">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createFacultyModal.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="440">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="e#1384#1391#1#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="105" lean-forward="false" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="357">
+          <caret line="21" column="101" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/backend-spring-context.xml">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-converters-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="323">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/SpecialtyRepository.java">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/beans/RequestViewModel.java">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/8604b29a-fb0b-4bea-b4fa-1d4032fe7721.SCHEMA:assignstudent">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>8604b29a-fb0b-4bea-b4fa-1d4032fe7721.SCHEMA:assignstudent</OriginalElement>
-          <nodes>
-            <node x="318.20833333333337" y="281.0">8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.student</node>
-            <node x="220.91666666666669" y="124.0">8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.specialty</node>
-            <node x="225.54166666666669" y="526.0">8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.assignrequest</node>
-            <node x="0.0" y="135.0">8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.company</node>
-            <node x="228.48958333333334" y="0.0">8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.faculty</node>
-            <node x="124.89583333333337" y="270.0">8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.request</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.student" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.specialty">
-              <point x="-42.75" y="-92.0" />
-              <point x="360.95833333333337" y="245.0" />
-              <point x="367.9166666666667" y="245.0" />
-              <point x="49.0" y="48.0" />
-            </edge>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.specialty" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.faculty">
-              <point x="0.0" y="-48.0" />
-              <point x="318.9166666666667" y="99.0" />
-              <point x="321.48958333333337" y="99.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.request" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.company">
-              <point x="-50.33333333333337" y="-103.0" />
-              <point x="150.0625" y="245.0" />
-              <point x="99.0" y="245.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.request" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.faculty">
-              <point x="-2.8421709430404007E-14" y="-103.0" />
-              <point x="200.39583333333334" y="245.0" />
-              <point x="208.5" y="245.0" />
-              <point x="208.5" y="99.0" />
-              <point x="259.48958333333337" y="99.0" />
-              <point x="-62.0" y="37.0" />
-            </edge>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.assignrequest" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.student">
-              <point x="36.0" y="-48.0" />
-              <point x="333.5416666666667" y="501.0" />
-              <point x="403.70833333333337" y="501.0" />
-              <point x="0.0" y="92.0" />
-            </edge>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.student" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.faculty">
-              <point x="42.750000000000014" y="-92.0" />
-              <point x="446.45833333333337" y="245.0" />
-              <point x="433.45833333333337" y="245.0" />
-              <point x="433.45833333333337" y="99.0" />
-              <point x="383.48958333333337" y="99.0" />
-              <point x="62.0" y="37.0" />
-            </edge>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.request" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.specialty">
-              <point x="50.333333333333314" y="-103.0" />
-              <point x="250.72916666666669" y="245.0" />
-              <point x="269.9166666666667" y="245.0" />
-              <point x="-49.0" y="48.0" />
-            </edge>
-            <edge source="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.assignrequest" target="8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.request">
-              <point x="-36.0" y="-48.0" />
-              <point x="261.5416666666667" y="501.0" />
-              <point x="200.39583333333337" y="501.0" />
-              <point x="0.0" y="103.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.801246105919003" x="269.0" y="323.0" />
-          <SelectedNodes>
-            <node>8604b29a-fb0b-4bea-b4fa-1d4032fe7721.TABLE:assignstudent.request</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/3fba38cd/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/assignstudent.request">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/CompanyRepository.java">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/beans/AssignrequestViewModel.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/stereotype/Service.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/beans/CompanyViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/beans/FacultyViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/AssignrequestEntityToAssignrequestViewModelConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1490,100 +1693,351 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/CompanyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.5.RELEASE/spring-data-commons-1.12.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/StudentEntityToStudentViewModelConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="159">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/CompanyDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/FacultyDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/FacultyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/dao/daoImpl/AssignrequestDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/RequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/FacultyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/CompanyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/AssignrequestRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="65" lean-forward="false" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/RequestRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/SpecialtyEntityToSpecialtyViewModelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/FacultyEntityToFacultyViewModelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/RequestEntityToRequestViewModelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/StudentEntityToStudentViewModelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/CompanyEntityToCompanyViewModelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/converters/AssignrequestEntityToAssignrequestViewModelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/FacultyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <caret line="143" column="65" lean-forward="false" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/SpecialtyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/resources/backend-spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="39" column="96" lean-forward="false" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/FacultyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1511430649686" expanded="true" signature="505:651" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createSpecialtyModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#1699#1700#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1641,7 +2095,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>backend</last-edited>
+          <last-edited>Spring|frontend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

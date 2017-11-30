@@ -1,8 +1,8 @@
 package com.assignstudent.etalon.converters;
 
-import org.springframework.core.convert.converter.Converter;
-import com.assignstudent.etalon.entities.FacultyEntity;
 import com.assignstudent.etalon.beans.FacultyViewModel;
+import com.assignstudent.etalon.entities.FacultyEntity;
+import org.springframework.core.convert.converter.Converter;
 
 
 

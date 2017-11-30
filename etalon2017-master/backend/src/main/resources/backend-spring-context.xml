@@ -16,12 +16,20 @@
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
-
+    <bean id="jpaDialect"
+          class="org.springframework.orm.jpa.vendor.HibernateJpaDialect" />
     <!-- EntityManagerFactory -->
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+        </property>
+
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+            </props>
+
         </property>
         <property name="packagesToScan"
                   value="com.assignstudent.etalon.entities"/>
@@ -29,13 +37,13 @@
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/assignstudent"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/assignstudent?serverTimezone=UTC"/>
         <property name="username" value="root"/>
         <property name="password" value="12345"/>
     </bean>
 
-    <bean id="facultyDao" class="com.assignstudent.etalon.dao.daoImpl.FacultyDaoImpl"/>
-    <bean id="facultyService" class="com.assignstudent.etalon.services.impl.FacultyServiceImpl"/>
+    <!--<bean id="facultyDao" class="com.assignstudent.etalon.dao.daoImpl.FacultyDaoImpl"/>-->
+    <!--<bean id="facultyService" class="com.assignstudent.etalon.services.impl.FacultyServiceImpl"/>-->
 
 
     <!--Activates various annotations to be detected in bean classes: Spring's @Required and @Autowired and so on-->
@@ -46,7 +54,7 @@
     <context:component-scan base-package="com.assignstudent.etalon.services"/>
 
     <!-- Need for Repository abstraction -->
-    <jpa:repositories base-package="com.assignstudent.etalon.repository" entity-manager-factory-ref="entityManagerFactory"
+    <jpa:repositories base-package="com.assignstudent.repository" entity-manager-factory-ref="entityManagerFactory"
                       transaction-manager-ref="transactionManager"/>
 
 </beans>

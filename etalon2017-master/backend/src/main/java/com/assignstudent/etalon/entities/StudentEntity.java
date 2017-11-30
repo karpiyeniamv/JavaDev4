@@ -1,10 +1,9 @@
 package com.assignstudent.etalon.entities;
 
 import javax.persistence.*;
-import java.util.Collection;
 
 @Entity
-@Table(name = "student", schema = "assignstudent")
+@Table(name = "student", schema = "assignstudent", catalog = "")
 public class StudentEntity {
     private int id;
     private String firstName;
@@ -13,12 +12,9 @@ public class StudentEntity {
     private Integer specialtyId;
     private Integer score;
     private int status;
-    private Collection<AssignrequestEntity> assignrequestsById;
-    private FacultyEntity facultyByFacultyId;
-    private SpecialtyEntity specialtyBySpecialtyId;
 
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -28,7 +24,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "firstName", nullable = false, length = 45)
+    @Column(name = "firstName")
     public String getFirstName() {
         return firstName;
     }
@@ -38,7 +34,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "lastName", nullable = false, length = 45)
+    @Column(name = "lastName")
     public String getLastName() {
         return lastName;
     }
@@ -48,7 +44,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "facultyId", nullable = true)
+    @Column(name = "facultyId")
     public Integer getFacultyId() {
         return facultyId;
     }
@@ -58,7 +54,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "specialtyId", nullable = true)
+    @Column(name = "specialtyId")
     public Integer getSpecialtyId() {
         return specialtyId;
     }
@@ -68,7 +64,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "score", nullable = true)
+    @Column(name = "score")
     public Integer getScore() {
         return score;
     }
@@ -78,7 +74,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "status", nullable = false)
+    @Column(name = "status")
     public int getStatus() {
         return status;
     }
@@ -115,34 +111,5 @@ public class StudentEntity {
         result = 31 * result + (score != null ? score.hashCode() : 0);
         result = 31 * result + status;
         return result;
-    }
-
-    @OneToMany(mappedBy = "studentByStudentId")
-    public Collection<AssignrequestEntity> getAssignrequestsById() {
-        return assignrequestsById;
-    }
-
-    public void setAssignrequestsById(Collection<AssignrequestEntity> assignrequestsById) {
-        this.assignrequestsById = assignrequestsById;
-    }
-
-    @ManyToOne
-    @JoinColumn(name = "facultyId", referencedColumnName = "id")
-    public FacultyEntity getFacultyByFacultyId() {
-        return facultyByFacultyId;
-    }
-
-    public void setFacultyByFacultyId(FacultyEntity facultyByFacultyId) {
-        this.facultyByFacultyId = facultyByFacultyId;
-    }
-
-    @ManyToOne
-    @JoinColumn(name = "specialtyId", referencedColumnName = "id")
-    public SpecialtyEntity getSpecialtyBySpecialtyId() {
-        return specialtyBySpecialtyId;
-    }
-
-    public void setSpecialtyBySpecialtyId(SpecialtyEntity specialtyBySpecialtyId) {
-        this.specialtyBySpecialtyId = specialtyBySpecialtyId;
     }
 }

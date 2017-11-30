@@ -10,17 +10,19 @@
 <head>
     <title>System student panel</title>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/docs.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.widgets.js"></script>
-
-
     <style>
         .tablesorter-pager .btn-group-sm .btn {
             font-size: 1.2em;
         }
     </style>
     <script id="js" type="text/javascript">
+
         var $ = jQuery;
         $(document).ready(function ($) {
 

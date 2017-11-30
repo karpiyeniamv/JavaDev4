@@ -1,12 +1,10 @@
 package com.assignstudent.etalon.converters;
 
-import com.assignstudent.etalon.beans.FacultyViewModel;
-import com.assignstudent.etalon.beans.SpecialtyViewModel;
+import com.assignstudent.etalon.beans.StudentViewModel;
+import com.assignstudent.etalon.entities.StudentEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.converter.Converter;
-import com.assignstudent.etalon.entities.StudentEntity;
-import com.assignstudent.etalon.beans.StudentViewModel;
 
 
 public class StudentEntityToStudentViewModelConverter implements Converter<StudentEntity, StudentViewModel> {
@@ -21,8 +19,8 @@ public class StudentEntityToStudentViewModelConverter implements Converter<Stude
         studentViewModel.setLastName(studentEntity.getLastName());
         studentViewModel.setScore(studentEntity.getScore());
         studentViewModel.setStatus(studentEntity.getStatus());
-        studentViewModel.setFacultyByFacultyId(conversionService.convert(studentEntity.getFacultyByFacultyId(), FacultyViewModel.class));
+        /*studentViewModel.setFacultyByFacultyId(conversionService.convert(studentEntity.getFacultyByFacultyId(), FacultyViewModel.class));
         studentViewModel.setSpecialtyBySpecialtyId(conversionService.convert(studentEntity.getSpecialtyBySpecialtyId(), SpecialtyViewModel.class));
-        return studentViewModel;
+        */return studentViewModel;
     }
 }

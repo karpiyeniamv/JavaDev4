@@ -12,6 +12,7 @@
     <mvc:annotation-driven />
 
     <!--<context:component-scan base-package="com.assignstudent.etalon" />-->
+    <import resource="classpath:backend-spring-context.xml"/>
 
     <context:component-scan base-package="com.assignstudent.etalon">
         <context:include-filter type="annotation"
@@ -24,7 +25,7 @@
 
 
 
-    <!--<bean id="facultyRepository" class="com.assignstudent.etalon.repository.FacultyRepository"/>-->
+    <!--<bean id="facultyRepository" class="com.assignstudent.repository.FacultyRepository"/>-->
     <bean name="/createFacultyModal" class="com.assignstudent.etalon.controllers.FacultyController"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -26,6 +26,15 @@
 //        });
     </script>
 </head>
+<script>
+    var $inputFaculty = $('.jsFacultyValue'),
+        $btnSaveFaculty = $('.jsSaveFaculty');
+
+    $btnSaveFaculty.click(function ($event) {
+       alert($inputFaculty.val());
+    });
+
+</script>
 <body>
 <!-- Modal -->
 <div class="modal fade" id="createFacultyModal" role="dialog">
@@ -41,13 +50,13 @@
                 <form>
                     <div class="form-group">
                         <label for="nameOfFaculty">Name of faculty</label>
-                        <input type="text" class="form-control" id="nameOfFaculty">
+                        <input type="text" class="form-control jsFacultyValue" id="nameOfFaculty">
                     </div>
                 </form>
             </div>
 
             <div class="modal-footer" align="left">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Create</button>
+                <button type="button" class="btn btn-primary jsSaveFaculty" data-dismiss="modal">Create</button>
             </div>
         </div>
     </div>
