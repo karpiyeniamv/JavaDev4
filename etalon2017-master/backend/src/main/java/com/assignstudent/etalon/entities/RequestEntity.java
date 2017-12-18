@@ -2,6 +2,7 @@ package com.assignstudent.etalon.entities;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.Collection;
 
 @Entity
 @Table(name = "request", schema = "assignstudent", catalog = "")
@@ -14,9 +15,13 @@ public class RequestEntity {
     private Integer facultyId;
     private Integer specialtyId;
     private Integer score;
+    private Collection<AssignrequestEntity> assignrequestsById;
+    private CompanyEntity companyByCompanyId;
+    private FacultyEntity facultyByFacultyId;
+    private SpecialtyEntity specialtyBySpecialtyId;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -26,7 +31,7 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "companyId")
+    @Column(name = "companyId", nullable = false)
     public int getCompanyId() {
         return companyId;
     }
@@ -36,7 +41,7 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "dateFrom")
+    @Column(name = "dateFrom", nullable = false)
     public Date getDateFrom() {
         return dateFrom;
     }
@@ -46,7 +51,7 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "dateTo")
+    @Column(name = "dateTo", nullable = false)
     public Date getDateTo() {
         return dateTo;
     }
@@ -56,7 +61,7 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "quantity")
+    @Column(name = "quantity", nullable = false)
     public int getQuantity() {
         return quantity;
     }
@@ -66,7 +71,7 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "facultyId")
+    @Column(name = "facultyId", nullable = true)
     public Integer getFacultyId() {
         return facultyId;
     }
@@ -76,7 +81,7 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "specialtyId")
+    @Column(name = "specialtyId", nullable = true)
     public Integer getSpecialtyId() {
         return specialtyId;
     }
@@ -86,7 +91,7 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "score")
+    @Column(name = "score", nullable = true)
     public Integer getScore() {
         return score;
     }
@@ -125,5 +130,44 @@ public class RequestEntity {
         result = 31 * result + (specialtyId != null ? specialtyId.hashCode() : 0);
         result = 31 * result + (score != null ? score.hashCode() : 0);
         return result;
+    }
+
+    @OneToMany(mappedBy = "requestByRequestId")
+    public Collection<AssignrequestEntity> getAssignrequestsById() {
+        return assignrequestsById;
+    }
+
+    public void setAssignrequestsById(Collection<AssignrequestEntity> assignrequestsById) {
+        this.assignrequestsById = assignrequestsById;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "companyId", referencedColumnName = "id", nullable = false,insertable=false, updatable=false)
+    public CompanyEntity getCompanyByCompanyId() {
+        return companyByCompanyId;
+    }
+
+    public void setCompanyByCompanyId(CompanyEntity companyByCompanyId) {
+        this.companyByCompanyId = companyByCompanyId;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "facultyId", referencedColumnName = "id",insertable=false, updatable=false)
+    public FacultyEntity getFacultyByFacultyId() {
+        return facultyByFacultyId;
+    }
+
+    public void setFacultyByFacultyId(FacultyEntity facultyByFacultyId) {
+        this.facultyByFacultyId = facultyByFacultyId;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "specialtyId", referencedColumnName = "id",insertable=false, updatable=false)
+    public SpecialtyEntity getSpecialtyBySpecialtyId() {
+        return specialtyBySpecialtyId;
+    }
+
+    public void setSpecialtyBySpecialtyId(SpecialtyEntity specialtyBySpecialtyId) {
+        this.specialtyBySpecialtyId = specialtyBySpecialtyId;
     }
 }

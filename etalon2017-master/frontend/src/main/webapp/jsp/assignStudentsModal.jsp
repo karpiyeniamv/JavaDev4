@@ -25,7 +25,7 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group" style="display: inline-block">
-                        <label for="demands">Search demands</label>
+                        <label for="demands">Search requests</label>
                         <input type="text" class="form-control" id="demands" value="Company name" >
                         <button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 40%">search</button>
                     </div>

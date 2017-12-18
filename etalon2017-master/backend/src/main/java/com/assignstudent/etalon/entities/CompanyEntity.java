@@ -1,15 +1,17 @@
 package com.assignstudent.etalon.entities;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 @Table(name = "company", schema = "assignstudent", catalog = "")
 public class CompanyEntity {
     private int id;
     private String companyName;
+    private Collection<RequestEntity> requestsById;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -19,7 +21,7 @@ public class CompanyEntity {
     }
 
     @Basic
-    @Column(name = "companyName")
+    @Column(name = "companyName", nullable = false, length = 45)
     public String getCompanyName() {
         return companyName;
     }
@@ -46,5 +48,14 @@ public class CompanyEntity {
         int result = id;
         result = 31 * result + (companyName != null ? companyName.hashCode() : 0);
         return result;
+    }
+
+    @OneToMany(mappedBy = "companyByCompanyId")
+    public Collection<RequestEntity> getRequestsById() {
+        return requestsById;
+    }
+
+    public void setRequestsById(Collection<RequestEntity> requestsById) {
+        this.requestsById = requestsById;
     }
 }

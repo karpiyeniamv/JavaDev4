@@ -1,6 +1,7 @@
 package com.assignstudent.etalon.entities;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 @Table(name = "student", schema = "assignstudent", catalog = "")
@@ -11,10 +12,15 @@ public class StudentEntity {
     private Integer facultyId;
     private Integer specialtyId;
     private Integer score;
+    private Integer isBudget;
+    private Integer group;
     private int status;
+    private Collection<AssignrequestEntity> assignrequestsById;
+    private FacultyEntity facultyByFacultyId;
+    private SpecialtyEntity specialtyBySpecialtyId;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -24,7 +30,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "firstName")
+    @Column(name = "firstName", nullable = false, length = 45)
     public String getFirstName() {
         return firstName;
     }
@@ -34,7 +40,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "lastName")
+    @Column(name = "lastName", nullable = false, length = 45)
     public String getLastName() {
         return lastName;
     }
@@ -44,7 +50,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "facultyId")
+    @Column(name = "facultyId", nullable = true)
     public Integer getFacultyId() {
         return facultyId;
     }
@@ -54,7 +60,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "specialtyId")
+    @Column(name = "specialtyId", nullable = true)
     public Integer getSpecialtyId() {
         return specialtyId;
     }
@@ -64,7 +70,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "score")
+    @Column(name = "score", nullable = true)
     public Integer getScore() {
         return score;
     }
@@ -74,7 +80,27 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "status")
+    @Column(name = "isBudget", nullable = true)
+    public Integer getIsBudget() {
+        return isBudget;
+    }
+
+    public void setIsBudget(Integer isBudget) {
+        this.isBudget = isBudget;
+    }
+
+    @Basic
+    @Column(name = "group", nullable = true)
+    public Integer getGroup() {
+        return group;
+    }
+
+    public void setGroup(Integer group) {
+        this.group = group;
+    }
+
+    @Basic
+    @Column(name = "status", nullable = false)
     public int getStatus() {
         return status;
     }
@@ -97,6 +123,8 @@ public class StudentEntity {
         if (facultyId != null ? !facultyId.equals(that.facultyId) : that.facultyId != null) return false;
         if (specialtyId != null ? !specialtyId.equals(that.specialtyId) : that.specialtyId != null) return false;
         if (score != null ? !score.equals(that.score) : that.score != null) return false;
+        if (isBudget != null ? !isBudget.equals(that.isBudget) : that.isBudget != null) return false;
+        if (group != null ? !group.equals(that.group) : that.group != null) return false;
 
         return true;
     }
@@ -109,7 +137,38 @@ public class StudentEntity {
         result = 31 * result + (facultyId != null ? facultyId.hashCode() : 0);
         result = 31 * result + (specialtyId != null ? specialtyId.hashCode() : 0);
         result = 31 * result + (score != null ? score.hashCode() : 0);
+        result = 31 * result + (isBudget != null ? isBudget.hashCode() : 0);
+        result = 31 * result + (group != null ? group.hashCode() : 0);
         result = 31 * result + status;
         return result;
+    }
+
+    @OneToMany(mappedBy = "studentByStudentId")
+    public Collection<AssignrequestEntity> getAssignrequestsById() {
+        return assignrequestsById;
+    }
+
+    public void setAssignrequestsById(Collection<AssignrequestEntity> assignrequestsById) {
+        this.assignrequestsById = assignrequestsById;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "facultyId", referencedColumnName = "id",insertable=false, updatable=false)
+    public FacultyEntity getFacultyByFacultyId() {
+        return facultyByFacultyId;
+    }
+
+    public void setFacultyByFacultyId(FacultyEntity facultyByFacultyId) {
+        this.facultyByFacultyId = facultyByFacultyId;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "specialtyId", referencedColumnName = "id",insertable=false, updatable=false)
+    public SpecialtyEntity getSpecialtyBySpecialtyId() {
+        return specialtyBySpecialtyId;
+    }
+
+    public void setSpecialtyBySpecialtyId(SpecialtyEntity specialtyBySpecialtyId) {
+        this.specialtyBySpecialtyId = specialtyBySpecialtyId;
     }
 }

@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: KarpiyeniaM
@@ -9,26 +10,31 @@
 <html>
 <head>
     <title>System student panel</title>
-    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.widgets.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/parser-input-select.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/docs.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.widgets.js"></script>
+
+
     <style>
         .tablesorter-pager .btn-group-sm .btn {
             font-size: 1.2em;
         }
     </style>
     <script id="js" type="text/javascript">
-
         var $ = jQuery;
         $(document).ready(function ($) {
 
             $("table").tablesorter({
                 theme: "bootstrap",
-
+                headers: {
+                    0: { sorter: 'checkbox' }
+                },
                 widthFixed: true,
 
                 // widget code contained in the jquery.tablesorter.widgets.js file
@@ -36,9 +42,14 @@
                 // the uitheme widget is NOT REQUIRED!
                 widgets: ["filter", "columns", "zebra"],
 
+
                 widgetOptions: {
                     // using the default zebra striping class name, so it actually isn't included in the theme variable above
                     // this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
+
+
+
+
                     zebra: ["even", "odd"],
 
                     // class names added to columns when sorted
@@ -107,6 +118,8 @@
             });
         });
     </script>
+
+
 </head>
 <body>
 <jsp:include page="/jsp/blocks/header.jsp"/>
@@ -118,7 +131,7 @@
 </div>
 
 <div align="center">
-    <button type="button" class="btn btn-primary" onclick="window.location='requestsView.jsp'">Show all requests
+    <button type="button" class="btn btn-primary" onclick="window.location='/request/showAll'">Show all requests
     </button>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addRequestModal">Add request
@@ -138,17 +151,16 @@
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createFacultyModal">Create faculty
     </button>
 </div>
-
-
-
 <br>
 
+
+<form action="/students/showAll" method="get">
+
 <table id="table-lizing-traktor" class="display" width="100%" cellspacing="0">
-
-
     <thead>
     <tr>
-        <td class="sorter-false filter-false"><input  type="checkbox" />&nbsp;</td>
+        <%--class="sorter-false filter-false checkall"--%>
+        <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
         <td>First Name</td>
         <td>Last Name</td>
         <td>Faculty</td>
@@ -186,15 +198,50 @@
         </th>
     </tr>
     </tfoot>
-    <script>
-    tbodyTableStudents()
-</script>
+
+
+
+    <c:forEach items="${students}" var="student">
+        <tr>
+            <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
+            <td>${student.firstName}</td>
+            <td>${student.lastName}</td>
+            <td>${student.facultyByFacultyId.facultyName}</td>
+            <td>${student.specialtyBySpecialtyId.specialtyName}</td>
+            <td>${student.group}</td>
+            <td>${student.isBudget}</td>
+            <td>${student.score}</td>
+            <td>${student.status}</td>
+
+            <td>Name of Company</td>
+            <td>Practice period</td>
+
+            <td class="sorter-false filter-false"><input type="button" class="btn btn-primary" value="Show" onclick="window.location='/students/show/${student.id}'"/></td>
+        </tr>
+    </c:forEach>
+
+
+
+    <%--<script>--%>
+    <%--tbodyTableStudents()--%>
+<%--</script>--%>
+
+
+
+
 </table>
+
+
+
+</form>
 
 <jsp:include page="/jsp/addRequestModal.jsp"/>
 <jsp:include page="/jsp/createStudentModal.jsp"/>
 <jsp:include page="/jsp/assignStudentsModal.jsp"/>
-<jsp:include page="/jsp/createSpecialtyModal.jsp"/>
+<%--<jsp:include page="/jsp/createSpecialtyModal.jsp"/>--%>
+<%--<jsp:include page="/faculty/createSpecialtyModal"/>--%>
+
+<jsp:include page="${request.contextPath}/faculty/createSpecialtyModal"/>
 <jsp:include page="/jsp/createFacultyModal.jsp"/>
 
 

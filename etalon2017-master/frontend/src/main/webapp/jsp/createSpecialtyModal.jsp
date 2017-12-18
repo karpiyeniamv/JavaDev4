@@ -29,57 +29,32 @@
 
 
             <div class="modal-body">
-                <form>
-                    <div class="form-group">
+
+                <form action="/faculty/createSpecialtyModal" method="get">
+                    <div class="form-group" >
                         <label for="nameOfSpecialty">Name of specialty</label>
-                        <input type="text" class="form-control" id="nameOfSpecialty">
+                        <input type="text" class="form-control jsSpecialtyName" id="nameOfSpecialty">
+
+                    <%--<c:if test="${not empty faculties}">--%>
+                        <%--<c:forEach items="${faculties}" var="faculty">--%>
+                            <%--${faculty.facultyName} | ${faculty.id} <br>--%>
+                        <%--</c:forEach>--%>
+                    <%--</c:if>--%>
+                        <br>
+                        <label for="loc">Choose a faculty</label>
+                        <select multiple size="2" class="form-control" id ="loc" name ="loc">
+                            <c:forEach items="${faculties}" var="faculty">
+                                <option value = "${faculty.facultyName}">${faculty.facultyName}</option>
+                            </c:forEach>
+                        </select>
+                        <input type="hidden" value="${faculty.id}"class="jsFacultyId"/>
+
+
                     </div>
-
-                    <form action="/faculty/createSpecialtyModal" method="get">
-                    <%--<input type="submit" value="createSpecialtyModal">--%>
-                    <c:if test="${not empty faculties}">
-                        <c:forEach items="${faculties}" var="faculty">
-                            ${faculty.facultyName} | ${faculty.id} <br>
-                        </c:forEach>
-                    </c:if>
-                    </form>
-
-                <%--<div class="form-group">--%>
-                        <%--<label for="facultyViewModelList">Available faculties</label>--%>
-                        <%--<select id="facultyViewModelList">--%>
-                            <%--<c:forEach items="${facultyViewModelList}" var="facultyViewModel">--%>
-                                <%--<option name="faculty" value="${facultyViewModel.id}">${facultyViewModel.getFacultyName}</option>--%>
-                            <%--</c:forEach>--%>
-                        <%--</select>--%>
-                    <%--</div>--%>
                 </form>
             </div>
-
-        <!-- Request One -->
-
-        <!-- Request Two -->
-        <%--<form action="/two" method="post">--%>
-            <%--<input type="submit" value="Two">--%>
-        <%--</form>--%>
-
-        <%--<!-- Request Three -->--%>
-        <%--<form action="/three" method="get">--%>
-            <%--<input type="submit" value="Three">--%>
-        <%--</form>--%>
-
-        <%--<!-- Request Four -->--%>
-        <%--<form action="/four" method="post">--%>
-            <%--<input type="submit" value="Four">--%>
-        <%--</form>--%>
-
-        <%--<!-- Request Five -->--%>
-        <%--<form action="/five" method="post" >--%>
-            <%--<input type="submit" value="Five">--%>
-        <%--</form>--%>
-
-
         <div class="modal-footer" align="left">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Create</button>
+                <button type="button" class="btn btn-primary jsCreateSpecialty" data-dismiss="modal">Create</button>
             </div>
         </div>
     </div>

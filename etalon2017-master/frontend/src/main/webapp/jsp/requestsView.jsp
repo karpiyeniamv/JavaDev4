@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: KarpiyeniaM
@@ -9,21 +10,28 @@
 <html>
 <head>
     <title>System demands panel</title>
-    <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.widgets.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/parser-input-select.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/docs.js"></script>
     <style>
         .tablesorter-pager .btn-group-sm .btn {
             font-size: 1.2em;
         }
     </style>
-    <script id="js">
+    <script id="js" type="text/javascript">
         var $ = jQuery;
-        $(document).ready(function () {
+        $(document).ready(function ($) {
 
             $("table").tablesorter({
                 theme: "bootstrap",
-
+                headers: {
+                    0: { sorter: 'checkbox' }
+                },
                 widthFixed: true,
 
                 // widget code contained in the jquery.tablesorter.widgets.js file
@@ -79,7 +87,7 @@
         $(document).ready(function () {
 
             // filter button demo code
-            $('button.filter').click(function () {
+            $('button.filter').click(function ($) {
                 var col = $(this).data('column'),
                     txt = $(this).data('filter');
                 $('table').find('.tablesorter-filter').val('').eq(col).val(txt);
@@ -113,14 +121,12 @@
 </div>
 
 <br>
-
+<form action="/request/showAll" method="get">
 
 <table id="table-lizing-traktor" class="display" width="100%" cellspacing="0">
-
-
     <thead>
     <tr>
-        <td class="sorter-false filter-false"><input type="checkbox" />&nbsp;</td>
+        <td class="filter-false"><input  type="checkbox" /></td>
         <td>Company name</td>
         <td>Date from</td>
         <td>Date to</td>
@@ -156,12 +162,27 @@
         </th>
     </tr>
     </tfoot>
-    <script>
-        tbodeTableRequests()
-    </script>
+    <c:forEach items="${requests}" var="request">
+        <%--<option value = "${faculty.facultyName}">${faculty.facultyName}</option>--%>
+        <tr>
+            <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
+            <td>${request.companyByCompanyId.companyName}</td>
+            <td>${request.dateFrom}</td>
+            <td>${request.dateTo}</td>
+            <td>Status</td>
+            <td>${request.facultyByFacultyId.facultyName}</td>
+            <td>${request.specialtyBySpecialtyId.specialtyName}</td>
+            <td>${request.score}</td>
+            <td>${request.quantity}</td>
+            <td>available quantity</td>
+
+        </tr>
+    </c:forEach>
+    <%--<script>--%>
+        <%--tbodeTableRequests()--%>
+    <%--</script>--%>
 </table>
-
-
+</form>
 <br>
 <br>
 

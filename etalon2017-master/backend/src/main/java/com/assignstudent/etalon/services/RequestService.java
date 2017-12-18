@@ -5,5 +5,5 @@ import com.assignstudent.etalon.entities.RequestEntity;
 import java.util.List;
 
 public interface RequestService {
-    List<RequestEntity> getRequests();
+    List<RequestEntity> getAllRequests();
 }

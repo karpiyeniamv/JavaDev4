@@ -8,9 +8,11 @@ public class AssignrequestEntity {
     private int id;
     private int requestId;
     private int studentId;
+    private RequestEntity requestByRequestId;
+    private StudentEntity studentByStudentId;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -20,7 +22,7 @@ public class AssignrequestEntity {
     }
 
     @Basic
-    @Column(name = "requestId")
+    @Column(name = "requestId", nullable = false)
     public int getRequestId() {
         return requestId;
     }
@@ -30,7 +32,7 @@ public class AssignrequestEntity {
     }
 
     @Basic
-    @Column(name = "studentId")
+    @Column(name = "studentId", nullable = false)
     public int getStudentId() {
         return studentId;
     }
@@ -59,5 +61,25 @@ public class AssignrequestEntity {
         result = 31 * result + requestId;
         result = 31 * result + studentId;
         return result;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "requestId", referencedColumnName = "id", nullable = false,insertable=false, updatable=false)
+    public RequestEntity getRequestByRequestId() {
+        return requestByRequestId;
+    }
+
+    public void setRequestByRequestId(RequestEntity requestByRequestId) {
+        this.requestByRequestId = requestByRequestId;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "studentId", referencedColumnName = "id", nullable = false,insertable=false, updatable=false)
+    public StudentEntity getStudentByStudentId() {
+        return studentByStudentId;
+    }
+
+    public void setStudentByStudentId(StudentEntity studentByStudentId) {
+        this.studentByStudentId = studentByStudentId;
     }
 }

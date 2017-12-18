@@ -1,14 +1,19 @@
 package com.assignstudent.etalon.controllers;
 
+import com.assignstudent.etalon.beans.FacultyViewModel;
 import com.assignstudent.etalon.entities.FacultyEntity;
 import com.assignstudent.etalon.services.FacultyService;
 import com.assignstudent.repository.FacultyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -18,6 +23,9 @@ public class FacultyController {
 
     @Autowired
     FacultyService facultyService;
+
+    @Autowired
+    private ConversionService conversionService;
 
 
     private FacultyRepository facultyRepository;
@@ -32,13 +40,24 @@ public class FacultyController {
         return facultyViewModel;
     }
 
+    @RequestMapping(value = "/create",produces = "application/json", method = RequestMethod.POST)
+    public @ResponseBody FacultyEntity createFaculty(@RequestBody FacultyViewModel facultyViewModel) {
+        FacultyEntity facultyEntity=new FacultyEntity();
+        facultyEntity.setFacultyName(facultyViewModel.getFacultyName());
+        List<FacultyEntity> facultyEntities = new ArrayList<>();
+        facultyEntities.add(facultyEntity);
+        facultyService.addFaculty(facultyEntities);
+        return facultyEntity;
+    }
+
+
 
     @RequestMapping(value = "/createSpecialtyModal", method = RequestMethod.GET)
     public ModelAndView printAllFaculties(){
         ModelAndView facultyViewModel=new ModelAndView();
        List<FacultyEntity> facultyEntityList= facultyService.getAllFaculties();
        facultyViewModel.addObject("faculties", facultyEntityList);
-       facultyViewModel.setViewName("createSpecialtyModals");
+       facultyViewModel.setViewName("createSpecialtyModal");
        return facultyViewModel;
     }
 

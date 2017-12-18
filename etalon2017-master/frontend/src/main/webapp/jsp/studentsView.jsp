@@ -24,13 +24,36 @@
 
 <br>
 <br>
-
+<form action="/students/show/${student.id}" method="get">
 <table border="0" class="table" id="table-lizing-traktor">
 
-    <script>
-       studentsView();
-    </script>
+
+    <tr>
+        <td>First Name</td> <td>${student.firstName}</td>
+        <td>Last Name</td> <td>${student.lastName}</td>
+    </tr>
+    <tr>
+        <td>Faculty</td><td>${student.facultyByFacultyId.facultyName}</td>
+        <td>Specialty</td><td>${student.specialtyBySpecialtyId.specialtyName}</td>
+    </tr>
+    <tr>
+        <td>Group</td><td>${student.group}</td>
+        <td>Is Budget</td><td>${student.isBudget}</td>
+    </tr>
+    <tr>
+        <td>Practice date from</td><td></td>
+        <td>Practice date to</td><td></td>
+    </tr>
+    <tr>
+        <td>Average score</td><td>${student.score}</td>
+        <td>Comments</td>
+    </tr>
+
+    <%--<script>--%>
+       <%--studentsView();--%>
+    <%--</script>--%>
 </table>
+</form>
 
 <jsp:include page="/jsp/assignStudentsModal.jsp"/>
 <jsp:include page="/jsp/releaseStudentModal.jsp"/>

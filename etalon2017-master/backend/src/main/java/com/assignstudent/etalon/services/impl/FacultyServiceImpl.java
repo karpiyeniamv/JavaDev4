@@ -13,14 +13,6 @@ import java.util.List;
 @Service
 public class FacultyServiceImpl implements FacultyService {
 
-//    @Autowired
-//    @Qualifier ("facultyDao")
-//    private FacultyDao facultyDao;
-//
-//    public FacultyDao getFacultyDao() {return facultyDao;}
-
-
-
     @Autowired
    private FacultyRepository facultyRepository;
 
@@ -28,6 +20,15 @@ public class FacultyServiceImpl implements FacultyService {
     public List<FacultyEntity> getAllFaculties() {
         return  (List<FacultyEntity>) facultyRepository.findAll();
                 //  getFacultyDao().getAll();
+    }
+
+    public void addFaculty(List<FacultyEntity> facultyEntities) {
+        facultyRepository.save(facultyEntities);
+    }
+
+    @Override
+    public FacultyEntity findById(int id) {
+        return facultyRepository.findOne(id);
     }
 
     @Override

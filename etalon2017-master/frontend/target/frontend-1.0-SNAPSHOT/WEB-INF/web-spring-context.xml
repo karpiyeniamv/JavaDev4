@@ -26,7 +26,10 @@
 
 
     <!--<bean id="facultyRepository" class="com.assignstudent.repository.FacultyRepository"/>-->
-    <bean name="/createFacultyModal" class="com.assignstudent.etalon.controllers.FacultyController"/>
+    <bean  class="com.assignstudent.etalon.controllers.FacultyController"/>
+    <bean  class="com.assignstudent.etalon.controllers.StudentController"/>
+    <bean  class="com.assignstudent.etalon.controllers.RequestController"/>
+
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/jsp/"/>

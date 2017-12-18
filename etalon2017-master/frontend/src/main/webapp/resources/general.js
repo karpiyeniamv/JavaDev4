@@ -40,7 +40,7 @@ function tbodyTableStudents() {
     var items = ['firstName', 'lastName', 'faculty', 'specialty', 'group', 'isBudget', 'averageScore', 'status', 'nameOfCompany', 'practicePeriod'];
     for (var i = 0; i < countStudents; i++) {
         var tr = document.createElement('tr');
-        tr.innerHTML = '<td><input type="checkbox" />&nbsp;</td>';
+        tr.innerHTML = '<td><input type="checkbox" /></td>';
         for (var j = 0; j < 10; j++) {
             var td = document.createElement('td');
             var item = students[i][items[j]];

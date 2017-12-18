@@ -60,7 +60,8 @@
                             <%--<a id="btn-fblogin" href="#" class="btn btn-primary"--%>
                                <%--onclick="window.location='systemStudentPanelView.jsp'">Login</a>--%>
 
-                                <a id="btn-fblogin" href="/faculty/listFaculties" class="btn btn-primary">Login</a>
+                                <a id="btn-fblogin" href="/students/showAll" class="btn btn-primary" style="margin-right: 10px">Login</a>
+                                <%--<a id="btn-fblogin" href="/faculty/createSpecialtyModal" class="btn btn-primary">Registration</a>--%>
                         </div>
                     </div>
                 </form>
