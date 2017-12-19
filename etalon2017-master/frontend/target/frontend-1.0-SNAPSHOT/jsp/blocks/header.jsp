@@ -9,8 +9,8 @@
 <link rel="shortcut icon" href="">
 
 <script src="${pageContext.request.contextPath}/resources/js/libs/popper.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
 
 

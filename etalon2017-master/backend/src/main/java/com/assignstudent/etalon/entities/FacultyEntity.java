@@ -8,9 +8,6 @@ import java.util.Collection;
 public class FacultyEntity {
     private int id;
     private String facultyName;
-    private Collection<RequestEntity> requestsById;
-    private Collection<SpecialtyEntity> specialtiesById;
-    private Collection<StudentEntity> studentsById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -52,30 +49,4 @@ public class FacultyEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "facultyByFacultyId")
-    public Collection<RequestEntity> getRequestsById() {
-        return requestsById;
-    }
-
-    public void setRequestsById(Collection<RequestEntity> requestsById) {
-        this.requestsById = requestsById;
-    }
-
-    @OneToMany(mappedBy = "facultyByFacultyId")
-    public Collection<SpecialtyEntity> getSpecialtiesById() {
-        return specialtiesById;
-    }
-
-    public void setSpecialtiesById(Collection<SpecialtyEntity> specialtiesById) {
-        this.specialtiesById = specialtiesById;
-    }
-
-    @OneToMany(mappedBy = "facultyByFacultyId")
-    public Collection<StudentEntity> getStudentsById() {
-        return studentsById;
-    }
-
-    public void setStudentsById(Collection<StudentEntity> studentsById) {
-        this.studentsById = studentsById;
-    }
 }

@@ -9,9 +9,7 @@ public class SpecialtyEntity {
     private int id;
     private String specialtyName;
     private int facultyId;
-    private Collection<RequestEntity> requestsById;
     private FacultyEntity facultyByFacultyId;
-    private Collection<StudentEntity> studentsById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -66,14 +64,7 @@ public class SpecialtyEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "specialtyBySpecialtyId")
-    public Collection<RequestEntity> getRequestsById() {
-        return requestsById;
-    }
 
-    public void setRequestsById(Collection<RequestEntity> requestsById) {
-        this.requestsById = requestsById;
-    }
 
     @ManyToOne
     @JoinColumn(name = "facultyId", referencedColumnName = "id", nullable = false,insertable=false, updatable=false)
@@ -83,14 +74,5 @@ public class SpecialtyEntity {
 
     public void setFacultyByFacultyId(FacultyEntity facultyByFacultyId) {
         this.facultyByFacultyId = facultyByFacultyId;
-    }
-
-    @OneToMany(mappedBy = "specialtyBySpecialtyId")
-    public Collection<StudentEntity> getStudentsById() {
-        return studentsById;
-    }
-
-    public void setStudentsById(Collection<StudentEntity> studentsById) {
-        this.studentsById = studentsById;
     }
 }

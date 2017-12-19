@@ -3,7 +3,6 @@ package com.assignstudent.etalon.beans;
 public class SpecialtyViewModel {
     private int id;
     private String specialtyName;
-
     public int getFacultyId() {
         return facultyId;
     }
@@ -13,7 +12,7 @@ public class SpecialtyViewModel {
     }
 
     private int facultyId;
-    private FacultyViewModel facultyByFacultyId;
+    //private FacultyViewModel facultyByFacultyId;
 
     public int getId() {
         return id;
@@ -31,11 +30,11 @@ public class SpecialtyViewModel {
         this.specialtyName = specialtyName;
     }
 
-    public FacultyViewModel getFacultyByFacultyId() {
-        return facultyByFacultyId;
-    }
-
-    public void setFacultyByFacultyId(FacultyViewModel facultyByFacultyId) {
-        this.facultyByFacultyId = facultyByFacultyId;
-    }
+//    public FacultyViewModel getFacultyByFacultyId() {
+//        return facultyByFacultyId;
+//    }
+//
+//    public void setFacultyByFacultyId(FacultyViewModel facultyByFacultyId) {
+//        this.facultyByFacultyId = facultyByFacultyId;
+//    }
 }

@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Controller
 @RequestMapping("/specialty")
 public class SpecialtyController {
@@ -31,13 +34,13 @@ public class SpecialtyController {
     @RequestMapping(value = "/create",produces = "application/json", method = RequestMethod.POST)
     public @ResponseBody SpecialtyEntity createFaculty(@RequestBody SpecialtyViewModel specialtyViewModel) {
         SpecialtyEntity specialtyEntity=new SpecialtyEntity();
-
         specialtyEntity.setSpecialtyName(specialtyViewModel.getSpecialtyName());
         specialtyEntity.setFacultyId(specialtyViewModel.getFacultyId());
         FacultyEntity facultyEntity=facultyService.findById(specialtyViewModel.getFacultyId());
         specialtyEntity.setFacultyByFacultyId(facultyEntity);
-
-        specialtyService.addSpecialty(specialtyEntity);
+        List<SpecialtyEntity> specialtyEntityList=new ArrayList<>();
+        specialtyEntityList.add(specialtyEntity);
+       specialtyService.addSpecialty(specialtyEntityList);
         return specialtyEntity;
     }
 }

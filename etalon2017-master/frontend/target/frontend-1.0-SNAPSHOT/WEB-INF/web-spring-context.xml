@@ -29,6 +29,8 @@
     <bean  class="com.assignstudent.etalon.controllers.FacultyController"/>
     <bean  class="com.assignstudent.etalon.controllers.StudentController"/>
     <bean  class="com.assignstudent.etalon.controllers.RequestController"/>
+    <bean  class="com.assignstudent.etalon.controllers.SpecialtyController"/>
+
 
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -24,4 +24,9 @@ public class StudentServiceImpl implements StudentService{
     public StudentEntity getOneStudent(int id) {
         return studentRepository.findOne(id);
     }
+
+    @Override
+    public void createStudent(StudentEntity studentEntity) {
+        studentRepository.save(studentEntity);
+    }
 }

@@ -19,4 +19,9 @@ public class RequestServiceImpl implements RequestService {
     public List<RequestEntity> getAllRequests() {
         return (List<RequestEntity>) requestRepository.findAll();
     }
+
+    @Override
+    public void createRequest(RequestEntity requestEntity) {
+        requestRepository.save(requestEntity);
+    }
 }

@@ -29,35 +29,24 @@
     <script id="js" type="text/javascript">
         var $ = jQuery;
         $(document).ready(function ($) {
-
             $("table").tablesorter({
                 theme: "bootstrap",
                 headers: {
                     0: { sorter: 'checkbox' }
                 },
                 widthFixed: true,
-
                 // widget code contained in the jquery.tablesorter.widgets.js file
                 // use the zebra stripe widget if you plan on hiding any rows (filter widget)
                 // the uitheme widget is NOT REQUIRED!
                 widgets: ["filter", "columns", "zebra"],
-
-
                 widgetOptions: {
                     // using the default zebra striping class name, so it actually isn't included in the theme variable above
                     // this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
-
-
-
-
                     zebra: ["even", "odd"],
-
                     // class names added to columns when sorted
                     columns: ["primary", "secondary", "tertiary"],
-
                     // reset filters button
                     filter_reset: ".reset",
-
                     // extra css class name (string or array) added to the filter element (input or select)
                     filter_cssFilter: [
                         'form-control',
@@ -68,32 +57,24 @@
                         'form-control',
                         'form-control'
                     ]
-
                 }
             })
                 .tablesorterPager({
-
                     // target the pager markup - see the HTML block below
                     container: $(".ts-pager"),
-
                     // target the pager page select dropdown - choose a page
                     cssGoto: ".pagenum",
-
                     // remove rows from the table to speed up the sort of large tables.
                     // setting this to false, only hides the non-visible rows; needed if you plan to add/remove rows with the pager enabled.
                     removeRows: false,
-
                     // output string - default is '{page}/{totalPages}';
                     // possible variables: {page}, {totalPages}, {filteredPages}, {startRow}, {endRow}, {filteredRows} and {totalRows}
                     output: '{startRow} - {endRow} / {filteredRows} ({totalRows})'
-
                 });
-
         });</script>
 
     <script>
         $(document).ready(function () {
-
             // filter button demo code
             $('button.filter').click(function ($) {
                 var col = $(this).data('column'),
@@ -102,7 +83,6 @@
                 $('table').trigger('search', false);
                 return false;
             });
-
             // toggle zebra widget
             $('button.zebra').click(function () {
                 var t = $(this).hasClass('btn-success');
@@ -156,93 +136,93 @@
 
 <form action="/students/showAll" method="get">
 
-<table id="table-lizing-traktor" class="display" width="100%" cellspacing="0">
-    <thead>
-    <tr>
-        <%--class="sorter-false filter-false checkall"--%>
-        <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
-        <td>First Name</td>
-        <td>Last Name</td>
-        <td>Faculty</td>
-        <td>Specialty</td>
-        <td>Group</td>
-        <td>Is budget</td>
-        <td>Average score</td>
-        <td>Status</td>
-        <td>Name of Company</td>
-        <td>Practice period</td>
-        <td class="sorter-false filter-false">Show info </td>
-    </tr>
-    </thead>
-    <tfoot>
-    <tr>
-        <th colspan="12" class="ts-pager">
-            <div class="form-inline">
-                <div class="btn-group btn-group-sm mx-1" role="group">
-                    <button type="button" class="btn btn-secondary first" title="first">&#8676;</button>
-                    <button type="button" class="btn btn-secondary prev" title="previous">&larr;</button>
-                </div>
-                <span class="pagedisplay"></span>
-                <div class="btn-group btn-group-sm mx-1" role="group">
-                    <button type="button" class="btn btn-secondary next" title="next">&rarr;</button>
-                    <button type="button" class="btn btn-secondary last" title="last">&#8677;</button>
-                </div>
-                <select class="form-control-sm custom-select px-1 pagesize" title="Select page size">
-                    <option selected="selected" value="10">10</option>
-                    <option value="20">20</option>
-                    <option value="30">30</option>
-                    <option value="all">All Rows</option>
-                </select>
-                <select class="form-control-sm custom-select px-4 mx-1 pagenum" title="Select page number"></select>
-            </div>
-        </th>
-    </tr>
-    </tfoot>
-
-
-
-    <c:forEach items="${students}" var="student">
+    <table id="table-lizing-traktor" class="display" width="100%" cellspacing="0">
+        <thead>
         <tr>
+            <%--class="sorter-false filter-false checkall"--%>
             <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
-            <td>${student.firstName}</td>
-            <td>${student.lastName}</td>
-            <td>${student.facultyByFacultyId.facultyName}</td>
-            <td>${student.specialtyBySpecialtyId.specialtyName}</td>
-            <td>${student.group}</td>
-            <td>${student.isBudget}</td>
-            <td>${student.score}</td>
-            <td>${student.status}</td>
-
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Faculty</td>
+            <td>Specialty</td>
+            <td>Group</td>
+            <td>Is budget</td>
+            <td>Average score</td>
+            <td>Status</td>
             <td>Name of Company</td>
             <td>Practice period</td>
-
-            <td class="sorter-false filter-false"><input type="button" class="btn btn-primary" value="Show" onclick="window.location='/students/show/${student.id}'"/></td>
+            <td class="sorter-false filter-false">Show info </td>
         </tr>
-    </c:forEach>
+        </thead>
+        <tfoot>
+        <tr>
+            <th colspan="12" class="ts-pager">
+                <div class="form-inline">
+                    <div class="btn-group btn-group-sm mx-1" role="group">
+                        <button type="button" class="btn btn-secondary first" title="first">&#8676;</button>
+                        <button type="button" class="btn btn-secondary prev" title="previous">&larr;</button>
+                    </div>
+                    <span class="pagedisplay"></span>
+                    <div class="btn-group btn-group-sm mx-1" role="group">
+                        <button type="button" class="btn btn-secondary next" title="next">&rarr;</button>
+                        <button type="button" class="btn btn-secondary last" title="last">&#8677;</button>
+                    </div>
+                    <select class="form-control-sm custom-select px-1 pagesize" title="Select page size">
+                        <option selected="selected" value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="all">All Rows</option>
+                    </select>
+                    <select class="form-control-sm custom-select px-4 mx-1 pagenum" title="Select page number"></select>
+                </div>
+            </th>
+        </tr>
+        </tfoot>
 
 
 
-    <%--<script>--%>
-    <%--tbodyTableStudents()--%>
-<%--</script>--%>
+        <c:forEach items="${students}" var="student">
+            <tr>
+                <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
+                <td>${student.firstName}</td>
+                <td>${student.lastName}</td>
+                <td>${student.facultyByFacultyId.facultyName}</td>
+                <td>${student.specialtyBySpecialtyId.specialtyName}</td>
+                <td>${student.group}</td>
+                <td>${student.isBudget}</td>
+                <td>${student.score}</td>
+                <td>${student.status}</td>
+
+                <td>Name of Company</td>
+                <td>Practice period</td>
+
+                <td class="sorter-false filter-false"><input type="button" class="btn btn-primary" value="Show" onclick="window.location='/students/show/${student.id}'"/></td>
+            </tr>
+        </c:forEach>
+
+
+
+        <%--<script>--%>
+        <%--tbodyTableStudents()--%>
+        <%--</script>--%>
 
 
 
 
-</table>
+    </table>
 
 
 
 </form>
 
-<jsp:include page="/jsp/addRequestModal.jsp"/>
-<jsp:include page="/jsp/createStudentModal.jsp"/>
+<jsp:include page="${request.contextPath}/faculty/addRequestModal"/>
+<jsp:include page="${request.contextPath}/faculty/createStudentModal"/>
 <jsp:include page="/jsp/assignStudentsModal.jsp"/>
 <%--<jsp:include page="/jsp/createSpecialtyModal.jsp"/>--%>
 <%--<jsp:include page="/faculty/createSpecialtyModal"/>--%>
 
 <jsp:include page="${request.contextPath}/faculty/createSpecialtyModal"/>
-<jsp:include page="/jsp/createFacultyModal.jsp"/>
+<jsp:include page="${request.contextPath}/jsp/createFacultyModal.jsp"/>
 
 
 <div align="center">

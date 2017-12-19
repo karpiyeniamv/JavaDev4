@@ -8,9 +8,9 @@ public class RequestViewModel {
     private Date dateTo;
     private int quantity;
     private Integer score;
-    private CompanyViewModel companyByCompanyId;
-    private FacultyViewModel facultyByFacultyId;
-    private SpecialtyViewModel specialtyBySpecialtyId;
+    private int companyByCompanyId;
+    private int facultyByFacultyId;
+    private int specialtyBySpecialtyId;
 
     public int getId() {
         return id;
@@ -52,27 +52,27 @@ public class RequestViewModel {
         this.score = score;
     }
 
-    public CompanyViewModel getCompanyByCompanyId() {
+    public int getCompanyByCompanyId() {
         return companyByCompanyId;
     }
 
-    public void setCompanyByCompanyId(CompanyViewModel companyByCompanyId) {
+    public void setCompanyByCompanyId(int companyByCompanyId) {
         this.companyByCompanyId = companyByCompanyId;
     }
 
-    public FacultyViewModel getFacultyByFacultyId() {
+    public int getFacultyByFacultyId() {
         return facultyByFacultyId;
     }
 
-    public void setFacultyByFacultyId(FacultyViewModel facultyByFacultyId) {
+    public void setFacultyByFacultyId(int facultyByFacultyId) {
         this.facultyByFacultyId = facultyByFacultyId;
     }
 
-    public SpecialtyViewModel getSpecialtyBySpecialtyId() {
+    public int getSpecialtyBySpecialtyId() {
         return specialtyBySpecialtyId;
     }
 
-    public void setSpecialtyBySpecialtyId(SpecialtyViewModel specialtyBySpecialtyId) {
+    public void setSpecialtyBySpecialtyId(int specialtyBySpecialtyId) {
         this.specialtyBySpecialtyId = specialtyBySpecialtyId;
     }
 }

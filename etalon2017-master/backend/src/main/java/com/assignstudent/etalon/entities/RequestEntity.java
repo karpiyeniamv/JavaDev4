@@ -15,7 +15,6 @@ public class RequestEntity {
     private Integer facultyId;
     private Integer specialtyId;
     private Integer score;
-    private Collection<AssignrequestEntity> assignrequestsById;
     private CompanyEntity companyByCompanyId;
     private FacultyEntity facultyByFacultyId;
     private SpecialtyEntity specialtyBySpecialtyId;
@@ -132,14 +131,6 @@ public class RequestEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "requestByRequestId")
-    public Collection<AssignrequestEntity> getAssignrequestsById() {
-        return assignrequestsById;
-    }
-
-    public void setAssignrequestsById(Collection<AssignrequestEntity> assignrequestsById) {
-        this.assignrequestsById = assignrequestsById;
-    }
 
     @ManyToOne
     @JoinColumn(name = "companyId", referencedColumnName = "id", nullable = false,insertable=false, updatable=false)

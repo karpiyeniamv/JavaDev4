@@ -15,7 +15,6 @@ public class StudentEntity {
     private Integer isBudget;
     private Integer group;
     private int status;
-    private Collection<AssignrequestEntity> assignrequestsById;
     private FacultyEntity facultyByFacultyId;
     private SpecialtyEntity specialtyBySpecialtyId;
 
@@ -143,14 +142,6 @@ public class StudentEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "studentByStudentId")
-    public Collection<AssignrequestEntity> getAssignrequestsById() {
-        return assignrequestsById;
-    }
-
-    public void setAssignrequestsById(Collection<AssignrequestEntity> assignrequestsById) {
-        this.assignrequestsById = assignrequestsById;
-    }
 
     @ManyToOne
     @JoinColumn(name = "facultyId", referencedColumnName = "id",insertable=false, updatable=false)

@@ -1,8 +1,14 @@
 package com.assignstudent.etalon.controllers;
 
 import com.assignstudent.etalon.beans.FacultyViewModel;
+import com.assignstudent.etalon.entities.CompanyEntity;
 import com.assignstudent.etalon.entities.FacultyEntity;
+import com.assignstudent.etalon.entities.RequestEntity;
+import com.assignstudent.etalon.entities.SpecialtyEntity;
+import com.assignstudent.etalon.services.CompanyService;
 import com.assignstudent.etalon.services.FacultyService;
+import com.assignstudent.etalon.services.RequestService;
+import com.assignstudent.etalon.services.SpecialtyService;
 import com.assignstudent.repository.FacultyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionService;
@@ -23,6 +29,12 @@ public class FacultyController {
 
     @Autowired
     FacultyService facultyService;
+    @Autowired
+    SpecialtyService specialtyService;
+    @Autowired
+    CompanyService companyService;
+    @Autowired
+    RequestService requestService;
 
     @Autowired
     private ConversionService conversionService;
@@ -59,6 +71,32 @@ public class FacultyController {
        facultyViewModel.addObject("faculties", facultyEntityList);
        facultyViewModel.setViewName("createSpecialtyModal");
        return facultyViewModel;
+    }
+
+    @RequestMapping(value = "/addRequestModal", method = RequestMethod.GET)
+    public ModelAndView printAllCompaniesAndFacultiesAndSpecialties(){
+        ModelAndView requestViewModel=new ModelAndView();
+        List<CompanyEntity> companyEntityList=companyService.getAllCompanies();
+        requestViewModel.addObject("companies",companyEntityList);
+        List<FacultyEntity> facultyEntityList= facultyService.getAllFaculties();
+        requestViewModel.addObject("faculties", facultyEntityList);
+        List<SpecialtyEntity>specialtyEntityList=specialtyService.getAllSpecialties();
+        requestViewModel.addObject("specialties", specialtyEntityList);
+        requestViewModel.setViewName("addRequestModal");
+        return requestViewModel;
+    }
+
+    @RequestMapping(value = "/createStudentModal", method = RequestMethod.GET)
+    public ModelAndView printAllFacultiesAndSpecialtiesAndRequests(){
+        ModelAndView studentViewModel=new ModelAndView();
+        List<RequestEntity> requestEntityList=requestService.getAllRequests();
+        studentViewModel.addObject("requests",requestEntityList);
+        List<FacultyEntity> facultyEntityList= facultyService.getAllFaculties();
+        studentViewModel.addObject("faculties", facultyEntityList);
+        List<SpecialtyEntity>specialtyEntityList=specialtyService.getAllSpecialties();
+        studentViewModel.addObject("specialties", specialtyEntityList);
+        studentViewModel.setViewName("createStudentModal");
+        return studentViewModel;
     }
 
 //    public FacultyController (FacultyRepository facultyRepository){

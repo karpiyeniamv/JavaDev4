@@ -36,7 +36,9 @@ $(document).ready(function () {
             dataType: "json",
             cash: false
         });
+        'systemStudentPanelView.jsp'.reload();
         $closeBtn.click();
+
 
 
     })

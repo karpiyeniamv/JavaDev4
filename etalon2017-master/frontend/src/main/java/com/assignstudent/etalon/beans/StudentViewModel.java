@@ -6,8 +6,27 @@ public class StudentViewModel {
     private String lastName;
     private Integer score;
     private int status;
-    private FacultyViewModel facultyByFacultyId;
-    private SpecialtyViewModel specialtyBySpecialtyId;
+    private Integer isBudget;
+    private Integer group;
+    private Integer facultyByFacultyId;
+    private Integer specialtyBySpecialtyId;
+
+    public Integer getIsBudget() {
+        return isBudget;
+    }
+
+    public void setIsBudget(Integer isBudget) {
+        this.isBudget = isBudget;
+    }
+
+    public Integer getGroup() {
+        return group;
+    }
+
+    public void setGroup(Integer group) {
+        this.group = group;
+    }
+
 
     public int getId() {
         return id;
@@ -49,19 +68,19 @@ public class StudentViewModel {
         this.status = status;
     }
 
-    public FacultyViewModel getFacultyByFacultyId() {
+    public Integer getFacultyByFacultyId() {
         return facultyByFacultyId;
     }
 
-    public void setFacultyByFacultyId(FacultyViewModel facultyByFacultyId) {
+    public void setFacultyByFacultyId(Integer facultyByFacultyId) {
         this.facultyByFacultyId = facultyByFacultyId;
     }
 
-    public SpecialtyViewModel getSpecialtyBySpecialtyId() {
+    public Integer getSpecialtyBySpecialtyId() {
         return specialtyBySpecialtyId;
     }
 
-    public void setSpecialtyBySpecialtyId(SpecialtyViewModel specialtyBySpecialtyId) {
+    public void setSpecialtyBySpecialtyId(Integer specialtyBySpecialtyId) {
         this.specialtyBySpecialtyId = specialtyBySpecialtyId;
     }
 }

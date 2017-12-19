@@ -12,6 +12,7 @@
 
     <title>Title</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/createSpecialtyModal.js"></script>
 
 
 </head>
@@ -41,13 +42,13 @@
                         <%--</c:forEach>--%>
                     <%--</c:if>--%>
                         <br>
-                        <label for="loc">Choose a faculty</label>
-                        <select multiple size="2" class="form-control" id ="loc" name ="loc">
+
+                        <label for="jsFacultyId">Choose a faculty</label>
+                        <select multiple size="2" class="form-control" id ="jsFacultyId" name ="jsFacultyId">
                             <c:forEach items="${faculties}" var="faculty">
-                                <option value = "${faculty.facultyName}">${faculty.facultyName}</option>
+                                <option value = "${faculty.id}">${faculty.facultyName}</option>
                             </c:forEach>
                         </select>
-                        <input type="hidden" value="${faculty.id}"class="jsFacultyId"/>
 
 
                     </div>

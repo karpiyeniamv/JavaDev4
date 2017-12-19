@@ -1,14 +1,12 @@
 package com.assignstudent.etalon.entities;
 
 import javax.persistence.*;
-import java.util.Collection;
 
 @Entity
 @Table(name = "company", schema = "assignstudent", catalog = "")
 public class CompanyEntity {
     private int id;
     private String companyName;
-    private Collection<RequestEntity> requestsById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -50,12 +48,5 @@ public class CompanyEntity {
         return result;
     }
 
-    @OneToMany(mappedBy = "companyByCompanyId")
-    public Collection<RequestEntity> getRequestsById() {
-        return requestsById;
-    }
 
-    public void setRequestsById(Collection<RequestEntity> requestsById) {
-        this.requestsById = requestsById;
-    }
 }
