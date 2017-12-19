@@ -8,5 +8,6 @@ public interface StudentService  {
     List<StudentEntity> getAllStudents ();
     StudentEntity getOneStudent(int id);
     void createStudent(StudentEntity studentEntity);
+    //List<?> getAllStudentsWithOwnQuery();
 }
 

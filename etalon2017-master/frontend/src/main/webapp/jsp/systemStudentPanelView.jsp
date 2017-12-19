@@ -146,8 +146,8 @@
             <td>Faculty</td>
             <td>Specialty</td>
             <td>Group</td>
+                <td>Average score</td>
             <td>Is budget</td>
-            <td>Average score</td>
             <td>Status</td>
             <td>Name of Company</td>
             <td>Practice period</td>
@@ -189,13 +189,54 @@
                 <td>${student.facultyByFacultyId.facultyName}</td>
                 <td>${student.specialtyBySpecialtyId.specialtyName}</td>
                 <td>${student.group}</td>
-                <td>${student.isBudget}</td>
                 <td>${student.score}</td>
-                <td>${student.status}</td>
+                <c:choose>
+                    <c:when test = "${student.isBudget <= 0}">
+                        <td>False</td>
+                    </c:when>
+                    <c:when test = "${student.isBudget > 0}">
+                        <td>True</td>
+                    </c:when>
+                    <c:otherwise>
+                        <td></td>
+                    </c:otherwise>
+                </c:choose>
 
-                <td>Name of Company</td>
-                <td>Practice period</td>
+                <c:choose>
+                    <c:when test = "${student.status == 0 }">
+                        <td>Available</td>
+                    </c:when>
 
+                    <c:when test = "${student.status == 1}">
+                        <td>Waiting</td>
+                    </c:when>
+                    <c:when test = "${student.status == 2}">
+                        <td>OnPractice</td>
+                    </c:when>
+                    <c:otherwise>
+                        <td>Unknown</td>
+                    </c:otherwise>
+                </c:choose>
+
+                <%--<c:forEach items="${assignrequests}" var="assignrequest">--%>
+                    <%--<c:set var="weight" value="10"/>--%>
+                    <%--<c:if test="${student.id}==${assignrequest.studentId}" >--%>
+                        <%--weight=0--%>
+                        <%--<td>${assignrequest.requestByRequestId.companyByCompanyId.companyName}</td>--%>
+                        <%--<td>${assignrequest.requestByRequestId.dateFrom} - ${assignrequest.requestByRequestId.dateTo}</td>--%>
+                    <%--</c:if>--%>
+                    <%--<c:if test="${weight==0}">--%>
+                        <%--<td>Name of Company</td>--%>
+                        <%--<td>Practice period</td>--%>
+                    <%--</c:if>--%>
+                <%--</c:forEach>--%>
+
+
+                <%--<td>${student.requestByRequestId.companyByCompanyId.companyName}</td>--%>
+                <%--<td>${student.requestByRequestId.dataFrom} - ${student.requestByRequestId.dataTo}</td>--%>
+
+                <td></td>
+                <td></td>
                 <td class="sorter-false filter-false"><input type="button" class="btn btn-primary" value="Show" onclick="window.location='/students/show/${student.id}'"/></td>
             </tr>
         </c:forEach>

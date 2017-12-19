@@ -29,4 +29,17 @@ public class StudentServiceImpl implements StudentService{
     public void createStudent(StudentEntity studentEntity) {
         studentRepository.save(studentEntity);
     }
+
+//    public List getStudentAndAssignRequest (){
+//        Session session = HibernateUtil.getSessionFactory().openSession();
+//        String hql = "select * from  student left join assignrequest on student.id=assignrequest.studentId";
+//        List<?> list = session.createQuery(hql).list();
+//        session.close();
+//        return  list;
+//    }
+
+//    public List<?> getAllStudentsWithOwnQuery() {
+//        return studentRepository.FindAllWithAssignRequest();
+//    }
 }
+

@@ -1,14 +1,8 @@
 package com.assignstudent.etalon.controllers;
 
 import com.assignstudent.etalon.beans.StudentViewModel;
-import com.assignstudent.etalon.entities.FacultyEntity;
-import com.assignstudent.etalon.entities.RequestEntity;
-import com.assignstudent.etalon.entities.SpecialtyEntity;
-import com.assignstudent.etalon.entities.StudentEntity;
-import com.assignstudent.etalon.services.FacultyService;
-import com.assignstudent.etalon.services.RequestService;
-import com.assignstudent.etalon.services.SpecialtyService;
-import com.assignstudent.etalon.services.StudentService;
+import com.assignstudent.etalon.entities.*;
+import com.assignstudent.etalon.services.*;
 import com.assignstudent.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionService;
@@ -30,6 +24,8 @@ public class StudentController {
     SpecialtyService specialtyService;
     @Autowired
     RequestService requestService;
+    @Autowired
+    AssignrequestService assignrequestService;
 
     @Autowired
     private ConversionService conversionService;
@@ -41,7 +37,12 @@ public class StudentController {
     public ModelAndView printAllStudents(){
         ModelAndView studentViewModel=new ModelAndView();
         List<StudentEntity> studentEntityList= studentService.getAllStudents();
+        //List<?> studentEntityList= studentService.getAllStudentsWithOwnQuery();
         studentViewModel.addObject("students", studentEntityList);
+//        List<AssignrequestEntity> assignrequestEntityList=assignrequestService.getAllAssignrequests();
+//        studentViewModel.addObject("assignrequests", assignrequestEntityList);
+
+
         studentViewModel.setViewName("systemStudentPanelView");
         return studentViewModel;
     }

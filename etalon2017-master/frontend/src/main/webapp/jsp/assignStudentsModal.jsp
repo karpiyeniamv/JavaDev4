@@ -55,7 +55,7 @@
                 <div>
                     <div class="form-group" style="display: inline-block;width: 43%;  margin-right: 10%">
                         <label for="searchRequest">Search requests</label>
-                        <input type="text" class="form-control" id="searchRequest" value="Company name" >
+                        <input type="text" class="form-control" id="searchRequest" value="" >
                         <%--<button type="button" class="btn btn-primary" data-dismiss="modal" style="width: 40%">search</button>--%>
                     </div>
                     <div class="form-group" style="display: inline-block;width: 43% " >

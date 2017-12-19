@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Transactional
 @Service
 public class AssignrequestServiceImpl implements AssignrequestService {
@@ -16,5 +18,10 @@ public class AssignrequestServiceImpl implements AssignrequestService {
     public void createAssignRequest(AssignrequestEntity assignrequestEntity) {
         assignrequestRepository.save(assignrequestEntity);
 
+    }
+
+    @Override
+    public List<AssignrequestEntity> getAllAssignrequests() {
+        return (List<AssignrequestEntity>) assignrequestRepository.findAll();
     }
 }

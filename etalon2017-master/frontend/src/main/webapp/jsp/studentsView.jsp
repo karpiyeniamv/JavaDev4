@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: KarpiyeniaM
@@ -38,7 +39,18 @@
     </tr>
     <tr>
         <td>Group</td><td>${student.group}</td>
-        <td>Is Budget</td><td>${student.isBudget}</td>
+        <td>Is Budget</td>
+        <c:choose>
+        <c:when test = "${student.isBudget <= 0}">
+            <td>False</td>
+        </c:when>
+        <c:when test = "${student.isBudget > 0}">
+            <td>True</td>
+        </c:when>
+        <c:otherwise>
+            <td></td>
+        </c:otherwise>
+    </c:choose>
     </tr>
     <tr>
         <td>Practice date from</td><td></td>
