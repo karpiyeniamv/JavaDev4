@@ -2,9 +2,11 @@ package com.assignstudent.etalon.controllers;
 
 import com.assignstudent.etalon.beans.StudentViewModel;
 import com.assignstudent.etalon.entities.FacultyEntity;
+import com.assignstudent.etalon.entities.RequestEntity;
 import com.assignstudent.etalon.entities.SpecialtyEntity;
 import com.assignstudent.etalon.entities.StudentEntity;
 import com.assignstudent.etalon.services.FacultyService;
+import com.assignstudent.etalon.services.RequestService;
 import com.assignstudent.etalon.services.SpecialtyService;
 import com.assignstudent.etalon.services.StudentService;
 import com.assignstudent.repository.StudentRepository;
@@ -26,6 +28,8 @@ public class StudentController {
     FacultyService facultyService;
     @Autowired
     SpecialtyService specialtyService;
+    @Autowired
+    RequestService requestService;
 
     @Autowired
     private ConversionService conversionService;
@@ -72,5 +76,16 @@ public class StudentController {
 
         studentService.createStudent(studentEntity);
         return studentEntity;
+    }
+
+    @RequestMapping(value = "/assignStudentsModal", method = RequestMethod.GET)
+    public ModelAndView printAllFacultiesAndSpecialtiesAndRequests(){
+        ModelAndView studentViewModel=new ModelAndView();
+        List<RequestEntity> requestEntityList=requestService.getAllRequests();
+        studentViewModel.addObject("requests",requestEntityList);
+        List<StudentEntity> studentEntityList= studentService.getAllStudents();
+        studentViewModel.addObject("students", studentEntityList);
+        studentViewModel.setViewName("assignStudentsModal");
+        return studentViewModel;
     }
 }

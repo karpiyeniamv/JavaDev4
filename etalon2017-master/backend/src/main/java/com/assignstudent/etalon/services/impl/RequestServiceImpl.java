@@ -24,4 +24,9 @@ public class RequestServiceImpl implements RequestService {
     public void createRequest(RequestEntity requestEntity) {
         requestRepository.save(requestEntity);
     }
+
+    @Override
+    public RequestEntity findById(int id) {
+        return requestRepository.findOne(id);
+    }
 }

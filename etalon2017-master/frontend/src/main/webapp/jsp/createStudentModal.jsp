@@ -60,8 +60,8 @@
 
                 <div>
                     <div class="form-group">
-                        <label for="group">Group</label>
-                        <input type="text" class="form-control group" id="group">
+                        <label for="mgroup">Group</label>
+                        <input type="text" class="form-control mgroup" id="mgroup">
 
                         <label for="jsMIsBudgetId">Is budget?</label>
                         <%--<input type="text" class="form-control isBudget" id="isBudget">--%>
@@ -71,8 +71,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="score">Average score</label>
-                        <input type="number" step="1" class="form-control score" id="score">
+                        <label for="mscore">Average score</label>
+                        <input type="number" step="1" class="form-control mscore" id="mscore">
                     </div>
 
                     <div class="form-group">

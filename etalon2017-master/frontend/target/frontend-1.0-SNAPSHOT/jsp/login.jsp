@@ -61,6 +61,7 @@
                                <%--onclick="window.location='systemStudentPanelView.jsp'">Login</a>--%>
 
                                 <a id="btn-fblogin" href="/students/showAll" class="btn btn-primary" style="margin-right: 10px">Login</a>
+                                <a id="btn-fblogin" href="/jsp/registration.jsp" class="btn btn-primary">Registration</a>
                                 <%--<a id="btn-fblogin" href="/faculty/createSpecialtyModal" class="btn btn-primary">Registration</a>--%>
                         </div>
                     </div>

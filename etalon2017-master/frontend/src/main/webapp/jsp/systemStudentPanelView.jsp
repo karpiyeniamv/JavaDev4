@@ -199,16 +199,9 @@
                 <td class="sorter-false filter-false"><input type="button" class="btn btn-primary" value="Show" onclick="window.location='/students/show/${student.id}'"/></td>
             </tr>
         </c:forEach>
-
-
-
         <%--<script>--%>
         <%--tbodyTableStudents()--%>
         <%--</script>--%>
-
-
-
-
     </table>
 
 
@@ -217,7 +210,7 @@
 
 <jsp:include page="${request.contextPath}/faculty/addRequestModal"/>
 <jsp:include page="${request.contextPath}/faculty/createStudentModal"/>
-<jsp:include page="/jsp/assignStudentsModal.jsp"/>
+<jsp:include page="${request.contextPath}/students/assignStudentsModal"/>
 <%--<jsp:include page="/jsp/createSpecialtyModal.jsp"/>--%>
 <%--<jsp:include page="/faculty/createSpecialtyModal"/>--%>
 

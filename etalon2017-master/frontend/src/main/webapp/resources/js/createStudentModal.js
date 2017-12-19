@@ -3,8 +3,8 @@ $(document).ready(function () {
     var ELEMENTS = {
         LAST_NAME: '.lastName',
         FIRST_NAME: '.firstName',
-        GROUP: '.group',
-        SCORE: '.score',
+        GROUP: '.mgroup',
+        SCORE: '.mscore',
         CREATE_STUDENT_BUTTON: '.jsCreateStudent',
         CLOSE_BUTTON: '.close'
     };
@@ -43,17 +43,17 @@ $(document).ready(function () {
                 score: $score.val(),
                 status:'0',
                 isBudget:valueMIsBudgetId,
-                group:$group,
+                group: $group.val(),
                 facultyByFacultyId:valueMFacultyId,
                 specialtyBySpecialtyId:valueMSpecialtyId
             }),
             success: function (xhr) {
                 alert('Student was created');
-                $specialtyName.val('');
+                //$specialtyName.val('');
 
             },
             error: function (xhr, textStatus) {
-                alert($firstName.val()+' '+$lastName.val()+' '+$score.val()+' '+valueMIsBudgetId+' '+$group+' '+valueMFacultyId+' '+valueMSpecialtyId);
+                //alert($firstName.val()+' '+$lastName.val()+' '+$score.val()+' '+valueMIsBudgetId+' '+$group.val()+' '+valueMFacultyId+' '+valueMSpecialtyId);
                 alert('Something went wrong, try again later.');
 
             },

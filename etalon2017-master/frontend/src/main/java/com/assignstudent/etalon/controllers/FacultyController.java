@@ -99,6 +99,8 @@ public class FacultyController {
         return studentViewModel;
     }
 
+
+
 //    public FacultyController (FacultyRepository facultyRepository){
 //        this.facultyRepository=facultyRepository;
 //    }
