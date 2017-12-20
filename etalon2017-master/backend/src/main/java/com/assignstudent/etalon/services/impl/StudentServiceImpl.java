@@ -38,8 +38,8 @@ public class StudentServiceImpl implements StudentService{
 //        return  list;
 //    }
 
-//    public List<?> getAllStudentsWithOwnQuery() {
-//        return studentRepository.FindAllWithAssignRequest();
-//    }
+    public List<Object[]> getAllStudentsWithOwnQuery() {
+        return studentRepository.findWithRequests();
+    }
 }
 

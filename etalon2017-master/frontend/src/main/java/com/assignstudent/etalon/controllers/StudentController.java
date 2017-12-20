@@ -36,8 +36,8 @@ public class StudentController {
     @RequestMapping (value = "/showAll", method = RequestMethod.GET)
     public ModelAndView printAllStudents(){
         ModelAndView studentViewModel=new ModelAndView();
-        List<StudentEntity> studentEntityList= studentService.getAllStudents();
-        //List<?> studentEntityList= studentService.getAllStudentsWithOwnQuery();
+       // List<StudentEntity> studentEntityList= studentService.getAllStudents();
+        List<Object[]> studentEntityList= studentService.getAllStudentsWithOwnQuery();
         studentViewModel.addObject("students", studentEntityList);
 //        List<AssignrequestEntity> assignrequestEntityList=assignrequestService.getAllAssignrequests();
 //        studentViewModel.addObject("assignrequests", assignrequestEntityList);

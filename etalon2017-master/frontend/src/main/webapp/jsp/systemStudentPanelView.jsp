@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%--
   Created by IntelliJ IDEA.
   User: KarpiyeniaM
@@ -10,7 +11,6 @@
 <html>
 <head>
     <title>System student panel</title>
-
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
@@ -19,7 +19,6 @@
     <script src="${pageContext.request.contextPath}/resources/js/parser-input-select.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/bootstrap-3.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/docs.js"></script>
-
 
     <style>
         .tablesorter-pager .btn-group-sm .btn {
@@ -146,7 +145,7 @@
             <td>Faculty</td>
             <td>Specialty</td>
             <td>Group</td>
-                <td>Average score</td>
+            <td>Average score</td>
             <td>Is budget</td>
             <td>Status</td>
             <td>Name of Company</td>
@@ -184,17 +183,17 @@
         <c:forEach items="${students}" var="student">
             <tr>
                 <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
-                <td>${student.firstName}</td>
-                <td>${student.lastName}</td>
-                <td>${student.facultyByFacultyId.facultyName}</td>
-                <td>${student.specialtyBySpecialtyId.specialtyName}</td>
-                <td>${student.group}</td>
-                <td>${student.score}</td>
+                <td>${student[1]}</td>
+                <td>${student[2]}</td>
+                <td>${student[3]}</td>
+                <td>${student[4]}</td>
+                <td>${student[5]}</td>
+                <td>${student[6]}</td>
                 <c:choose>
-                    <c:when test = "${student.isBudget <= 0}">
+                    <c:when test = "${student[7] <= 0}">
                         <td>False</td>
                     </c:when>
-                    <c:when test = "${student.isBudget > 0}">
+                    <c:when test = "${student[7] > 0}">
                         <td>True</td>
                     </c:when>
                     <c:otherwise>
@@ -203,14 +202,14 @@
                 </c:choose>
 
                 <c:choose>
-                    <c:when test = "${student.status == 0 }">
+                    <c:when test = "${student[8] == 0 }">
                         <td>Available</td>
                     </c:when>
 
-                    <c:when test = "${student.status == 1}">
+                    <c:when test = "${student[8] == 1}">
                         <td>Waiting</td>
                     </c:when>
-                    <c:when test = "${student.status == 2}">
+                    <c:when test = "${student[8] == 2}">
                         <td>OnPractice</td>
                     </c:when>
                     <c:otherwise>
@@ -218,26 +217,18 @@
                     </c:otherwise>
                 </c:choose>
 
-                <%--<c:forEach items="${assignrequests}" var="assignrequest">--%>
-                    <%--<c:set var="weight" value="10"/>--%>
-                    <%--<c:if test="${student.id}==${assignrequest.studentId}" >--%>
-                        <%--weight=0--%>
-                        <%--<td>${assignrequest.requestByRequestId.companyByCompanyId.companyName}</td>--%>
-                        <%--<td>${assignrequest.requestByRequestId.dateFrom} - ${assignrequest.requestByRequestId.dateTo}</td>--%>
-                    <%--</c:if>--%>
-                    <%--<c:if test="${weight==0}">--%>
-                        <%--<td>Name of Company</td>--%>
-                        <%--<td>Practice period</td>--%>
-                    <%--</c:if>--%>
-                <%--</c:forEach>--%>
+                <td>${student[9]}</td>
 
+                <c:choose>
+                    <c:when  test="${empty fn:trim(student[10])}">
+                        <td></td>
+                    </c:when>
+                    <c:otherwise>
+                         <td>from ${student[10]} to ${student[11]}</td>
+                    </c:otherwise>
+                </c:choose>
 
-                <%--<td>${student.requestByRequestId.companyByCompanyId.companyName}</td>--%>
-                <%--<td>${student.requestByRequestId.dataFrom} - ${student.requestByRequestId.dataTo}</td>--%>
-
-                <td></td>
-                <td></td>
-                <td class="sorter-false filter-false"><input type="button" class="btn btn-primary" value="Show" onclick="window.location='/students/show/${student.id}'"/></td>
+                <td class="sorter-false filter-false"><input type="button" class="btn btn-primary" value="Show" onclick="window.location='/students/show/${student[0]}'"/></td>
             </tr>
         </c:forEach>
         <%--<script>--%>

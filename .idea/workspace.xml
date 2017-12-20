@@ -6,19 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc85f002-ae3b-464c-a4b5-7ba98df5ffc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/beans/StudentWithAssignrequestViewModel.java" />
+    <list default="true" id="bc85f002-ae3b-464c-a4b5-7ba98df5ffc4" name="Default" comment="add sql qeury">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/target/frontend-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/AssignrequestService.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/AssignrequestService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/StudentService.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/StudentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/AssignrequestServiceImpl.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/AssignrequestServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/StudentServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java" afterPath="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/registration.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" afterPath="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,70 +90,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FacultyController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="38" column="79" lean-forward="true" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+            <state relative-caret-position="64">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="systemStudentPanelView.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="10" />
+              <folding>
+                <marker date="1513756200426" expanded="true" signature="1164:1179" ph="SELECT A.las... " />
+                <marker date="1513756200426" expanded="true" signature="1164:1576" ph="SELECT A.las... STUDENT" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/StudentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/StudentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+              <folding>
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="systemStudentPanelView.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="187" column="44" lean-forward="true" selection-start-line="187" selection-start-column="44" selection-end-line="187" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="236" column="12" lean-forward="false" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#8;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#9;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentsView.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp">
+      <file leaf-file-name="requestsView.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="3383">
+              <caret line="199" column="4" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assignStudentsModal.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6852e660/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/assignstudent.student">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assignrequest" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6852e660/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/assignstudent.assignrequest">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -196,9 +194,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar!/org/springframework/aop/support/AopUtils.class" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/general.js" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/FacultyService.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/FacultyServiceImpl.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp" />
@@ -235,18 +231,20 @@
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/WEB-INF/web-spring-context.xml" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/resources/js/assignStudentsModal.js" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/registration.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/AssignrequestService.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/AssignrequestServiceImpl.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/beans/StudentWithAssignrequestViewModel.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/StudentService.java" />
-        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/assignStudentsModal.jsp" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/registration.jsp" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/TestEntity.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/StudentService.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java" />
         <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp" />
+        <option value="$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp" />
       </list>
     </option>
   </component>
@@ -296,10 +294,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="41" />
-    <option name="width" value="1667" />
-    <option name="height" value="929" />
+    <option name="x" value="113" />
+    <option name="y" value="165" />
+    <option name="width" value="1509" />
+    <option name="height" value="694" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -574,7 +572,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Query_Left_Join/Query_Left_Join" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SpringSecurityLoginTutorial-master (1)/SpringSecurityLoginTutorial-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1225,14 +1223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513671942268</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add js functions">
+      <created>1513694751597</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1513694751597</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224886000" />
+    <option name="totallyTimeSpent" value="235513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="41" width="1667" height="929" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1241,23 +1246,23 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21271394" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22090852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08251834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4378921" sideWeight="0.49755502" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35234898" sideWeight="0.49755502" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5447427" sideWeight="0.4844479" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27728984" sideWeight="0.68398535" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19910514" sideWeight="0.68398535" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27566895" sideWeight="0.4097222" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27566895" sideWeight="0.5902778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28667483" sideWeight="0.09078212" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28667483" sideWeight="0.9092179" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2655068" sideWeight="0.37089202" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1352,7 +1357,8 @@
     <MESSAGE value="last working version" />
     <MESSAGE value="add some controllers" />
     <MESSAGE value="add assignstudent function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add assignstudent function" />
+    <MESSAGE value="add js functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add js functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1363,8 +1369,14 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1373,90 +1385,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/6852e660/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/assignstudent.faculty">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/SpecialtyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6852e660/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/assignstudent.specialty">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/createStudentModal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="74" column="74" lean-forward="false" selection-start-line="74" selection-start-column="74" selection-end-line="74" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <element signature="e#5853#5854#0" expanded="false" />
-            <element signature="e#5905#5906#0" expanded="false" />
-            <element signature="e#6125#6126#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE-sources.jar!/org/springframework/aop/target/SingletonTargetSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#2096#2097#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE-sources.jar!/org/springframework/aop/framework/AdvisedSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="595" column="0" lean-forward="false" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/SpecialtyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1469,22 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1543,14 +1455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1598,14 +1502,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1712,31 +1608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://Persistence/JavaeeElement:/6852e660/hibernate.cfg.xml/backend/hibernate/Hibernate/PersistenceModel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Persistence</ID>
-          <OriginalElement>JavaeeElement:/6852e660/hibernate.cfg.xml/backend/hibernate/Hibernate/PersistenceModel</OriginalElement>
-          <nodes>
-            <node x="" y="">RequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java</node>
-            <node x="" y="">FacultyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java</node>
-            <node x="" y="">AssignrequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java</node>
-            <node x="" y="">CompanyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/CompanyEntity.java</node>
-            <node x="" y="">StudentEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java</node>
-            <node x="" y="">SpecialtyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="226.0" y="342.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Properties</Category>
-            <Category>Embeddables</Category>
-            <Category>Superclasses</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/RequestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1745,26 +1616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/CompanyEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1779,30 +1634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="42" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6852e660/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/assignstudent.assignrequest">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1810,18 +1641,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="38" column="79" lean-forward="true" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6852e660/8604b29a-fb0b-4bea-b4fa-1d4032fe7721/assignstudent.student">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1833,19 +1664,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/studentsView.jsp">
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="411">
+          <caret line="55" column="82" lean-forward="false" selection-start-line="55" selection-start-column="82" selection-end-line="55" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/6852e660/hibernate.cfg.xml/backend/hibernate/Hibernate/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/6852e660/hibernate.cfg.xml/backend/hibernate/Hibernate/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="28.802083333333343" y="281.0">RequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java</node>
+            <node x="205.43749999999997" y="0.0">FacultyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java</node>
+            <node x="167.55208333333331" y="548.0">AssignrequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java</node>
+            <node x="10.5" y="135.0">CompanyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/CompanyEntity.java</node>
+            <node x="291.7708333333333" y="270.0">StudentEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java</node>
+            <node x="208.49999999999997" y="124.0">SpecialtyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="AssignrequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java" target="RequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java">
+              <point x="-34.5" y="-48.0" />
+              <point x="202.05208333333331" y="523.0" />
+              <point x="108.80208333333334" y="523.0" />
+              <point x="0.0" y="103.0" />
+            </edge>
+            <edge source="RequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java" target="FacultyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
+              <point x="-53.33333333333334" y="-103.0" />
+              <point x="55.46875" y="245.0" />
+              <point x="0.0" y="245.0" />
+              <point x="0.0" y="99.0" />
+              <point x="233.10416666666663" y="99.0" />
+              <point x="-55.33333333333334" y="37.0" />
+            </edge>
+            <edge source="StudentEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java" target="SpecialtyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java">
+              <point x="-40.0" y="-114.0" />
+              <point x="331.7708333333333" y="245.0" />
+              <point x="340.5" y="245.0" />
+              <point x="44.0" y="48.0" />
+            </edge>
+            <edge source="SpecialtyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java" target="FacultyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
+              <point x="0.0" y="-48.0" />
+              <point x="296.5" y="99.0" />
+              <point x="288.4375" y="99.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="StudentEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java" target="FacultyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
+              <point x="40.0" y="-114.0" />
+              <point x="411.7708333333333" y="245.0" />
+              <point x="399.0208333333333" y="245.0" />
+              <point x="399.0208333333333" y="99.0" />
+              <point x="343.77083333333337" y="99.0" />
+              <point x="55.33333333333337" y="37.0" />
+            </edge>
+            <edge source="RequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java" target="CompanyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/CompanyEntity.java">
+              <point x="0.0" y="-103.0" />
+              <point x="108.80208333333334" y="245.0" />
+              <point x="99.5" y="245.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="AssignrequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/AssignrequestEntity.java" target="StudentEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java">
+              <point x="34.5" y="-48.0" />
+              <point x="271.0520833333333" y="523.0" />
+              <point x="371.7708333333333" y="523.0" />
+              <point x="0.0" y="114.0" />
+            </edge>
+            <edge source="RequestEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java" target="SpecialtyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java">
+              <point x="53.33333333333334" y="-103.0" />
+              <point x="162.13541666666669" y="245.0" />
+              <point x="252.49999999999997" y="245.0" />
+              <point x="-44.0" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="53.0" y="191.0" />
+          <SelectedNodes>
+            <node>SpecialtyEntity#file://C:/Users/KarpienyaM/Desktop/08_12_2017/NetcrackerJavaDev4/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/FacultyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="465" column="0" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="488" column="24" lean-forward="true" selection-start-line="488" selection-start-column="24" selection-end-line="488" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="406" column="0" lean-forward="false" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/StudentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/FacultyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/SpecialtyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/CompanyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/RequestEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/entities/TestEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/etalon/services/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/java/com/assignstudent/etalon/controllers/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/blocks/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/requestsView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="199" column="4" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etalon2017-master/frontend/src/main/webapp/jsp/systemStudentPanelView.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="187" column="44" lean-forward="true" selection-start-line="187" selection-start-column="44" selection-end-line="187" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="236" column="12" lean-forward="false" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#9;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etalon2017-master/backend/src/main/java/com/assignstudent/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <marker date="1513756200426" expanded="true" signature="1164:1179" ph="SELECT A.las... " />
+            <marker date="1513756200426" expanded="true" signature="1164:1576" ph="SELECT A.las... STUDENT" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1903,7 +1976,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|frontend</last-edited>
+          <last-edited>Spring|backend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

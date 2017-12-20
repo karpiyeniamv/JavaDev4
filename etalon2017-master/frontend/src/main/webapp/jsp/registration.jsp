@@ -33,6 +33,13 @@
                 <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
 
                 <form id="loginform" class="form-horizontal" role="form">
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="fa " aria-hidden="true"></i></span>
+                        <select>
+                            <option value="1">Head Of Practice</option>
+                            <option value="2">Student</option>
+                        </select>
+                    </div>
 
                     <div style="margin-bottom: 25px" class="input-group">
                         <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
@@ -48,7 +55,7 @@
                     <div style="margin-bottom: 25px" class="input-group">
                         <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
                         <input id="rep-password" type="password" class="form-control" name="password"
-                               placeholder="Password">
+                               placeholder="Confirm Password">
                     </div>
 
                     <div style="margin-top:10px" class="form-group">

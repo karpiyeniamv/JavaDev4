@@ -169,7 +169,20 @@
             <td>${request.companyByCompanyId.companyName}</td>
             <td>${request.dateFrom}</td>
             <td>${request.dateTo}</td>
-            <td>Status</td>
+
+            <c:choose>
+            <c:when test = "${request.quantity == 0}">
+                <td>Not Available</td>
+            </c:when>
+            <c:when test = "${request.quantity > 0}">
+                <td>Available</td>
+            </c:when>
+            <c:otherwise>
+                <td></td>
+            </c:otherwise>
+        </c:choose>
+
+
             <td>${request.facultyByFacultyId.facultyName}</td>
             <td>${request.specialtyBySpecialtyId.specialtyName}</td>
             <td>${request.score}</td>
@@ -186,7 +199,6 @@
 <br>
 <br>
 
-
 <div align="center">
     <button type="button" class="btn btn-primary" style="width: 9%" data-toggle="modal"
             data-target="#assignStudentsModal">Assiqn student
@@ -198,10 +210,8 @@
     &nbsp;&nbsp;&nbsp;&nbsp;
     <button type="button" class="btn btn-primary" style="width: 9%">Delete</button>
 </div>
-
 <jsp:include page="/jsp/addRequestModal.jsp"/>
 <jsp:include page="/jsp/assignStudentsModal.jsp"/>
-
 
 </body>
 </html>
