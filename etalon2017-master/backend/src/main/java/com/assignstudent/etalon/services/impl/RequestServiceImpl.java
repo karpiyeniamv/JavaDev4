@@ -30,4 +30,9 @@ public class RequestServiceImpl implements RequestService {
         return requestRepository.findOne(id);
     }
 
+    @Override
+    public List<Object[]> getAllRequestsWithAvailableQuantity() {
+        return requestRepository.getAllRequestsWithAvailableQuantity();
+    }
+
 }

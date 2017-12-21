@@ -123,78 +123,97 @@
 <br>
 <form action="/request/showAll" method="get">
 
-<table id="table-lizing-traktor" class="display" width="100%" cellspacing="0">
-    <thead>
-    <tr>
-        <td class="filter-false"><input  type="checkbox" /></td>
-        <td>Company name</td>
-        <td>Date from</td>
-        <td>Date to</td>
-        <td>Status</td>
-        <td>Faculty</td>
-        <td>Specialty</td>
-        <td>min average score</td>
-        <td>total quantity</td>
-        <td>available quantity</td>
-    </tr>
-    </thead>
-    <tfoot>
-    <tr>
-        <th colspan="10" class="ts-pager">
-            <div class="form-inline">
-                <div class="btn-group btn-group-sm mx-1" role="group">
-                    <button type="button" class="btn btn-secondary first" title="first">&#8676;</button>
-                    <button type="button" class="btn btn-secondary prev" title="previous">&larr;</button>
-                </div>
-                <span class="pagedisplay"></span>
-                <div class="btn-group btn-group-sm mx-1" role="group">
-                    <button type="button" class="btn btn-secondary next" title="next">&rarr;</button>
-                    <button type="button" class="btn btn-secondary last" title="last">&#8677;</button>
-                </div>
-                <select class="form-control-sm custom-select px-1 pagesize" title="Select page size">
-                    <option selected="selected" value="10">10</option>
-                    <option value="20">20</option>
-                    <option value="30">30</option>
-                    <option value="all">All Rows</option>
-                </select>
-                <select class="form-control-sm custom-select px-4 mx-1 pagenum" title="Select page number"></select>
-            </div>
-        </th>
-    </tr>
-    </tfoot>
-    <c:forEach items="${requests}" var="request">
-        <%--<option value = "${faculty.facultyName}">${faculty.facultyName}</option>--%>
+    <table id="table-lizing-traktor" class="display" width="100%" cellspacing="0">
+        <thead>
         <tr>
-            <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
-            <td>${request.companyByCompanyId.companyName}</td>
-            <td>${request.dateFrom}</td>
-            <td>${request.dateTo}</td>
-
-            <c:choose>
-            <c:when test = "${request.quantity == 0}">
-                <td>Not Available</td>
-            </c:when>
-            <c:when test = "${request.quantity > 0}">
-                <td>Available</td>
-            </c:when>
-            <c:otherwise>
-                <td></td>
-            </c:otherwise>
-        </c:choose>
-
-
-            <td>${request.facultyByFacultyId.facultyName}</td>
-            <td>${request.specialtyBySpecialtyId.specialtyName}</td>
-            <td>${request.score}</td>
-            <td>${request.quantity}</td>
+            <td class="filter-false"><input  type="checkbox" /></td>
+            <td>Company name</td>
+            <td>Date from</td>
+            <td>Date to</td>
+            <td>Status</td>
+            <td>Faculty</td>
+            <td>Specialty</td>
+            <td>min average score</td>
+            <td>total quantity</td>
             <td>available quantity</td>
-
         </tr>
-    </c:forEach>
-    <%--<script>--%>
+        </thead>
+        <tfoot>
+        <tr>
+            <th colspan="10" class="ts-pager">
+                <div class="form-inline">
+                    <div class="btn-group btn-group-sm mx-1" role="group">
+                        <button type="button" class="btn btn-secondary first" title="first">&#8676;</button>
+                        <button type="button" class="btn btn-secondary prev" title="previous">&larr;</button>
+                    </div>
+                    <span class="pagedisplay"></span>
+                    <div class="btn-group btn-group-sm mx-1" role="group">
+                        <button type="button" class="btn btn-secondary next" title="next">&rarr;</button>
+                        <button type="button" class="btn btn-secondary last" title="last">&#8677;</button>
+                    </div>
+                    <select class="form-control-sm custom-select px-1 pagesize" title="Select page size">
+                        <option selected="selected" value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="all">All Rows</option>
+                    </select>
+                    <select class="form-control-sm custom-select px-4 mx-1 pagenum" title="Select page number"></select>
+                </div>
+            </th>
+        </tr>
+        </tfoot>
+        <c:forEach items="${requestsAll}" var="requestOne">
+            <%--<option value = "${faculty.facultyName}">${faculty.facultyName}</option>--%>
+            <tr>
+                <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
+                <%--<td>${request.companyByCompanyId.companyName}</td>--%>
+                <%--<td>${request.dateFrom}</td>--%>
+                <%--<td>${request.dateTo}</td>--%>
+
+                <%--<c:choose>--%>
+                    <%--<c:when test = "${request.quantity == 0}">--%>
+                        <%--<td>Not Available</td>--%>
+                    <%--</c:when>--%>
+                    <%--<c:when test = "${request.quantity > 0}">--%>
+                        <%--<td>Available</td>--%>
+                    <%--</c:when>--%>
+                    <%--<c:otherwise>--%>
+                        <%--<td></td>--%>
+                    <%--</c:otherwise>--%>
+                <%--</c:choose>--%>
+
+
+                <%--<td>${request.facultyByFacultyId.facultyName}</td>--%>
+                <%--<td>${request.specialtyBySpecialtyId.specialtyName}</td>--%>
+                <%--<td>${request.score}</td>--%>
+                <%--<td>${request.quantity}</td>--%>
+                <%--<td>available quantity</td>--%>
+                <td>${requestOne[1]}</td>
+                <td>${requestOne[2]}</td>
+                <td>${requestOne[3]}</td>
+                    <c:choose>
+                    <c:when test = "${requestOne[8] == 0}">
+                    <td>Not Available</td>
+                    </c:when>
+                    <c:when test = "${requestOne[8] > 0}">
+                    <td>Available</td>
+                    </c:when>
+                    <c:otherwise>
+                    <td></td>
+                    </c:otherwise>
+                    </c:choose>
+                <td>${requestOne[4]}</td>
+                <td>${requestOne[5]}</td>
+                <td>${requestOne[6]}</td>
+                <td>${requestOne[7]}</td>
+                <td>${requestOne[8]}</td>
+
+            </tr>
+        </c:forEach>
+        <%--<script>--%>
         <%--tbodeTableRequests()--%>
-    <%--</script>--%>
-</table>
+        <%--</script>--%>
+    </table>
 </form>
 <br>
 <br>
