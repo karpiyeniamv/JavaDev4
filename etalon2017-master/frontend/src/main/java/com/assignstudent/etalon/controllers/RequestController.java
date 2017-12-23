@@ -43,12 +43,26 @@ public class RequestController {
 
     @RequestMapping (value = "/showAll", method = RequestMethod.GET)
     public ModelAndView printAllRequests(){
+//        ModelAndView requestViewModel=new ModelAndView();
+//        List<RequestEntity> requestEntityList= requestService.getAllRequests();
+//        requestViewModel.addObject("requests", requestEntityList);
+//        requestViewModel.setViewName("requestsView");
+//        return requestViewModel;
         ModelAndView requestViewModel=new ModelAndView();
-        List<RequestEntity> requestEntityList= requestService.getAllRequests();
-        requestViewModel.addObject("requests", requestEntityList);
+        List<Object[]> requestEntityList= requestService.getAllRequestsWithAvailableQuantity();
+        requestViewModel.addObject("requestsAll", requestEntityList);
         requestViewModel.setViewName("requestsView");
         return requestViewModel;
     }
+
+//    @RequestMapping (value = "/get", method = RequestMethod.GET)
+//    public ModelAndView printAllRequestsWithQuery(){
+//        ModelAndView requestViewModel=new ModelAndView();
+//        List<Object[]> requestEntityList= requestService.getAllRequestsWithAvailableQuantity();
+//        requestViewModel.addObject("requests", requestEntityList);
+//        requestViewModel.setViewName("requestsView");
+//        return requestViewModel;
+//    }
 
     @RequestMapping(value = "/create",produces = "application/json", method = RequestMethod.POST)
     public @ResponseBody RequestEntity createRequest(@RequestBody RequestViewModel requestViewModel) {

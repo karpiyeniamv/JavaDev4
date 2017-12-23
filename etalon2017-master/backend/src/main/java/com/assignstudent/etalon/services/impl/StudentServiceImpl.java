@@ -41,5 +41,10 @@ public class StudentServiceImpl implements StudentService{
     public List<Object[]> getAllStudentsWithOwnQuery() {
         return studentRepository.findWithRequests();
     }
+
+    @Override
+    public void delete(int i) {
+        studentRepository.delete(i);
+    }
 }
 

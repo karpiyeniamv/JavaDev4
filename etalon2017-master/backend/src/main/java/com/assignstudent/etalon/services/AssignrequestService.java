@@ -7,4 +7,5 @@ import java.util.List;
 public interface AssignrequestService {
     void createAssignRequest( AssignrequestEntity assignrequestEntity);
     List<AssignrequestEntity> getAllAssignrequests();
+    void deleteBystudenId(int i);
 }

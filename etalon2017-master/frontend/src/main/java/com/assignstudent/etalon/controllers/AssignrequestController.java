@@ -39,4 +39,14 @@ public class AssignrequestController {
         assignrequestService.createAssignRequest(assignrequestEntity);
         return assignrequestEntity;
     }
+
+    @RequestMapping(value = "/release",produces = "application/json", method = RequestMethod.POST)
+    public @ResponseBody  AssignrequestEntity deleteAssignrequest(@RequestBody Integer[] chkArray) {
+        AssignrequestEntity assignrequestEntity=new AssignrequestEntity();
+        for (Integer temp:chkArray
+                ) {
+            assignrequestService.deleteBystudenId(temp);
+        }
+        return assignrequestEntity;
+    }
 }

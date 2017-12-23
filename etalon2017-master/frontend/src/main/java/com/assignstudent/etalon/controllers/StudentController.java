@@ -1,7 +1,10 @@
 package com.assignstudent.etalon.controllers;
 
 import com.assignstudent.etalon.beans.StudentViewModel;
-import com.assignstudent.etalon.entities.*;
+import com.assignstudent.etalon.entities.FacultyEntity;
+import com.assignstudent.etalon.entities.RequestEntity;
+import com.assignstudent.etalon.entities.SpecialtyEntity;
+import com.assignstudent.etalon.entities.StudentEntity;
 import com.assignstudent.etalon.services.*;
 import com.assignstudent.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -76,6 +79,17 @@ public class StudentController {
         studentEntity.setSpecialtyBySpecialtyId(specialtyEntity);
 
         studentService.createStudent(studentEntity);
+        return studentEntity;
+    }
+
+    @RequestMapping(value = "/delete",produces = "application/json", method = RequestMethod.POST)
+    public @ResponseBody  StudentEntity deleteStudent(@RequestBody Integer[] chkArray) {
+        StudentEntity studentEntity=new StudentEntity();
+        for (Integer temp:chkArray
+             ) {
+            assignrequestService.deleteBystudenId(temp);
+            studentService.delete(temp);
+        }
         return studentEntity;
     }
 

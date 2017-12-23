@@ -9,5 +9,6 @@ public interface StudentService  {
     StudentEntity getOneStudent(int id);
     void createStudent(StudentEntity studentEntity);
     List<Object[]> getAllStudentsWithOwnQuery();
+    void delete (int i);
 }
 

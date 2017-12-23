@@ -30,4 +30,6 @@ public interface StudentRepository extends  CrudRepository <StudentEntity, Integ
 
     @Query(value = "SELECT A.id, A.firstName as firstName,A.lastName as lastName, F.facultyName as facultyName, S.specialtyName, A.group, A.score, A.isBudget, A.status, D.companyName, C.datefrom, C.dateTo FROM (STUDENT A LEFT JOIN ASSIGNREQUEST B ON A.id=B.studentId) LEFT JOIN FACULTY F ON A.facultyId=F.id LEFT JOIN SPECIALTY S ON A.specialtyId=S.id  LEFT JOIN REQUEST C ON B.requestId=C.id LEFT JOIN COMPANY D ON C.companyId=D.id", nativeQuery = true)
     List<Object[]> findWithRequests();
+
+
 }

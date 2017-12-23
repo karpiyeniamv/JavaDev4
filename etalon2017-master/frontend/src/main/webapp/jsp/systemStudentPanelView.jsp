@@ -98,7 +98,7 @@
         });
     </script>
 
-
+    <script src="${pageContext.request.contextPath}/resources/js/systemStudentPanelView.js"></script>
 </head>
 <body>
 <jsp:include page="/jsp/blocks/header.jsp"/>
@@ -182,7 +182,7 @@
 
         <c:forEach items="${students}" var="student">
             <tr>
-                <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
+                <td class=" sorter-false filter-false"><input  name="checkbox" type="checkbox" class="chk" value="${student[0]}"/></td>
                 <td>${student[1]}</td>
                 <td>${student[2]}</td>
                 <td>${student[3]}</td>
@@ -224,7 +224,7 @@
                         <td></td>
                     </c:when>
                     <c:otherwise>
-                         <td>from ${student[10]} to ${student[11]}</td>
+                        <td>from ${student[10]} to ${student[11]}</td>
                     </c:otherwise>
                 </c:choose>
 
@@ -238,27 +238,24 @@
 
 
 
+
+    <jsp:include page="${request.contextPath}/faculty/addRequestModal"/>
+    <jsp:include page="${request.contextPath}/faculty/createStudentModal"/>
+    <jsp:include page="${request.contextPath}/students/assignStudentsModal"/>
+    <jsp:include page="${request.contextPath}/faculty/createSpecialtyModal"/>
+    <jsp:include page="${request.contextPath}/jsp/createFacultyModal.jsp"/>
+
+
+    <div align="center">
+        <button type="button" class="btn btn-primary jsDeleteStudent" id="jsDeleteStudent"> Delete</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assignStudentsModal">Assign</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary jsReleaseStudent">Release</button>
+    </div>
+
+    <br><br>
+
 </form>
-
-<jsp:include page="${request.contextPath}/faculty/addRequestModal"/>
-<jsp:include page="${request.contextPath}/faculty/createStudentModal"/>
-<jsp:include page="${request.contextPath}/students/assignStudentsModal"/>
-<%--<jsp:include page="/jsp/createSpecialtyModal.jsp"/>--%>
-<%--<jsp:include page="/faculty/createSpecialtyModal"/>--%>
-
-<jsp:include page="${request.contextPath}/faculty/createSpecialtyModal"/>
-<jsp:include page="${request.contextPath}/jsp/createFacultyModal.jsp"/>
-
-
-<div align="center">
-    <button type="button" class="btn btn-primary">Delete</button>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assignStudentsModal">Assign</button>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary">Release</button>
-</div>
-
-<br><br>
-
 </body>
 </html>

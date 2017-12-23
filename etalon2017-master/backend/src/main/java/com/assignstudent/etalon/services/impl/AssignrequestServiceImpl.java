@@ -24,4 +24,9 @@ public class AssignrequestServiceImpl implements AssignrequestService {
     public List<AssignrequestEntity> getAllAssignrequests() {
         return (List<AssignrequestEntity>) assignrequestRepository.findAll();
     }
+
+    @Override
+    public void deleteBystudenId(int i) {
+        assignrequestRepository.deleteAssignrequestEntitiesByStudentId(i);
+    }
 }
