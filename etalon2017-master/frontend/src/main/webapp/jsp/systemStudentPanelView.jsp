@@ -13,6 +13,7 @@
     <title>System student panel</title>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.widgets.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
@@ -50,7 +51,12 @@
                     filter_cssFilter: [
                         'form-control',
                         'form-control',
-                        'form-control custom-select', // select needs custom class names :(
+                        'form-control',//' custom-select', // select needs custom class names :(
+                        'form-control',
+                        'form-control',
+                        'form-control',
+                        'form-control',
+                        'form-control',//'form-control custom-select', // select needs custom class names :(
                         'form-control',
                         'form-control',
                         'form-control',
@@ -139,7 +145,7 @@
         <thead>
         <tr>
             <%--class="sorter-false filter-false checkall"--%>
-            <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
+            <td class=" sorter-false filter-false chkG"><input  type="checkbox" /></td>
             <td>First Name</td>
             <td>Last Name</td>
             <td>Faculty</td>
@@ -247,11 +253,11 @@
 
 
     <div align="center">
-        <button type="button" class="btn btn-primary jsDeleteStudent" id="jsDeleteStudent"> Delete</button>
+        <button disabled="disabled" type="button" class="btn btn-primary jsDeleteStudent" id="jsDeleteStudent"> Delete</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assignStudentsModal">Assign</button>
+        <button  disabled="disabled" type="button" class="btn btn-primary jsAssignStudent" id="jsAssignStudent" data-toggle="modal" data-target="#assignStudentsModal">Assign</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-primary jsReleaseStudent">Release</button>
+        <button disabled="disabled" type="button" class="btn btn-primary jsReleaseStudent" id="jsReleaseStudent">Release</button>
     </div>
 
     <br><br>

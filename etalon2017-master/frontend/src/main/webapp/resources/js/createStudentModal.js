@@ -18,19 +18,34 @@ $(document).ready(function () {
 
     $createStudentBtn.click(function (event) {
         event.stopPropagation();
-
-        selectMFacultyId = document.getElementById("jsMFacultyId"); // Выбираем  select по id
-        valueMFacultyId = selectMFacultyId.options[selectMFacultyId.selectedIndex].value; // Значение value для выбранного option
-
-        selectMSpecialtyId = document.getElementById("jsMSpecialtyId"); // Выбираем  select по id
-        valueMSpecialtyId = selectMSpecialtyId.options[selectMSpecialtyId.selectedIndex].value;
-
-        selectMRequestId = document.getElementById("jsMRequestId"); // Выбираем  select по id
+        selectMFacultyId = document.getElementById("jsMFacultyId");
+        if (selectMFacultyId.options[selectMFacultyId.selectedIndex]==null){
+            valueMFacultyId=null;
+        }else {
+            valueMFacultyId = selectMFacultyId.options[selectMFacultyId.selectedIndex].value;
+        }
+        selectMSpecialtyId = document.getElementById("jsMSpecialtyId");
+        if(selectMSpecialtyId.options[selectMSpecialtyId.selectedIndex]==null){
+            valueMSpecialtyId=null;
+        }
+        else {
+            valueMSpecialtyId = selectMSpecialtyId.options[selectMSpecialtyId.selectedIndex].value;
+        }
+        selectMRequestId = document.getElementById("jsMRequestId");
+        if(selectMRequestId.options[selectMRequestId.selectedIndex]==null){
+            valueMRequestId=null;
+        }
+        else{
         valueMRequestId = selectMRequestId.options[selectMRequestId.selectedIndex].value;
-
+        }
         selectMIsBudgetId=document.getElementById("jsMIsBudgetId");
+        if(selectMIsBudgetId.options[selectMIsBudgetId.selectedIndex]==null){
+            valueMIsBudgetId=null;
+        }
+        else
+        {
         valueMIsBudgetId=selectMIsBudgetId.options[selectMIsBudgetId.selectedIndex].value;
-
+        }
         //text = select.options[select.selectedIndex].text; // Текстовое значение для выбранного option
         //alert("Value: " + value + "\nТекст: " + text);
         $.ajax({
@@ -49,8 +64,7 @@ $(document).ready(function () {
             }),
             success: function (xhr) {
                 alert('Student was created');
-                //$specialtyName.val('');
-
+                location.reload();
             },
             error: function (xhr, textStatus) {
                 //alert($firstName.val()+' '+$lastName.val()+' '+$score.val()+' '+valueMIsBudgetId+' '+$group.val()+' '+valueMFacultyId+' '+valueMSpecialtyId);

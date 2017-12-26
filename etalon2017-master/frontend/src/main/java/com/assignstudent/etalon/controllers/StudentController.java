@@ -70,14 +70,17 @@ public class StudentController {
         studentEntity.setStatus(studentViewModel.getStatus());
         studentEntity.setIsBudget(studentViewModel.getIsBudget());
 
-        studentEntity.setFacultyId(studentViewModel.getFacultyByFacultyId());
-        FacultyEntity facultyEntity=facultyService.findById(studentViewModel.getFacultyByFacultyId());
-        studentEntity.setFacultyByFacultyId(facultyEntity);
+        if (studentViewModel.getFacultyByFacultyId()!=null) {
+            studentEntity.setFacultyId(studentViewModel.getFacultyByFacultyId());
+            FacultyEntity facultyEntity = facultyService.findById(studentViewModel.getFacultyByFacultyId());
+            studentEntity.setFacultyByFacultyId(facultyEntity);
+        }
 
-        studentEntity.setSpecialtyId(studentViewModel.getSpecialtyBySpecialtyId());
-        SpecialtyEntity specialtyEntity=specialtyService.findById(studentViewModel.getSpecialtyBySpecialtyId());
-        studentEntity.setSpecialtyBySpecialtyId(specialtyEntity);
-
+        if (studentViewModel.getSpecialtyBySpecialtyId()!=null) {
+            studentEntity.setSpecialtyId(studentViewModel.getSpecialtyBySpecialtyId());
+            SpecialtyEntity specialtyEntity = specialtyService.findById(studentViewModel.getSpecialtyBySpecialtyId());
+            studentEntity.setSpecialtyBySpecialtyId(specialtyEntity);
+        }
         studentService.createStudent(studentEntity);
         return studentEntity;
     }
@@ -101,6 +104,17 @@ public class StudentController {
         List<StudentEntity> studentEntityList= studentService.getAllStudents();
         studentViewModel.addObject("students", studentEntityList);
         studentViewModel.setViewName("assignStudentsModal");
+        return studentViewModel;
+    }
+
+    @RequestMapping(value = "/assignStudentsForOneRequestModal/{id}", method = RequestMethod.GET)
+    public ModelAndView printFacultiesAndSpecialtiesAndRequest(@PathVariable("id")int id){
+        ModelAndView studentViewModel=new ModelAndView();
+        RequestEntity requestEntity=requestService.findById(id);
+        studentViewModel.addObject("request",requestEntity);
+        List<StudentEntity> studentEntityList= studentService.getAllStudents();
+        studentViewModel.addObject("students", studentEntityList);
+        studentViewModel.setViewName("assignStudentsForOneRequestModal");
         return studentViewModel;
     }
 }

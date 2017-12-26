@@ -29,4 +29,9 @@ public class AssignrequestServiceImpl implements AssignrequestService {
     public void deleteBystudenId(int i) {
         assignrequestRepository.deleteAssignrequestEntitiesByStudentId(i);
     }
+
+    @Override
+    public void deleteByrequestId(int i) {
+        assignrequestRepository.deleteAssignrequestEntityByRequestId(i);
+    }
 }

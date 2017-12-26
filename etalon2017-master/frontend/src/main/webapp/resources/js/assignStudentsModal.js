@@ -26,6 +26,7 @@ $(document).ready(function() {
             }),
             success: function (xhr) {
                 alert('Assign was created');
+                location.reload();
                 //$specialtyName.val('');
 
             },

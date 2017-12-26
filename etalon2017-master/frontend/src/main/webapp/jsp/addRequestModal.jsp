@@ -11,6 +11,8 @@
 <head>
     <title>Title</title>
     <script src="${pageContext.request.contextPath}/resources/js/addRequestModal.js"></script>
+
+
 </head>
 <body>
 <!-- Modal -->
@@ -34,6 +36,8 @@
                             </c:forEach>
                         </select>
                     </div>
+
+
                     <div class="form-group">
                         <div style="display: inline-block">
                             <label for="dateFrom">date from</label>
@@ -57,18 +61,18 @@
                     <div class="form-group">
                         <div style="display: inline-block; margin-right: 20px">
                         <%--<div style="display: inline-block">--%>
-                        <label for="jsFacultyId">available faculties</label>
+                        <label for="jsRFacultyId">available faculties</label>
                         <%--<input type="text" class="form-control" id="faculties">--%>
-                        <select multiple size="2" class="form-control" id ="jsFacultyId" name ="jsFacultyId">
+                        <select multiple size="2" class="form-control" id ="jsRFacultyId" name ="jsRFacultyId">
                             <c:forEach items="${faculties}" var="faculty">
                                 <option value = "${faculty.id}">${faculty.facultyName}</option>
                             </c:forEach>
                         </select>
                     </div>
                     <div style="display: inline-block">
-                        <label for="jsSpecialtyId">available specialities</label>
+                        <label for="jsRSpecialtyId">available specialities</label>
                         <%--<input type="text" class="form-control" id="specialities">--%>
-                        <select multiple size="2" class="form-control" id ="jsSpecialtyId" name ="jsSpecialtyId">
+                        <select multiple size="2" class="form-control" id ="jsRSpecialtyId" name ="jsRSpecialtyId">
                             <c:forEach items="${specialties}" var="specialty">
                                 <option value = "${specialty.id}">${specialty.specialtyName}</option>
                             </c:forEach>

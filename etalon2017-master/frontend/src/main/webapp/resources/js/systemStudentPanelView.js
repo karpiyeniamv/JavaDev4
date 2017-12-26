@@ -1,7 +1,12 @@
-
 $(document).ready(function () {
-    var ELEMENTS = {
+    $(".chkG").bind("change", function () {
+        disableButtonsByCheckboxes();
+    });
 
+    $(".chk").bind("change", function () {
+        disableButtonsByCheckboxes();
+    });
+    var ELEMENTS = {
         DELETE_STUDENT_BUTTON: '.jsDeleteStudent',
         RELEASE_STUDENT_BUTTON: '.jsReleaseStudent'
     };
@@ -15,8 +20,10 @@ $(document).ready(function () {
             contentType: "application/json",
             data: JSON.stringify(  chkArray ),
             success: function (xhr) {
-                alert('Students were deleted');
-                //$specialtyName.val('');
+                if(chkArray.length > 0) {
+                    alert('Students were deleted');
+                    location.reload();
+                }
 
             },
             error: function (xhr, textStatus) {
@@ -44,8 +51,12 @@ $(document).ready(function () {
             contentType: "application/json",
             data: JSON.stringify(  chkArray ),
             success: function (xhr) {
-                alert('Students were released');
-                //$specialtyName.val('');
+                if(chkArray.length > 0) {
+
+                    alert('Students were released');
+                    location.reload();
+                }
+
             },
             error: function (xhr, textStatus) {
                 alert('Something went wrong, try again later.');
@@ -60,13 +71,27 @@ $(document).ready(function () {
         }
 
     });
-
-
     function getValueUsingClass(chkArray){
 
     $(".chk:checked").each(function() {
         chkArray.push($(this).val());
     });
+    }
+
+    function disableButtonsByCheckboxes() {
+        var chkArray = new Array();
+        getValueUsingClass(chkArray);
+        if (chkArray.length > 0){
+            document.getElementById("jsDeleteStudent").disabled=false;
+            document.getElementById("jsAssignStudent").disabled=false;
+            document.getElementById("jsReleaseStudent").disabled=false;
+        }
+        else
+        {
+            document.getElementById("jsDeleteStudent").disabled=true;
+            document.getElementById("jsAssignStudent").disabled=true;
+            document.getElementById("jsReleaseStudent").disabled=true;
+        }
     }
 
 });

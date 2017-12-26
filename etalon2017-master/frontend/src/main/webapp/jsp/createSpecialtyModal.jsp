@@ -43,8 +43,8 @@
                     <%--</c:if>--%>
                         <br>
 
-                        <label for="jsFacultyId">Choose a faculty</label>
-                        <select multiple size="2" class="form-control" id ="jsFacultyId" name ="jsFacultyId">
+                        <label for="jsSFacultyId">Choose a faculty</label>
+                        <select multiple size="2" class="form-control" id ="jsSFacultyId" name ="jsSFacultyId">
                             <c:forEach items="${faculties}" var="faculty">
                                 <option value = "${faculty.id}">${faculty.facultyName}</option>
                             </c:forEach>

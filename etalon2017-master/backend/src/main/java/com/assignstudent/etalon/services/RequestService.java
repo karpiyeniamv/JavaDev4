@@ -9,4 +9,5 @@ public interface RequestService {
     void createRequest (RequestEntity requestEntity);
     RequestEntity findById (int id);
     List<Object[]> getAllRequestsWithAvailableQuantity();
+    void delete (int i);
 }

@@ -5,10 +5,7 @@ import com.assignstudent.etalon.entities.CompanyEntity;
 import com.assignstudent.etalon.entities.FacultyEntity;
 import com.assignstudent.etalon.entities.RequestEntity;
 import com.assignstudent.etalon.entities.SpecialtyEntity;
-import com.assignstudent.etalon.services.CompanyService;
-import com.assignstudent.etalon.services.FacultyService;
-import com.assignstudent.etalon.services.RequestService;
-import com.assignstudent.etalon.services.SpecialtyService;
+import com.assignstudent.etalon.services.*;
 import com.assignstudent.repository.CompanyRepository;
 import com.assignstudent.repository.RequestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +30,8 @@ public class RequestController {
     FacultyService facultyService;
     @Autowired
     SpecialtyService specialtyService;
+    @Autowired
+    AssignrequestService assignrequestService;
 
     @Autowired
     private ConversionService conversionService;
@@ -43,26 +42,12 @@ public class RequestController {
 
     @RequestMapping (value = "/showAll", method = RequestMethod.GET)
     public ModelAndView printAllRequests(){
-//        ModelAndView requestViewModel=new ModelAndView();
-//        List<RequestEntity> requestEntityList= requestService.getAllRequests();
-//        requestViewModel.addObject("requests", requestEntityList);
-//        requestViewModel.setViewName("requestsView");
-//        return requestViewModel;
         ModelAndView requestViewModel=new ModelAndView();
         List<Object[]> requestEntityList= requestService.getAllRequestsWithAvailableQuantity();
         requestViewModel.addObject("requestsAll", requestEntityList);
         requestViewModel.setViewName("requestsView");
         return requestViewModel;
     }
-
-//    @RequestMapping (value = "/get", method = RequestMethod.GET)
-//    public ModelAndView printAllRequestsWithQuery(){
-//        ModelAndView requestViewModel=new ModelAndView();
-//        List<Object[]> requestEntityList= requestService.getAllRequestsWithAvailableQuantity();
-//        requestViewModel.addObject("requests", requestEntityList);
-//        requestViewModel.setViewName("requestsView");
-//        return requestViewModel;
-//    }
 
     @RequestMapping(value = "/create",produces = "application/json", method = RequestMethod.POST)
     public @ResponseBody RequestEntity createRequest(@RequestBody RequestViewModel requestViewModel) {
@@ -89,17 +74,15 @@ public class RequestController {
         return requestEntity;
     }
 
+    @RequestMapping(value = "/deletePostRequest",produces = "application/json", method = RequestMethod.POST)
+    public @ResponseBody  RequestEntity deleteRequest(@RequestBody Integer[] chkRArray) {
+        RequestEntity requestEntity=new RequestEntity();
+        for (Integer temp:chkRArray
+                ) {
+            assignrequestService.deleteByrequestId(temp);
+            requestService.delete (temp);
+        }
+        return requestEntity;
+    }
 
-
-//
-//    @RequestMapping(value = "/requestsView", method = RequestMethod.POST)
-//    @ResponseBody
-//    public List<RequestViewModel> getRequests() {
-//        List<RequestViewModel> requestViewModelList = new ArrayList<>();
-//        for (RequestEntity item :requestService.getRequests())
-//        {
-//            requestViewModelList.add(requestEntityToRequestViewModelConverter.convert(item));
-//        }
-//        return requestViewModelList;
-//    }
 }

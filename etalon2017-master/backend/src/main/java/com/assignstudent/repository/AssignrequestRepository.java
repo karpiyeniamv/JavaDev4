@@ -6,4 +6,5 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface AssignrequestRepository  extends CrudRepository<AssignrequestEntity, Integer>{
     void deleteAssignrequestEntitiesByStudentId(int i);
+    void deleteAssignrequestEntityByRequestId(int i);
 }

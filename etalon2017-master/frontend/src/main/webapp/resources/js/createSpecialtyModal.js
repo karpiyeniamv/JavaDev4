@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     $createSpecialtyBtn.click(function (event) {
         event.stopPropagation();
-        select = document.getElementById("jsFacultyId"); // Выбираем  select по id
+        select = document.getElementById("jsSFacultyId"); // Выбираем  select по id
         value = select.options[select.selectedIndex].value; // Значение value для выбранного option
         //text = select.options[select.selectedIndex].text; // Текстовое значение для выбранного option
         //alert("Value: " + value + "\nТекст: " + text);
@@ -29,7 +29,7 @@ $(document).ready(function () {
             }),
             success: function (xhr) {
                 alert('Specialty was created');
-                $specialtyName.val('');
+                location.reload();
 
             },
             error: function (xhr, textStatus) {

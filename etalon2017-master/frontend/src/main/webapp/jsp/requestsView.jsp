@@ -9,9 +9,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>System demands panel</title>
-    <script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
+    <title>System demands panel</title><script src="${pageContext.request.contextPath}/resources/js/libs/jquery.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.widgets.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
@@ -130,7 +130,7 @@
     <table id="table-lizing-traktor" class="display" width="100%" cellspacing="0">
         <thead>
         <tr>
-            <td class="filter-false"><input  type="checkbox" /></td>
+            <td class="filter-false "><input  type="checkbox" class="chkG" /></td>
             <td>Company name</td>
             <td>Date from</td>
             <td>Date to</td>
@@ -168,7 +168,7 @@
         </tfoot>
         <c:forEach items="${requestsAll}" var="requestOne">
             <tr>
-                <td class=" sorter-false filter-false"><input  name="checkbox" type="checkbox" class="chk"/></td>
+                <td class=" sorter-false filter-false"><input  name="checkbox" type="checkbox" class="chk" value="${requestOne[0]}"/></td>
                 <%--<td>${request.companyByCompanyId.companyName}</td>--%>
                 <%--<td>${request.dateFrom}</td>--%>
                 <%--<td>${request.dateTo}</td>--%>
@@ -221,18 +221,22 @@
 <br>
 <br>
 
+
+
+
 <div align="center">
-    <button type="button" class="btn btn-primary" style="width: 10%" data-toggle="modal"
-            data-target="#assignStudentsModal">Assiqn student</button>
+    <button disabled="disabled"  type="button" class="btn btn-primary jsAssignStudentBtn" data-toggle="modal" data-target="#assignStudentsModal" id="jsAssignStudentBtn" style="width: 10%" >Assiqn student</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary" style="width: 10%" data-toggle="modal" data-target="#addRequestModal">
+    <button disabled="disabled" type="button" class="btn btn-primary jsEditRequest" id="jsEditRequest" style="width: 10%" data-toggle="modal" data-target="#addRequestModal">
         Edit
     </button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary jsDeleteRequest" style="width: 10%">Delete</button>
+    <button disabled="disabled" type="button" class="btn btn-primary jsDeleteRequest" id="jsDeleteRequest" style="width: 10%">Delete</button>
 </div>
-<jsp:include page="/jsp/addRequestModal.jsp"/>
-<jsp:include page="${request.contextPath}/students/assignStudentsModal"/>
+
+    <jsp:include page="${request.contextPath}/students/assignStudentsModal"/>
+    <jsp:include page="${request.contextPath}/request/create"/>
+
 </form>
 </body>
 </html>

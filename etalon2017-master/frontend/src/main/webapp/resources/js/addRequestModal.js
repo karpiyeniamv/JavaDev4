@@ -14,7 +14,7 @@ $(document).ready(function () {
         $dataFrom=$(ELEMENTS.DATA_FROM),
         $dataTo=$(ELEMENTS.DATA_TO),
         $quantity=$(ELEMENTS.QUANTITY),
-        $score=$(ELEMENTS.SCORE)
+        $score=$(ELEMENTS.SCORE);
 
     $createRequestBtn.click(function (event) {
         event.stopPropagation();
@@ -22,10 +22,10 @@ $(document).ready(function () {
         selectCompanyId=document.getElementById("jsCompanyId");
         valueCompanyId=selectCompanyId.options[selectCompanyId.selectedIndex].value;
 
-        selectFacultyId = document.getElementById("jsFacultyId"); // Выбираем  select по id
+        selectFacultyId = document.getElementById("jsRFacultyId"); // Выбираем  select по id
         valueFacultyId = selectFacultyId.options[selectFacultyId.selectedIndex].value; // Значение value для выбранного option
 
-        selectSpecialtyId = document.getElementById("jsSpecialtyId"); // Выбираем  select по id
+        selectSpecialtyId = document.getElementById("jsRSpecialtyId"); // Выбираем  select по id
         valueSpecialtyId = selectSpecialtyId.options[selectSpecialtyId.selectedIndex].value;
         //text = select.options[select.selectedIndex].text; // Текстовое значение для выбранного option
         //alert("Value: " + value + "\nТекст: " + text);
@@ -44,7 +44,7 @@ $(document).ready(function () {
             }),
             success: function (xhr) {
                 alert('Request was created');
-                $specialtyName.val('');
+                location.reload();
 
             },
             error: function (xhr, textStatus) {

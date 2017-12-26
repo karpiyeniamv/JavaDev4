@@ -8,4 +8,5 @@ public interface AssignrequestService {
     void createAssignRequest( AssignrequestEntity assignrequestEntity);
     List<AssignrequestEntity> getAllAssignrequests();
     void deleteBystudenId(int i);
+    void deleteByrequestId(int i);
 }

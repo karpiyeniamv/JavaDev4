@@ -35,4 +35,9 @@ public class RequestServiceImpl implements RequestService {
         return requestRepository.getAllRequestsWithAvailableQuantity();
     }
 
+    @Override
+    public void delete(int i) {
+        requestRepository.delete(i);
+    }
+
 }

@@ -27,6 +27,7 @@ $(document).ready(function () {
             success: function (xhr) {
                 alert('Faculty was created');
                 $facultyName.val('');
+                location.reload();
 
             },
             error: function (xhr, textStatus) {
@@ -36,7 +37,7 @@ $(document).ready(function () {
             dataType: "json",
             cash: false
         });
-        'systemStudentPanelView.jsp'.reload();
+        //'systemStudentPanelView.jsp'.reload();
         $closeBtn.click();
 
 
