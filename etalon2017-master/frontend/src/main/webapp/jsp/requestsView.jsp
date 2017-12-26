@@ -54,7 +54,10 @@
                     filter_cssFilter: [
                         'form-control',
                         'form-control',
-                        'form-control custom-select', // select needs custom class names :(
+                        'form-control', // select needs custom class names :(
+                        'form-control',
+                        'form-control',
+                        'form-control',
                         'form-control',
                         'form-control',
                         'form-control',
@@ -110,6 +113,7 @@
             });
         });
     </script>
+    <script src="${pageContext.request.contextPath}/resources/js/requestsView.js"></script>
 </head>
 <body>
 <jsp:include page="/jsp/blocks/header.jsp"/>
@@ -164,7 +168,7 @@
         </tfoot>
         <c:forEach items="${requestsAll}" var="requestOne">
             <tr>
-                <td class=" sorter-false filter-false"><input  type="checkbox" /></td>
+                <td class=" sorter-false filter-false"><input  name="checkbox" type="checkbox" class="chk"/></td>
                 <%--<td>${request.companyByCompanyId.companyName}</td>--%>
                 <%--<td>${request.dateFrom}</td>--%>
                 <%--<td>${request.dateTo}</td>--%>
@@ -213,23 +217,22 @@
         <%--tbodeTableRequests()--%>
         <%--</script>--%>
     </table>
-</form>
+
 <br>
 <br>
 
 <div align="center">
-    <button type="button" class="btn btn-primary" style="width: 9%" data-toggle="modal"
-            data-target="#assignStudentsModal">Assiqn student
-    </button>
+    <button type="button" class="btn btn-primary" style="width: 10%" data-toggle="modal"
+            data-target="#assignStudentsModal">Assiqn student</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary" style="width: 9%" data-toggle="modal" data-target="#addRequestModal">
+    <button type="button" class="btn btn-primary" style="width: 10%" data-toggle="modal" data-target="#addRequestModal">
         Edit
     </button>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <button type="button" class="btn btn-primary" style="width: 9%">Delete</button>
+    <button type="button" class="btn btn-primary jsDeleteRequest" style="width: 10%">Delete</button>
 </div>
 <jsp:include page="/jsp/addRequestModal.jsp"/>
-<jsp:include page="/jsp/assignStudentsModal.jsp"/>
-
+<jsp:include page="${request.contextPath}/students/assignStudentsModal"/>
+</form>
 </body>
 </html>
