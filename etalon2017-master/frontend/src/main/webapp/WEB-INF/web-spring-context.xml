@@ -31,6 +31,9 @@
     <bean  class="com.assignstudent.etalon.controllers.RequestController"/>
     <bean  class="com.assignstudent.etalon.controllers.SpecialtyController"/>
     <bean  class="com.assignstudent.etalon.controllers.AssignrequestController"/>
+    <bean  class="com.assignstudent.etalon.controllers.LoginController"/>
+    <bean  class="com.assignstudent.etalon.controllers.PageController"/>
+    <bean  class="com.assignstudent.etalon.controllers.UsersController"/>
 
 
 

@@ -20,18 +20,18 @@ $(document).ready(function () {
     Validation.validateOnEmpty([$usernameField, $passwordField], [$submitButton]);
 
     $.ajax({
-        url: 'students',
-        type: 'GET',
-        dataType: 'json',
-        contentType: "application/json",
-        mimeType: 'application/json',
-        data: '',
-        success: function (data) {
-            if (data) {
-                printUsers(data);
-            }
-
-        }
+        // url: 'students',
+        // type: 'GET',
+        // dataType: 'json',
+        // contentType: "application/json",
+        // mimeType: 'application/json',
+        // data: '',
+        // success: function (data) {
+        //     if (data) {
+        //         printUsers(data);
+        //     }
+        //
+        // }
     });
 
     function printUsers(students) {
@@ -53,21 +53,21 @@ $(document).ready(function () {
         event.stopPropagation();
 
         $.ajax({
-            url: 'authorize',
-            type: 'POST',
-            contentType: "application/json",
-            data: JSON.stringify({
-                username: $usernameField.val(),
-                password: $passwordField.val()
-            }),
-            success: function (xhr) {
-                console.log(xhr.status);
-                $credentialNotification.hide();
-                window.location.href = "/home"
-            },
-            error: function (xhr, textStatus) {
-                xhr.status == 401 ? $credentialNotification.show() : alert('Something went wrong, try again later.');
-            }
+            // url: 'authorize',
+            // type: 'POST',
+            // contentType: "application/json",
+            // data: JSON.stringify({
+            //     username: $usernameField.val(),
+            //     password: $passwordField.val()
+            // }),
+            // success: function (xhr) {
+            //     console.log(xhr.status);
+            //     $credentialNotification.hide();
+            //     window.location.href = "/home"
+            // },
+            // error: function (xhr, textStatus) {
+            //     xhr.status == 401 ? $credentialNotification.show() : alert('Something went wrong, try again later.');
+            // }
         });
 
 

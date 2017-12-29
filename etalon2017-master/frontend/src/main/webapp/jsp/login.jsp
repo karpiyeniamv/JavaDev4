@@ -60,13 +60,13 @@
     <div>
 
         <h3>Printing data using model and view</h3>
-        <div class="jsDataUsingModelAndView">
-            <c:if test="${not empty students}">
-                <c:forEach items="${students}" var="student">
-                    ${student.studentId} | ${student.username} | ${student.email}  <br>
-                </c:forEach>
-            </c:if>
-        </div>
+        <%--<div class="jsDataUsingModelAndView">--%>
+            <%--<c:if test="${not empty students}">--%>
+                <%--<c:forEach items="${students}" var="student">--%>
+                    <%--${student.studentId} | ${student.username} | ${student.email}  <br>--%>
+                <%--</c:forEach>--%>
+            <%--</c:if>--%>
+        <%--</div>--%>
     </div>
     <div>
         <h3>Printing data using js & ajax</h3>
