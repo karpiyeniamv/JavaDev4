@@ -15,11 +15,13 @@ public class StudentEntity {
     private Integer isBudget;
     private Integer group;
     private int status;
+    private Collection<AssignrequestEntity> assignrequestsById;
     private FacultyEntity facultyByFacultyId;
     private SpecialtyEntity specialtyBySpecialtyId;
+    private Collection<UserEntity> usersById;
 
     @Id
-    @Column(name = "`id`", nullable = false)
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -29,7 +31,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`firstName`", nullable = false, length = 45)
+    @Column(name = "firstName", nullable = false, length = 45)
     public String getFirstName() {
         return firstName;
     }
@@ -39,7 +41,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`lastName`", nullable = false, length = 45)
+    @Column(name = "lastName", nullable = false, length = 45)
     public String getLastName() {
         return lastName;
     }
@@ -49,7 +51,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`facultyId`", nullable = true)
+    @Column(name = "facultyId", nullable = true)
     public Integer getFacultyId() {
         return facultyId;
     }
@@ -59,7 +61,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`specialtyId`", nullable = true)
+    @Column(name = "specialtyId", nullable = true)
     public Integer getSpecialtyId() {
         return specialtyId;
     }
@@ -69,7 +71,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`score`", nullable = true)
+    @Column(name = "score", nullable = true)
     public Integer getScore() {
         return score;
     }
@@ -79,7 +81,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`isBudget`", nullable = true)
+    @Column(name = "isBudget", nullable = true)
     public Integer getIsBudget() {
         return isBudget;
     }
@@ -89,7 +91,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`group`", nullable = true)
+    @Column(name = "group", nullable = true)
     public Integer getGroup() {
         return group;
     }
@@ -99,7 +101,7 @@ public class StudentEntity {
     }
 
     @Basic
-    @Column(name = "`status`", nullable = false)
+    @Column(name = "status", nullable = false)
     public int getStatus() {
         return status;
     }
@@ -142,9 +144,8 @@ public class StudentEntity {
         return result;
     }
 
-
     @ManyToOne
-    @JoinColumn(name = "`facultyId`", referencedColumnName = "id",insertable=false, updatable=false)
+    @JoinColumn(name = "facultyId", referencedColumnName = "id",insertable=false, updatable=false)
     public FacultyEntity getFacultyByFacultyId() {
         return facultyByFacultyId;
     }
@@ -154,7 +155,7 @@ public class StudentEntity {
     }
 
     @ManyToOne
-    @JoinColumn(name = "`specialtyId`", referencedColumnName = "id",insertable=false, updatable=false)
+    @JoinColumn(name = "specialtyId", referencedColumnName = "id",insertable=false, updatable=false)
     public SpecialtyEntity getSpecialtyBySpecialtyId() {
         return specialtyBySpecialtyId;
     }

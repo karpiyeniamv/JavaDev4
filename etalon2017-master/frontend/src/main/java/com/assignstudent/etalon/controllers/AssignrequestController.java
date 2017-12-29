@@ -25,7 +25,8 @@ public class AssignrequestController {
     AssignrequestService assignrequestService;
 
     @RequestMapping(value = "/create",produces = "application/json", method = RequestMethod.POST)
-    public @ResponseBody AssignrequestEntity createAssignRequest(@RequestBody AssignrequestViewModel assignrequestViewModel) {
+    public @ResponseBody
+    AssignrequestEntity createAssignRequest(@RequestBody AssignrequestViewModel assignrequestViewModel) {
         AssignrequestEntity assignrequestEntity=new AssignrequestEntity();
 
         assignrequestEntity.setRequestId(assignrequestViewModel.getRequestByRequestId());

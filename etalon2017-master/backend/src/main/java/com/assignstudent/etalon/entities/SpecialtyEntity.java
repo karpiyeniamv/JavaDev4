@@ -9,7 +9,9 @@ public class SpecialtyEntity {
     private int id;
     private String specialtyName;
     private int facultyId;
+    private Collection<RequestEntity> requestsById;
     private FacultyEntity facultyByFacultyId;
+    private Collection<StudentEntity> studentsById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -63,8 +65,6 @@ public class SpecialtyEntity {
         result = 31 * result + facultyId;
         return result;
     }
-
-
 
     @ManyToOne
     @JoinColumn(name = "facultyId", referencedColumnName = "id", nullable = false,insertable=false, updatable=false)

@@ -225,7 +225,7 @@
 
 
 <div align="center">
-    <button disabled="disabled"  type="button" class="btn btn-primary jsAssignStudentBtn" data-toggle="modal" data-target="#assignStudentsModal" id="jsAssignStudentBtn" style="width: 10%" >Assiqn student</button>
+    <button disabled="disabled"  type="button" class="btn btn-primary jsAssignStudentBtn" data-toggle="modal" data-target="#assignStudentsForOneRequestModal" id="jsAssignStudentBtn" style="width: 10%" >Assiqn student</button>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <button disabled="disabled" type="button" class="btn btn-primary jsEditRequest" id="jsEditRequest" style="width: 10%" data-toggle="modal" data-target="#addRequestModal">
         Edit
@@ -234,7 +234,7 @@
     <button disabled="disabled" type="button" class="btn btn-primary jsDeleteRequest" id="jsDeleteRequest" style="width: 10%">Delete</button>
 </div>
 
-    <jsp:include page="${request.contextPath}/students/assignStudentsModal"/>
+    <jsp:include page="${request.contextPath}/students/assignStudentsForOneRequestModal/3"/>
     <jsp:include page="${request.contextPath}/request/create"/>
 
 </form>

@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: anpi0316
@@ -9,9 +10,11 @@
 <html>
 <head>
     <title>Login page</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
+<script src="${pageContext.request.contextPath}/resources/js/libs/jquery-3.2.1.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/login.js"></script>
+
+<script src=""></script>
 <body>
 <jsp:include page="/jsp/blocks/header.jsp"/>
 
@@ -19,57 +22,58 @@
     <jsp:include page="/jsp/blocks/title.jsp">
         <jsp:param name="heading" value="Welcome on login page"/>
     </jsp:include>
-</div>
 
-<div class="container">
-    <div id="loginbox" style="margin-top:50px;margin-left: 25%;"
-         class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-        <div class="card card.text-white.bg-info">
-            <div class="card-header">
-                <div class="card-title">Sign In</div>
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col login-border">
+            <div class="form-group">
+                <label for="inputUsername">Username</label>
+                <input name="username" class="form-control jsUsername" id="inputUsername" placeholder="Username">
+                <div class="alert alert-danger jsUsernameIncorrectNotification" role="alert" style="display: none">
+                </div>
             </div>
-            <div style="padding-top:30px" class="panel-body">
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input name="password" type="password" class="form-control jsLoginPassword" id="exampleInputPassword1"
+                       placeholder="Password">
+                <div class="alert alert-danger jsPasswordIncorrectNotification" role="alert" style="display: none">
+                </div>
+            </div>
 
-                <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
-
-                <form id="loginform" class="form-horizontal" role="form">
-
-                    <div style="margin-bottom: 25px" class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                        <input  id="login-username" type="text" class="form-control" name="username" value=""
-                               placeholder="Email">
-                    </div>
-
-                    <div style="margin-bottom: 25px" class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                        <input id="login-password" type="password" class="form-control" name="password"
-                               placeholder="Password">
-                    </div>
-                    <div class="input-group">
-                        <div class="checkbox">
-                            <label>
-                                <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
-                            </label>
-                        </div>
-                    </div>
-
-                    <div style="margin-top:10px" class="form-group">
-                        <!-- Button -->
-
-                        <div class="col-sm-12 controls">
-                            <%--<a id="btn-fblogin" href="#" class="btn btn-primary"--%>
-                               <%--onclick="window.location='systemStudentPanelView.jsp'">Login</a>--%>
-
-                                <a id="btn-fblogin" href="/students/showAll" class="btn btn-primary" style="margin-right: 10px">Login</a>
-                                <a id="btn-fblogin" href="/jsp/registration.jsp" class="btn btn-primary">Registration</a>
-                                <%--<a id="btn-fblogin" href="/faculty/createSpecialtyModal" class="btn btn-primary">Registration</a>--%>
-                        </div>
-                    </div>
-                </form>
+            <button type="submit" class="btn btn-primary jsSubmitLogin">Submit</button>
+            <br>
+            <div class="alert alert-danger jsCredentialsIncorrectNotification" role="alert" style="display: none">
+                Username or Password is incorrect!
             </div>
         </div>
+        <div class="col"></div>
     </div>
-</div>
+    <br>
+    <div>
+        <h3>Login Test Data</h3>
+        admin | admin
+        <br>
+        student | student
+    </div>
 
+    <div>
+
+        <h3>Printing data using model and view</h3>
+        <div class="jsDataUsingModelAndView">
+            <c:if test="${not empty students}">
+                <c:forEach items="${students}" var="student">
+                    ${student.studentId} | ${student.username} | ${student.email}  <br>
+                </c:forEach>
+            </c:if>
+        </div>
+    </div>
+    <div>
+        <h3>Printing data using js & ajax</h3>
+        <div class="jsDataUsingAjax">
+        </div>
+    </div>
+
+</div>
 </body>
 </html>

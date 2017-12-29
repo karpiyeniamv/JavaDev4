@@ -12,5 +12,6 @@
         <mapping class="com.assignstudent.etalon.entities.RequestEntity"/>
         <mapping class="com.assignstudent.etalon.entities.SpecialtyEntity"/>
         <mapping class="com.assignstudent.etalon.entities.StudentEntity"/>
+        <mapping class="com.assignstudent.etalon.entities.UserEntity"/>
     </session-factory>
 </hibernate-configuration>

@@ -23,6 +23,10 @@
 <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.pager.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.tablesorter.widgets.js"></script>
 
+<script src="${pageContext.request.contextPath}/resources/js/home-admin.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/login.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/validation.js"></script>
+
 <link href="${pageContext.request.contextPath}/resources/css/theme.bootstrap_4.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="${pageContext.request.contextPath}/resources/css/prettify.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="${pageContext.request.contextPath}/resources/css/jquery.tablesorter.pager.css" rel="stylesheet" type="text/css" media="all"/>

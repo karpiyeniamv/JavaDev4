@@ -8,6 +8,9 @@ import java.util.Collection;
 public class FacultyEntity {
     private int id;
     private String facultyName;
+    private Collection<RequestEntity> requestsById;
+    private Collection<SpecialtyEntity> specialtiesById;
+    private Collection<StudentEntity> studentsById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -48,5 +51,4 @@ public class FacultyEntity {
         result = 31 * result + (facultyName != null ? facultyName.hashCode() : 0);
         return result;
     }
-
 }

@@ -8,14 +8,14 @@ import java.util.Collection;
 @Table(name = "request", schema = "assignstudent", catalog = "")
 public class RequestEntity {
     private int id;
-    private int companyId;
+    private String companyName;
     private Date dateFrom;
     private Date dateTo;
     private int quantity;
     private Integer facultyId;
     private Integer specialtyId;
     private Integer score;
-    private CompanyEntity companyByCompanyId;
+    private Collection<AssignrequestEntity> assignrequestsById;
     private FacultyEntity facultyByFacultyId;
     private SpecialtyEntity specialtyBySpecialtyId;
 
@@ -30,13 +30,13 @@ public class RequestEntity {
     }
 
     @Basic
-    @Column(name = "companyId", nullable = false)
-    public int getCompanyId() {
-        return companyId;
+    @Column(name = "companyName", nullable = false, length = 45)
+    public String getCompanyName() {
+        return companyName;
     }
 
-    public void setCompanyId(int companyId) {
-        this.companyId = companyId;
+    public void setCompanyName(String companyName) {
+        this.companyName = companyName;
     }
 
     @Basic
@@ -107,8 +107,8 @@ public class RequestEntity {
         RequestEntity that = (RequestEntity) o;
 
         if (id != that.id) return false;
-        if (companyId != that.companyId) return false;
         if (quantity != that.quantity) return false;
+        if (companyName != null ? !companyName.equals(that.companyName) : that.companyName != null) return false;
         if (dateFrom != null ? !dateFrom.equals(that.dateFrom) : that.dateFrom != null) return false;
         if (dateTo != null ? !dateTo.equals(that.dateTo) : that.dateTo != null) return false;
         if (facultyId != null ? !facultyId.equals(that.facultyId) : that.facultyId != null) return false;
@@ -121,7 +121,7 @@ public class RequestEntity {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + companyId;
+        result = 31 * result + (companyName != null ? companyName.hashCode() : 0);
         result = 31 * result + (dateFrom != null ? dateFrom.hashCode() : 0);
         result = 31 * result + (dateTo != null ? dateTo.hashCode() : 0);
         result = 31 * result + quantity;
@@ -129,17 +129,6 @@ public class RequestEntity {
         result = 31 * result + (specialtyId != null ? specialtyId.hashCode() : 0);
         result = 31 * result + (score != null ? score.hashCode() : 0);
         return result;
-    }
-
-
-    @ManyToOne
-    @JoinColumn(name = "companyId", referencedColumnName = "id", nullable = false,insertable=false, updatable=false)
-    public CompanyEntity getCompanyByCompanyId() {
-        return companyByCompanyId;
-    }
-
-    public void setCompanyByCompanyId(CompanyEntity companyByCompanyId) {
-        this.companyByCompanyId = companyByCompanyId;
     }
 
     @ManyToOne

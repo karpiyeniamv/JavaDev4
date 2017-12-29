@@ -1,11 +1,9 @@
 package com.assignstudent.etalon.controllers;
 
 import com.assignstudent.etalon.beans.FacultyViewModel;
-import com.assignstudent.etalon.entities.CompanyEntity;
 import com.assignstudent.etalon.entities.FacultyEntity;
 import com.assignstudent.etalon.entities.RequestEntity;
 import com.assignstudent.etalon.entities.SpecialtyEntity;
-import com.assignstudent.etalon.services.CompanyService;
 import com.assignstudent.etalon.services.FacultyService;
 import com.assignstudent.etalon.services.RequestService;
 import com.assignstudent.etalon.services.SpecialtyService;
@@ -31,8 +29,6 @@ public class FacultyController {
     FacultyService facultyService;
     @Autowired
     SpecialtyService specialtyService;
-    @Autowired
-    CompanyService companyService;
     @Autowired
     RequestService requestService;
 
@@ -76,8 +72,6 @@ public class FacultyController {
     @RequestMapping(value = "/addRequestModal", method = RequestMethod.GET)
     public ModelAndView printAllCompaniesAndFacultiesAndSpecialties(){
         ModelAndView requestViewModel=new ModelAndView();
-        List<CompanyEntity> companyEntityList=companyService.getAllCompanies();
-        requestViewModel.addObject("companies",companyEntityList);
         List<FacultyEntity> facultyEntityList= facultyService.getAllFaculties();
         requestViewModel.addObject("faculties", facultyEntityList);
         List<SpecialtyEntity>specialtyEntityList=specialtyService.getAllSpecialties();

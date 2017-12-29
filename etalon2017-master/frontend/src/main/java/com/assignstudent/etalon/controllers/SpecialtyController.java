@@ -32,7 +32,8 @@ public class SpecialtyController {
 
 
     @RequestMapping(value = "/create",produces = "application/json", method = RequestMethod.POST)
-    public @ResponseBody SpecialtyEntity createFaculty(@RequestBody SpecialtyViewModel specialtyViewModel) {
+    public @ResponseBody
+    SpecialtyEntity createFaculty(@RequestBody SpecialtyViewModel specialtyViewModel) {
         SpecialtyEntity specialtyEntity=new SpecialtyEntity();
         specialtyEntity.setSpecialtyName(specialtyViewModel.getSpecialtyName());
         specialtyEntity.setFacultyId(specialtyViewModel.getFacultyId());

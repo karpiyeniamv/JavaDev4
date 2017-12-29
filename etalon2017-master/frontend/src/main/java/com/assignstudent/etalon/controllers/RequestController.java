@@ -1,12 +1,13 @@
 package com.assignstudent.etalon.controllers;
 
 import com.assignstudent.etalon.beans.RequestViewModel;
-import com.assignstudent.etalon.entities.CompanyEntity;
 import com.assignstudent.etalon.entities.FacultyEntity;
 import com.assignstudent.etalon.entities.RequestEntity;
 import com.assignstudent.etalon.entities.SpecialtyEntity;
-import com.assignstudent.etalon.services.*;
-import com.assignstudent.repository.CompanyRepository;
+import com.assignstudent.etalon.services.AssignrequestService;
+import com.assignstudent.etalon.services.FacultyService;
+import com.assignstudent.etalon.services.RequestService;
+import com.assignstudent.etalon.services.SpecialtyService;
 import com.assignstudent.repository.RequestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionService;
@@ -25,8 +26,6 @@ public class RequestController {
     @Autowired
     RequestService requestService;
     @Autowired
-    CompanyService companyService;
-    @Autowired
     FacultyService facultyService;
     @Autowired
     SpecialtyService specialtyService;
@@ -38,8 +37,6 @@ public class RequestController {
 
     private RequestRepository requestRepository;
 
-    CompanyRepository companyRepository;
-
     @RequestMapping (value = "/showAll", method = RequestMethod.GET)
     public ModelAndView printAllRequests(){
         ModelAndView requestViewModel=new ModelAndView();
@@ -50,17 +47,15 @@ public class RequestController {
     }
 
     @RequestMapping(value = "/create",produces = "application/json", method = RequestMethod.POST)
-    public @ResponseBody RequestEntity createRequest(@RequestBody RequestViewModel requestViewModel) {
+    public @ResponseBody
+    RequestEntity createRequest(@RequestBody RequestViewModel requestViewModel) {
         RequestEntity requestEntity=new RequestEntity();
 
         requestEntity.setDateFrom(requestViewModel.getDateFrom());
         requestEntity.setDateTo(requestViewModel.getDateTo());
         requestEntity.setQuantity(requestViewModel.getQuantity());
         requestEntity.setScore(requestViewModel.getScore());
-
-        requestEntity.setCompanyId(requestViewModel.getCompanyByCompanyId());
-        CompanyEntity companyEntity=companyService.findById(requestViewModel.getCompanyByCompanyId());
-        requestEntity.setCompanyByCompanyId(companyEntity);
+        requestEntity.setCompanyName(requestViewModel.getCompanyName());
 
         requestEntity.setFacultyId(requestViewModel.getFacultyByFacultyId());
         FacultyEntity facultyEntity=facultyService.findById(requestViewModel.getFacultyByFacultyId());

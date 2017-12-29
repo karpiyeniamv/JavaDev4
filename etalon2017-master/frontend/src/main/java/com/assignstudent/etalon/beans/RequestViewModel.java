@@ -4,11 +4,11 @@ import java.sql.Date;
 
 public class RequestViewModel {
     private int id;
+    private String companyName;
     private Date dateFrom;
     private Date dateTo;
     private int quantity;
     private Integer score;
-    private int companyByCompanyId;
     private int facultyByFacultyId;
     private int specialtyBySpecialtyId;
 
@@ -52,12 +52,12 @@ public class RequestViewModel {
         this.score = score;
     }
 
-    public int getCompanyByCompanyId() {
-        return companyByCompanyId;
+    public String getCompanyName() {
+        return companyName;
     }
 
-    public void setCompanyByCompanyId(int companyByCompanyId) {
-        this.companyByCompanyId = companyByCompanyId;
+    public void setCompanyName(String companyName) {
+        this.companyName = companyName;
     }
 
     public int getFacultyByFacultyId() {
